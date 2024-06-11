@@ -1,0 +1,13 @@
+.iconeRedesSociais {
+  font-size: 2em;
+}
+
+.imagemDeFundo {
+  background-image: url('/BG.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60rem;
+  width: 100%;
+  position: relative;
+}
