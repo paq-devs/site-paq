@@ -1,6 +1,7 @@
 import Image from "next/image";
-import { Button } from "./button";
-import { CiLinkedin } from "react-icons/ci";
+import  Button  from "./button";
+import Link from "next/link";
+
 
 export function Header(){
     return(
@@ -17,7 +18,6 @@ export function Header(){
                 <Link href={""}>frentes</Link>
             </div>
             <div className="flex gap-6 items-center">
-                <CiLinkedin />
                 <Link href={""}>ln</Link>
             </div>
         </div>

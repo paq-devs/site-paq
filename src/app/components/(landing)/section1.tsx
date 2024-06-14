@@ -1,13 +1,12 @@
 import { Header } from "../header";
 import Button from "../button";
 import Image from "next/image";
-import { CiLinkedin } from "react-icons/ci";
+
 
 export default function Section1(){
     return (
         <div className='h-screen relative '>
             <Header/>
-            <CiLinkedin />
             <Image src='/BG.png' className='w-full h-full top-0 left-0' width={1600} height={1600} alt={""}></Image>
 
             <div className='absolute bg-transparent flex h-full items-center justify-center paq-imae'>
