@@ -1,6 +1,5 @@
 import { ReactNode } from 'react'
 
-import { Header } from '@/app/components/header'
 
 export default function PageLayout({ children }: { children: ReactNode }) {
   return (
