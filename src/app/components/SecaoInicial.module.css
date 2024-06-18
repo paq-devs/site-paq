@@ -1,0 +1,47 @@
+.teste{
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+
+.paragrapo::before{
+    position: absolute;
+    margin: 0px;
+    font-size: 18px;
+    animation: 10s paragrapo;
+    animation-iteration-count: infinite;
+    text-transform: uppercase;
+    color: black;
+    content: "Diverso";
+}
+.imgTeste{
+    margin: 0px 200px;
+    animation: 10s imgTeste;
+    animation-iteration-count: infinite;
+}
+@keyframes imgTeste {
+    0%{
+
+    }
+    50%{
+        margin: 0px 0px;
+    }
+    100%{
+
+    }
+
+}
+@keyframes paragrapo {
+    0%{
+
+    }
+    50%{
+        margin:0 200px;
+        content: "teste";
+    }
+    100%{
+        
+    }
+}

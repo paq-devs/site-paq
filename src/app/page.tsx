@@ -1,7 +1,7 @@
-import Secao1 from "./SectionInicial";
+import SecaoInicial from "./components/SecaoInicial";
 
 export default function Home() {
-    <>
-    <Secao1 />
-    </>
+        return(
+        <SecaoInicial />
+    )
 }
