@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 
-
 type props = {
     title: string;
     href: string
@@ -10,7 +9,7 @@ type props = {
 
 export default function Button({ title, href  }: props){
     return (
-        <Link href={href} className='flex h-12 w-48 items-center justify-center rounded-full border bg-cyan-400 text-base font-semibold max-[450px]:h-8 max-[450px]:w-26'
+        <Link href={href} className='flex h-12 w-48 items-center justify-center  rounded-full bg-azul-paq text-base text-white font-semibold max-[450px]:h-8 max-[450px]:w-26 '
         type='button'>
             {title}
         </Link>

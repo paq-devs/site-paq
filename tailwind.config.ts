@@ -12,6 +12,10 @@ const config: Config = {
           'paq-image': "url('./public/BG.png)",
       },
     },
+    colors: {
+      'white': '#ffffff',
+      'azul-paq': '#0EB3E8'
+    }
   },
   plugins: [],
 };
