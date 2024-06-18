@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Section1(){
     return (
-        <div className='h-screen relative '>
+        <div className='h-16 relative '>
             <Header/>
         </div>
     )
