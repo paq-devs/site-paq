@@ -8,6 +8,26 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        img1:{
+          '0% , 100%':{margin:'0px 0px'},
+          '50%':{margin:'0px 200px'}
+        },
+        text1:{
+          '0% , 100%':{margin:'0px 0px'},
+          '50%':{margin:'0px 200px'}}
+      },
+
+      animation: {
+        'teste': 'text1 10s infinite'
+      },
+
+      color: {
+        'preto': '#000000',
+        'branco': '#ffffff',
+        'azul-paq': '#0DA2D2'
+      },
+
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
