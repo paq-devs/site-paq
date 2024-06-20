@@ -1,11 +1,11 @@
-import Section1 from "@/app/components/(landing)/section1";
-import Section2 from "@/app/components/(landing)/section2";
+import PaqHeader from "@/app/components/(landing)/PaqHeader";
+import ConectarETransformar from "@/app/components/(landing)/ConectarETransformar";
 
-
-export default function Home(){
-    return (<div>
-        <Section1 />
-        <Section2 />
-    </div>
-    )
+export default function Home() {
+  return (
+    <>
+      <PaqHeader />
+      <ConectarETransformar />
+    </>
+  );
 }
