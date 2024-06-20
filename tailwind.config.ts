@@ -15,11 +15,11 @@ const config: Config = {
         },
         text1:{
           '0% , 100%':{transform: 'translatex(0px)'},
-          '50%':{transform: 'translatex(50px)'}}
+          '33%':{transform: 'translatex(500px)'}}  
       },
 
       animation: {
-        'teste': 'text1 20s infinite',
+        'teste': 'text1 20s infinite ease-out',
         'img1': 'img1 20s infinite'
       },
 

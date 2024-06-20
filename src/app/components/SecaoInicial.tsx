@@ -11,20 +11,17 @@ export default function SecaoInicial(){
           <p>Um Futuro</p>
         </div>
 
-        <div className="flex justify-center w-full items-center">
-          <p className="text1 text-azulpaq uppercase text-font-sec1 animate-teste leading-[53.76px] "></p>
-
-          {/*preciso linkar a immg nesse container, mas consta que não está achando */}
-          <div className="bg-[url('/components/Notebooks-24 1.svg')] w-[500px]"></div>
+        <div className="central">
+          <p className="text1  text-azulpaq uppercase text-font-sec1 leading-[53.76px] "></p>
           <div className="imageBackground"></div>
         </div>
 
         <div className="">
           <img src="" alt="" />
-          <p></p>
+          <p className="leading-[53.76px] text-font-sec1 ">teste</p>
         </div>
         <div className="">
-          <p></p>
+          <p className="leading-[53.76px] text-font-sec1">teste</p>
           <img src="" alt="" />
         </div>
       </section>
