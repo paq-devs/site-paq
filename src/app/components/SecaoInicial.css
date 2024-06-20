@@ -3,4 +3,28 @@
   height: 100px;
   width: 500px;
   background-repeat: no-repeat;
+  animation: 10s img1;
+}
+
+.text1::before{
+  content: "Diverso";
+  animation: 10s texto1 infinite;
+}
+
+
+@keyframes texto1 {
+  0%{
+
+  }
+  33%{
+    transform: translateX(-100px);
+    content: "inovador";
+  }
+  66%{
+    margin: 0px 0px;
+    content: "Diferente";
+  }
+  100%{
+
+  }
 }
