@@ -10,28 +10,31 @@ const config: Config = {
     extend: {
       keyframes: {
         img1:{
-          '0% , 100%':{margin:'0px 0px'},
-          '50%':{margin:'0px 200px'}
+          '0% , 100%':{transform: 'translatex(0px)'},
+          '20%':{transform: 'translatex(-300px)'}
         },
         text1:{
-          '0% , 100%':{margin:'0px 0px'},
-          '50%':{margin:'0px 200px'}}
+          '0% , 100%':{transform: 'translatex(0px)'},
+          '50%':{transform: 'translatex(50px)'}}
       },
 
       animation: {
-        'teste': 'text1 10s infinite'
+        'teste': 'text1 20s infinite',
+        'img1': 'img1 20s infinite'
       },
 
-      color: {
+      colors: {
         'preto': '#000000',
         'branco': '#ffffff',
-        'azul-paq': '#0DA2D2'
+        'azulpaq': '#0DA2D2'
       },
-
+      fontSize:{
+        'font-sec1':  '70.02px'
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
