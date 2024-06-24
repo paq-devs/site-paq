@@ -1,4 +1,4 @@
-.section-inicial{
+.container-secao {
   width: 287.35px;
   height: 288.11px;
   margin: 0 auto;
@@ -6,159 +6,158 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: brown;
+  /* background-color: rgb(42, 50, 165); */
 }
 
-.section-inicial_quadro{
+.container-palavra {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   width: 100vw;
 }
-.quadro1_text1{
+
+.text-um-futuro {
   color: black;
   text-transform: uppercase;
 }
 
-
 /*Quadro 2*/
-.quadro2_text2{
+.text-diverso-inovador {
   animation: 10s text1 ease-out infinite;
 }
-.quadro2_text2::after{
+.text-diverso-inovador::after {
   content: "diverso";
   text-transform: uppercase;
   font-size: 86.02px;
   line-height: 53.76px;
   animation: 10s text1 ease-out infinite;
 }
-.quadro2-img1{
+.img-concarh {
   width: 80px;
   height: 80px;
-  background-image: url('./CONCARH-40\ 1.png');
+  background-image: url("./img/concarh.png");
   border-radius: 25px;
   animation: 10s img1 ease-out infinite;
   z-index: -1;
 }
 
-
 @keyframes text1 {
-  0%{
+  0% {
     transform: translateX(0px);
   }
-  35%, 45%{
+  35%,
+  45% {
     transform: translateX(100px);
     content: "inovador";
   }
 
-  100%{
+  100% {
     transform: translateX(0px);
   }
 }
 @keyframes img1 {
-  0%{
+  0% {
     transform: translateX(0px);
   }
-  35%, 45%{
+  35%,
+  45% {
     transform: translateX(-350px);
-
   }
-  100%{
+  100% {
     transform: translateX(0px);
   }
 }
-
 
 /*Quadro 3*/
 
-.quadro3_text3{
+.text-comeca {
   animation: 10s text2 ease-out infinite;
 }
 
-.quadro3_text3::after{
+.text-comeca::after {
   content: "começa";
   text-transform: uppercase;
   font-size: 86.02px;
   line-height: 53.76px;
-  animation: 10s text2 ease-out infinite;
+  animation: 10s keyframeTextComeca ease-out infinite;
 }
-.quadro3-img2{
+.img-visita-soho {
   width: 80px;
   height: 80px;
-  background-image: url('./VISITA\ SOHO-2\ 1.jpg');
+  background-image: url("./img/visita-soho.jpg");
   border-radius: 25px;
-  animation: 10s img2 ease-out infinite;
+  animation: 10s keyframeVisitaSoho ease-out infinite;
 }
 
-
-@keyframes text2 {
-  0%{
+@keyframes keyframeTextComeca {
+  0% {
     transform: translateX(0px);
   }
-  35%, 45%{
+  35%,
+  45% {
     transform: translateX(-100px);
   }
-  100%{
+  100% {
     transform: translateX(0px);
   }
 }
-@keyframes img2 {
-  0%{
+@keyframes keyframeVisitaSoho {
+  0% {
     transform: translateX(0px);
   }
-  35%, 45%{
+  35%,
+  45% {
     transform: translateX(350px);
-
   }
-  100%{
+  100% {
     transform: translateX(0px);
   }
 }
 
 /*Quadro 4*/
 
-.quadro4_text4{
+.text-aqui {
   animation: 10s text3 ease-out infinite;
 }
 
-.quadro4_text4::after{
+.text-aqui::after {
   content: "Aqui";
   text-transform: uppercase;
   font-size: 86.02px;
   line-height: 53.76px;
   animation: 10s text3 ease-out infinite;
 }
-.quadro4-img3{
+.img-educandos-paq {
   width: 80px;
   height: 80px;
-  background-image: url('./fundo-banner\ 1.png');
+  background-image: url("./img/educandos-paq.png");
   border-radius: 25px;
   animation: 10s img3 ease-out infinite;
   z-index: -1;
 }
 
-
 @keyframes text3 {
-  0%{
+  0% {
     transform: translateX(0px);
   }
-  35%, 45%{
+  35%,
+  45% {
     transform: translateX(100px);
   }
-  100%{
+  100% {
     transform: translateX(0px);
   }
 }
 @keyframes img3 {
-  0%{
+  0% {
     transform: translateX(0px);
   }
-  35%, 45%{
+  35%,
+  45% {
     transform: translateX(-350px);
-
   }
-  100%{
+  100% {
     transform: translateX(0px);
   }
 }
