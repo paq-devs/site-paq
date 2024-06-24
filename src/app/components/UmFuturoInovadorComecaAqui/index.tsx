@@ -1,6 +1,6 @@
 import "tailwindcss/tailwind.css";
-import "./SecaoInicial.css";
-export default function SecaoInicial() {
+import "./index.css";
+export default function UmFuturoInovadorComecaAqui() {
   return (
     <>
       <section className="container-secao">
