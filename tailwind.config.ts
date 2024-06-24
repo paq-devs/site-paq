@@ -15,7 +15,7 @@ const config: Config = {
         },
         text1:{
           '0% , 100%':{transform: 'translatex(0px)'},
-          '33%':{transform: 'translatex(500px)'}}  
+          '33%':{transform: 'translatex(500px)'}}
       },
 
       animation: {
@@ -37,6 +37,10 @@ const config: Config = {
         "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    colors: {
+      'white': '#ffffff',
+      'azul-paq': '#0EB3E8'
+    }
   },
   plugins: [],
 };
