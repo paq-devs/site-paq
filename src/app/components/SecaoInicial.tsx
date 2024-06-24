@@ -6,24 +6,27 @@ import "./SecaoInicial.css";
 export default function SecaoInicial(){
   return (
     <>
-      <section className="min-w-[287.37px] min-h-[288.11px] flex-col items-center">
-        <div className="flex uppercase text-azul-paq text-font-sec1 leading-[53.76px]  justify-center flex-nowrap">
-          <p>Um Futuro</p>
+      <section className="section-inicial">
+        
+        <div className="section-inicial_quadro">
+          <p className="quadro1_text1">Um futuro</p>
         </div>
 
-        <div className="central">
-          <p className="text1  text-azulpaq uppercase text-font-sec1 leading-[53.76px] "></p>
-          <div className="imageBackground"></div>
+        <div className="section-inicial_quadro">
+          <p className="quadro2_text2"></p>
+          <div className="quadro2-img1"></div>
         </div>
-
-        <div className="">
-          <img src="" alt="" />
-          <p className="leading-[53.76px] text-font-sec1 ">teste</p>
+        
+        <div className="section-inicial_quadro">
+          <div className="quadro3-img2"></div>
+          <p className="quadro3_text3"></p>
         </div>
-        <div className="">
-          <p className="leading-[53.76px] text-font-sec1">teste</p>
-          <img src="" alt="" />
+        
+        <div className="section-inicial_quadro">
+          <p className="quadro4_text4"></p>
+          <div className="quadro4-img3"></div>
         </div>
+      
       </section>
     </>
   );

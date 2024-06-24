@@ -1,28 +1,164 @@
-.imageBackground {
-  background-image: url('./Notebooks-24\ 1.svg');
-  height: 100px;
-  width: 500px;
-  background-repeat: no-repeat;
-  animation: 10s img1;
+.section-inicial{
+  width: 287.35px;
+  height: 288.11px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: brown;
+}
+
+.section-inicial_quadro{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+.quadro1_text1{
+  color: black;
+  text-transform: uppercase;
 }
 
 
-
-.text1::before{
-  content: "Diverso";
-  animation: 3s texto1 infinite ease-out;
+/*Quadro 2*/
+.quadro2_text2{
+  animation: 10s text1 ease-out infinite;
+}
+.quadro2_text2::after{
+  content: "diverso";
+  text-transform: uppercase;
+  font-size: 86.02px;
+  line-height: 53.76px;
+  animation: 10s text1 ease-out infinite;
+}
+.quadro2-img1{
+  width: 80px;
+  height: 80px;
+  background-image: url('./CONCARH-40\ 1.png');
+  border-radius: 25px;
+  animation: 10s img1 ease-out infinite;
+  z-index: -1;
 }
 
 
-@keyframes texto1 {
+@keyframes text1 {
   0%{
-
+    transform: translateX(0px);
   }
-  50%{
-    transform: translateX(-100px);
+  35%, 45%{
+    transform: translateX(100px);
     content: "inovador";
   }
+
   100%{
-    content: "Diferente";
+    transform: translateX(0px);
+  }
+}
+@keyframes img1 {
+  0%{
+    transform: translateX(0px);
+  }
+  35%, 45%{
+    transform: translateX(-350px);
+
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+
+
+/*Quadro 3*/
+
+.quadro3_text3{
+  animation: 10s text2 ease-out infinite;
+}
+
+.quadro3_text3::after{
+  content: "começa";
+  text-transform: uppercase;
+  font-size: 86.02px;
+  line-height: 53.76px;
+  animation: 10s text2 ease-out infinite;
+}
+.quadro3-img2{
+  width: 80px;
+  height: 80px;
+  background-image: url('./VISITA\ SOHO-2\ 1.jpg');
+  border-radius: 25px;
+  animation: 10s img2 ease-out infinite;
+}
+
+
+@keyframes text2 {
+  0%{
+    transform: translateX(0px);
+  }
+  35%, 45%{
+    transform: translateX(-100px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+@keyframes img2 {
+  0%{
+    transform: translateX(0px);
+  }
+  35%, 45%{
+    transform: translateX(350px);
+
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+
+/*Quadro 4*/
+
+.quadro4_text4{
+  animation: 10s text3 ease-out infinite;
+}
+
+.quadro4_text4::after{
+  content: "Aqui";
+  text-transform: uppercase;
+  font-size: 86.02px;
+  line-height: 53.76px;
+  animation: 10s text3 ease-out infinite;
+}
+.quadro4-img3{
+  width: 80px;
+  height: 80px;
+  background-image: url('./fundo-banner\ 1.png');
+  border-radius: 25px;
+  animation: 10s img3 ease-out infinite;
+  z-index: -1;
+}
+
+
+@keyframes text3 {
+  0%{
+    transform: translateX(0px);
+  }
+  35%, 45%{
+    transform: translateX(100px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+@keyframes img3 {
+  0%{
+    transform: translateX(0px);
+  }
+  35%, 45%{
+    transform: translateX(-350px);
+
+  }
+  100%{
+    transform: translateX(0px);
   }
 }
