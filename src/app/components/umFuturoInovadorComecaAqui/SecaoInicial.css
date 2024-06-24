@@ -24,31 +24,31 @@
 
 /*Quadro 2*/
 .text-diverso-inovador {
-  animation: 10s text1 ease-out infinite;
+  animation: 10s keyframeTextDiversoInovador ease-out infinite;
 }
 .text-diverso-inovador::after {
   content: "diverso";
   text-transform: uppercase;
   font-size: 86.02px;
   line-height: 53.76px;
-  animation: 10s text1 ease-out infinite;
+  animation: 10s keyframeTextDiversoInovador ease-out infinite;
 }
 .img-concarh {
   width: 80px;
   height: 80px;
   background-image: url("./img/concarh.png");
   border-radius: 25px;
-  animation: 10s img1 ease-out infinite;
+  animation: 10s keyframeImgConcarh ease-out infinite;
   z-index: -1;
 }
 
-@keyframes text1 {
+@keyframes keyframeTextDiversoInovador {
   0% {
     transform: translateX(0px);
   }
   35%,
   45% {
-    transform: translateX(100px);
+    transform: translateX(170px);
     content: "inovador";
   }
 
@@ -56,7 +56,7 @@
     transform: translateX(0px);
   }
 }
-@keyframes img1 {
+@keyframes keyframeImgConcarh {
   0% {
     transform: translateX(0px);
   }
@@ -72,7 +72,7 @@
 /*Quadro 3*/
 
 .text-comeca {
-  animation: 10s text2 ease-out infinite;
+  animation: 10s keyframeTextComeca ease-out infinite;
 }
 
 .text-comeca::after {
@@ -118,7 +118,7 @@
 /*Quadro 4*/
 
 .text-aqui {
-  animation: 10s text3 ease-out infinite;
+  animation: 10s keyframeTextAqui ease-out infinite;
 }
 
 .text-aqui::after {
@@ -126,18 +126,18 @@
   text-transform: uppercase;
   font-size: 86.02px;
   line-height: 53.76px;
-  animation: 10s text3 ease-out infinite;
+  animation: 10s keyframeTextAqui ease-out infinite;
 }
 .img-educandos-paq {
   width: 80px;
   height: 80px;
   background-image: url("./img/educandos-paq.png");
   border-radius: 25px;
-  animation: 10s img3 ease-out infinite;
+  animation: 10s keyframeImgEducandosPaq ease-out infinite;
   z-index: -1;
 }
 
-@keyframes text3 {
+@keyframes keyframeTextAqui {
   0% {
     transform: translateX(0px);
   }
@@ -149,13 +149,13 @@
     transform: translateX(0px);
   }
 }
-@keyframes img3 {
+@keyframes keyframeImgEducandosPaq {
   0% {
     transform: translateX(0px);
   }
   35%,
   45% {
-    transform: translateX(-350px);
+    transform: translateX(-190px);
   }
   100% {
     transform: translateX(0px);
