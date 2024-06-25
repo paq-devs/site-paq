@@ -120,8 +120,9 @@
     transform: translateX(350px);
 
   }
-  100%{
+  75%, 100%{
     transform: translateX(0px);
+    content: "Diferente";
   }
 }
 
