@@ -1,7 +1,5 @@
 .section-inicial{
-  width: 287.35px;
-  height: 288.11px;
-  margin: 0 auto;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,33 +11,44 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
   width: 100vw;
 }
 .quadro1_text1{
-  color: black;
+  color: #000;
+  font-family: "PP Formula Condensed";
+  font-size: 4rem;
+  line-height: 53.76px; /* 62.5% */
+  font-style: normal;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
 
 /*Quadro 2*/
 .quadro2_text2{
-  animation: 10s text1 ease-out infinite;
+  animation:  30s text1;
 }
 .quadro2_text2::after{
   content: "diverso";
   text-transform: uppercase;
-  font-size: 86.02px;
-  line-height: 53.76px;
-  animation: 10s text1 ease-out infinite;
+  color: #0DA2D2;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 3.7rem;
+  font-style: normal;
+  animation:  30s text1 ;
+  transition: none;
+  font-weight: 700;
+  line-height: 62.5%; /* 62.5% */
+  
 }
 .quadro2-img1{
-  width: 80px;
-  height: 80px;
-  background-image: url('./CONCARH-40\ 1.png');
+  width: 107px;
+  height: 74px;
+  flex-shrink: 0;
+  background-image: url('../../../public/CONCARH-40\ 1.png');
   border-radius: 25px;
-  animation: 10s img1 ease-out infinite;
-  z-index: -1;
+  animation: 30s img1 ease-out;
 }
 
 
@@ -48,10 +57,9 @@
     transform: translateX(0px);
   }
   35%, 45%{
-    transform: translateX(100px);
+    transform: translateX(60px);
     content: "inovador";
   }
-
   100%{
     transform: translateX(0px);
   }
@@ -61,8 +69,9 @@
     transform: translateX(0px);
   }
   35%, 45%{
-    transform: translateX(-350px);
-
+    transform: translateX(-310px);
+    background-image: url(../../../public/Notebooks-24\ 1.png);
+    width: 55px;
   }
   100%{
     transform: translateX(0px);
@@ -73,7 +82,7 @@
 /*Quadro 3*/
 
 .quadro3_text3{
-  animation: 10s text2 ease-out infinite;
+  animation: 10s text2 ease-out ;
 }
 
 .quadro3_text3::after{
@@ -81,14 +90,14 @@
   text-transform: uppercase;
   font-size: 86.02px;
   line-height: 53.76px;
-  animation: 10s text2 ease-out infinite;
+  animation: 10s text2 ease-out ;
 }
 .quadro3-img2{
   width: 80px;
   height: 80px;
-  background-image: url('./VISITA\ SOHO-2\ 1.jpg');
+  background-image: url('../../../public/VISITA\ SOHO-2\ 1.jpg');
   border-radius: 25px;
-  animation: 10s img2 ease-out infinite;
+  animation: 10s img2 ease-out ;
 }
 
 
@@ -119,7 +128,7 @@
 /*Quadro 4*/
 
 .quadro4_text4{
-  animation: 10s text3 ease-out infinite;
+  animation: 10s text3 ease-out ;
 }
 
 .quadro4_text4::after{
@@ -127,15 +136,14 @@
   text-transform: uppercase;
   font-size: 86.02px;
   line-height: 53.76px;
-  animation: 10s text3 ease-out infinite;
+  animation: 10s text3 ease-out ;
 }
 .quadro4-img3{
   width: 80px;
   height: 80px;
-  background-image: url('./fundo-banner\ 1.png');
+  background-image: url('../../../public/fundo-banner\ 1.png');
   border-radius: 25px;
-  animation: 10s img3 ease-out infinite;
-  z-index: -1;
+  animation: 10s img3 ease-out ;
 }
 
 

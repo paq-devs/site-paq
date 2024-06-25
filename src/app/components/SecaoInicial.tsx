@@ -17,15 +17,7 @@ export default function SecaoInicial(){
           <div className="quadro2-img1"></div>
         </div>
         
-        <div className="section-inicial_quadro">
-          <div className="quadro3-img2"></div>
-          <p className="quadro3_text3"></p>
-        </div>
         
-        <div className="section-inicial_quadro">
-          <p className="quadro4_text4"></p>
-          <div className="quadro4-img3"></div>
-        </div>
       
       </section>
     </>
