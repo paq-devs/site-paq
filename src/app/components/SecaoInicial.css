@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   justify-content: center;
   background-color: brown;
 }
@@ -11,70 +12,77 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-align: center;
+  justify-content: center;
   width: 100vw;
 }
 .quadro1_text1{
   color: #000;
   font-family: "PP Formula Condensed";
-  font-size: 4rem;
+  font-size: 3.6em;
   line-height: 53.76px; /* 62.5% */
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
 
 /*Quadro 2*/
 .quadro2_text2{
-  animation:  30s text1;
+  animation:  10s text1;
 }
 .quadro2_text2::after{
   content: "diverso";
   text-transform: uppercase;
   color: #0DA2D2;
-  text-align: center;
   font-family: sans-serif;
-  font-size: 3.7rem;
+  font-size: 3.6rem;
   font-style: normal;
-  animation:  30s text1 ;
-  transition: none;
+  animation:  10s text1 ;
   font-weight: 700;
   line-height: 62.5%; /* 62.5% */
   
 }
 .quadro2-img1{
-  width: 107px;
-  height: 74px;
+  width: 100px;
+  height: 65px;
   flex-shrink: 0;
   background-image: url('../../../public/CONCARH-40\ 1.png');
   border-radius: 25px;
-  animation: 30s img1 ease-out;
+  animation: 10s img1;
 }
 
 
 @keyframes text1 {
-  0%{
+  0%,34%{
     transform: translateX(0px);
+    content: "diverso";
   }
-  35%, 45%{
-    transform: translateX(60px);
+  38%,69%{
+    transform: translateX(50px);
     content: "inovador";
   }
-  100%{
+  70%,100%{
     transform: translateX(0px);
+    content: "diferente";
   }
 }
 @keyframes img1 {
-  0%{
+  0%,34%{
     transform: translateX(0px);
+    width: 100px;
+    background-image: url('../../../public/CONCARH-40\ 1.png');
   }
-  35%, 45%{
-    transform: translateX(-310px);
+  35%,69%{
+    transform: translateX(-305px);
     background-image: url(../../../public/Notebooks-24\ 1.png);
-    width: 55px;
+    width: 50px;
+
   }
-  100%{
+  70%,100%{
     transform: translateX(0px);
+    background-image: url(../../../public/Notebooks-24\ 1.png);
+    width: 50px;
   }
 }
 
@@ -82,45 +90,48 @@
 /*Quadro 3*/
 
 .quadro3_text3{
-  animation: 10s text2 ease-out ;
+  animation: 10s text2;
 }
 
 .quadro3_text3::after{
   content: "começa";
   text-transform: uppercase;
-  font-size: 86.02px;
+  font-family: sans-serif;
+  font-size: 3.6rem;
+  font-weight: 700;
   line-height: 53.76px;
-  animation: 10s text2 ease-out ;
+  animation: 10s text2;
 }
 .quadro3-img2{
-  width: 80px;
-  height: 80px;
+  width: 207px;
+  height: 65px;
   background-image: url('../../../public/VISITA\ SOHO-2\ 1.jpg');
-  border-radius: 25px;
-  animation: 10s img2 ease-out ;
+  background-repeat: no-repeat;
+  object-fit: fill;
+  animation: 10s img2;
 }
 
 
 @keyframes text2 {
-  0%{
+  0%,34%{
     transform: translateX(0px);
   }
-  35%, 45%{
-    transform: translateX(-100px);
+  35%,69%{
+    transform: translateX(-105px);
   }
-  100%{
+  70%,100%{
     transform: translateX(0px);
   }
 }
 @keyframes img2 {
-  0%{
+  0%,34%{
     transform: translateX(0px);
   }
-  35%, 45%{
-    transform: translateX(350px);
+  35%,69%{
+    transform: translateX(255px);
 
   }
-  75%, 100%{
+  70%,100%{
     transform: translateX(0px);
     content: "Diferente";
   }
@@ -129,45 +140,76 @@
 /*Quadro 4*/
 
 .quadro4_text4{
-  animation: 10s text3 ease-out ;
+  animation: 10s text3;
 }
 
 .quadro4_text4::after{
   content: "Aqui";
   text-transform: uppercase;
-  font-size: 86.02px;
+  font-family: sans-serif;
+  font-size: 3.6rem;
+  font-weight: 700;
   line-height: 53.76px;
-  animation: 10s text3 ease-out ;
+  animation: 30s text3;
 }
 .quadro4-img3{
-  width: 80px;
-  height: 80px;
+  width: 516px;
+  height: 65px;
   background-image: url('../../../public/fundo-banner\ 1.png');
   border-radius: 25px;
-  animation: 10s img3 ease-out ;
+  animation: 10s img3;
+  background-size: 100px 70px cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.quadro4-img4{
+  animation: 10s img4;
 }
 
-
 @keyframes text3 {
-  0%{
+  0%,34%{
     transform: translateX(0px);
   }
-  35%, 45%{
-    transform: translateX(100px);
+  35%,69%{
+    transform: translateX(216.3px);
   }
-  100%{
+  70%,100%{
     transform: translateX(0px);
   }
 }
 @keyframes img3 {
-  0%{
+  0%,34%{
     transform: translateX(0px);
+    width: 216px;
+    background-image: url('../../../public/fundo-banner\ 1.png');
+    background-size: none;
   }
-  35%, 45%{
-    transform: translateX(-350px);
-
+  35%,69%{
+    transform: translateX(-142px);
+    width: 216px;
+    background-image: url('../../../public/fundo-banner\ 1.png');
+    background-size: none;
   }
-  100%{
+  70%,100%{
     transform: translateX(0px);
+    width: 107px;
+    background-image: url('../../../public/fundo-banner\ 2.png');
+  }
+}
+@keyframes img4 {
+  0%,34%{
+    transform: translateX(0px);
+    width: 0px;
+    height: 0px;
+  }
+  35%,69%{
+    transform: translateX(-142px);
+    width: 0px;
+    height: 0px;
+  }
+  70%,100%{
+    transform: translateX(0px);
+    width: 0px;
+    height: 0px;
   }
 }
