@@ -1,6 +1,13 @@
+@font-face {
+  font-family: "PP Formula Condensed" ;
+  src: url(../../../public/fonts/PPFormulaCondensed-Regular.otf);
+}
+
 .section-inicial{
   width: 100vw;
+  height: 350px;
   display: flex;
+  gap: 5px;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -11,18 +18,19 @@
 .section-inicial_quadro{
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: baseline;
   text-align: center;
   justify-content: center;
   width: 100vw;
+
 }
 .quadro1_text1{
   color: #000;
   font-family: "PP Formula Condensed";
-  font-size: 3.6em;
-  line-height: 53.76px; /* 62.5% */
+  line-height: 3.36rem;
+  font-size: 5.37625rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -35,20 +43,21 @@
   content: "diverso";
   text-transform: uppercase;
   color: #0DA2D2;
-  font-family: sans-serif;
-  font-size: 3.6rem;
+  font-family: "PP Formula Condensed";
   font-style: normal;
-  animation:  10s text1 ;
+  animation: 10s text1;
   font-weight: 700;
-  line-height: 62.5%; /* 62.5% */
+  line-height: 3.36rem;
+  font-size: 5.37625rem;
   
 }
 .quadro2-img1{
-  width: 100px;
-  height: 65px;
-  flex-shrink: 0;
-  background-image: url('../../../public/CONCARH-40\ 1.png');
-  border-radius: 25px;
+  width: 71.3px;
+  height: 72.99px;
+  background-image: url('../../../public/CONCARH-40 1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
   animation: 10s img1;
 }
 
@@ -70,19 +79,18 @@
 @keyframes img1 {
   0%,34%{
     transform: translateX(0px);
-    width: 100px;
+    
     background-image: url('../../../public/CONCARH-40\ 1.png');
   }
   35%,69%{
     transform: translateX(-305px);
     background-image: url(../../../public/Notebooks-24\ 1.png);
-    width: 50px;
+    
 
   }
   70%,100%{
     transform: translateX(0px);
     background-image: url(../../../public/Notebooks-24\ 1.png);
-    width: 50px;
   }
 }
 
@@ -96,18 +104,19 @@
 .quadro3_text3::after{
   content: "começa";
   text-transform: uppercase;
-  font-family: sans-serif;
-  font-size: 3.6rem;
-  font-weight: 700;
-  line-height: 53.76px;
+  font-family: "PP Formula Condensed";
+  font-weight: 400;
+  line-height: 3.36rem;
+  font-size: 5.37625rem;
   animation: 10s text2;
 }
 .quadro3-img2{
-  width: 207px;
-  height: 65px;
+  width: 74.11px;
+  height: 72.99px;
   background-image: url('../../../public/VISITA\ SOHO-2\ 1.jpg');
   background-repeat: no-repeat;
   object-fit: fill;
+  border-radius: 10px;
   animation: 10s img2;
 }
 
@@ -146,24 +155,24 @@
 .quadro4_text4::after{
   content: "Aqui";
   text-transform: uppercase;
-  font-family: sans-serif;
-  font-size: 3.6rem;
+  font-family: "PP Formula Condensed";
   font-weight: 700;
-  line-height: 53.76px;
+  line-height: 3.36rem;
+  font-size: 5.37625rem;
   animation: 30s text3;
 }
 .quadro4-img3{
-  width: 516px;
-  height: 65px;
-  background-image: url('../../../public/fundo-banner\ 1.png');
+  width: 159px;
+  height: 72.99px;
+  background-image: url('../../../public/fundo-banner 1.png');
   border-radius: 25px;
   animation: 10s img3;
-  background-size: 100px 70px cover;
+  background-size: cover;
   background-repeat: no-repeat;
-  object-fit: cover;
 }
 .quadro4-img4{
   animation: 10s img4;
+  display: none;
 }
 
 @keyframes text3 {
@@ -171,7 +180,7 @@
     transform: translateX(0px);
   }
   35%,69%{
-    transform: translateX(216.3px);
+    transform: translateX(205px);
   }
   70%,100%{
     transform: translateX(0px);
@@ -180,36 +189,32 @@
 @keyframes img3 {
   0%,34%{
     transform: translateX(0px);
-    width: 216px;
+    
     background-image: url('../../../public/fundo-banner\ 1.png');
-    background-size: none;
+    
   }
   35%,69%{
     transform: translateX(-142px);
-    width: 216px;
+    
     background-image: url('../../../public/fundo-banner\ 1.png');
-    background-size: none;
   }
   70%,100%{
     transform: translateX(0px);
-    width: 107px;
+    
     background-image: url('../../../public/fundo-banner\ 2.png');
   }
 }
 @keyframes img4 {
   0%,34%{
     transform: translateX(0px);
-    width: 0px;
-    height: 0px;
+    
   }
   35%,69%{
     transform: translateX(-142px);
-    width: 0px;
-    height: 0px;
+    
   }
   70%,100%{
     transform: translateX(0px);
-    width: 0px;
-    height: 0px;
+    
   }
 }
