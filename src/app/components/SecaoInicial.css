@@ -12,7 +12,6 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  background-color: brown;
 }
 
 .section-inicial_quadro{
@@ -37,7 +36,7 @@
 
 /*Quadro 2*/
 .quadro2_text2{
-  animation:  10s text1;
+  animation:  10s text1 infinite;
 }
 .quadro2_text2::after{
   content: "diverso";
@@ -45,7 +44,7 @@
   color: #0DA2D2;
   font-family: "PP Formula Condensed";
   font-style: normal;
-  animation: 10s text1;
+  animation: 10s text1 infinite;
   font-weight: 700;
   line-height: 3.36rem;
   font-size: 5.37625rem;
@@ -58,7 +57,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 6px;
-  animation: 10s img1;
+  animation: 10s img1 infinite;
 }
 
 
@@ -98,7 +97,7 @@
 /*Quadro 3*/
 
 .quadro3_text3{
-  animation: 10s text2;
+  animation: 10s text2 infinite;
 }
 
 .quadro3_text3::after{
@@ -108,7 +107,7 @@
   font-weight: 400;
   line-height: 3.36rem;
   font-size: 5.37625rem;
-  animation: 10s text2;
+  animation: 10s text2 infinite;
 }
 .quadro3-img2{
   width: 74.11px;
@@ -117,7 +116,7 @@
   background-repeat: no-repeat;
   object-fit: fill;
   border-radius: 6px;
-  animation: 10s img2;
+  animation: 10s img2 infinite;
 }
 
 
@@ -149,7 +148,7 @@
 /*Quadro 4*/
 
 .quadro4_text4{
-  animation: 10s text3;
+  animation: 10s text3 infinite;
 }
 
 .quadro4_text4::after{
@@ -159,7 +158,7 @@
   font-weight: 700;
   line-height: 3.36rem;
   font-size: 5.37625rem;
-  animation: 30s text3;
+  animation: 10s text3 infinite;
   color: #0DA2D2;
 }
 .quadro4-img3{
@@ -167,7 +166,7 @@
   height: 72.99px;
   background-image: url('../../../public/fundo-banner 1.png');
   border-radius: 6px;
-  animation: 10s img3;
+  animation: 10s img3 infinite;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100% 100%;
@@ -175,7 +174,7 @@
 .quadro4-img4{
   width: 0px;
   height: 0px;
-  animation: 10s img4;
+  animation: 10s img4 infinite;
   background-image: url('../../../public/CONCARH-40\ 1.png');
   border-radius: 6px;
 }
