@@ -1,5 +1,6 @@
 import PaqHeader from "@/app/components/(landing)/PaqHeader";
 import ConectarETransformar from "@/app/components/(landing)/ConectarETransformar";
+import UmFuturoInovadorDiversoComecaAqui from "@/app/components/UmFuturoInovadorDiversoComecaAqui";
 import PaqFaq from "@/app/components/PaqFaq";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <>
       <PaqHeader />
       <ConectarETransformar />
+      <UmFuturoInovadorDiversoComecaAqui />
       <PaqFaq />
     </>
   );
