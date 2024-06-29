@@ -1,5 +1,6 @@
-import "./SecaoInicial.css";
-export default function SecaoInicial(){
+import "./index.css";
+
+export default function UmFuturoInovadorDiversoComecaAqui(){
   return (
     <>
       <section className="section-inicial">
