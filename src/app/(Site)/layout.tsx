@@ -1,5 +1,4 @@
 import { ReactNode } from 'react'
-import '../../app/reset.css'
 
 export default function PageLayout({ children }: { children: ReactNode }) {
   return (

@@ -4,7 +4,6 @@
 }
 
 .section-inicial{
-  width: 100vw;
   height: 350px;
   display: flex;
   gap: 5px;
@@ -48,7 +47,7 @@
   font-weight: 700;
   line-height: 3.36rem;
   font-size: 5.37625rem;
-  
+
 }
 .quadro2-img1{
   width: 71.3px;
@@ -194,7 +193,7 @@
   0%,34%{
     transform: translateX(0px);
     background-image: url('../../../public/fundo-banner\ 1.png');
-    width: 159px;    
+    width: 159px;
   }
   35%,69%{
     transform: translateX(-120px);
