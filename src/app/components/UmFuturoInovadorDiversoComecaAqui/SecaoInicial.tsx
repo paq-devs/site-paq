@@ -1,6 +1,3 @@
-import Image from "next/image"
-import imgTurma from './VISITA SOHO-2 1.jpg'
-import imgNote from './Notebooks-24 1.svg'
 import "./SecaoInicial.css";
 export default function SecaoInicial(){
   return (
