@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <>
       <PaqHeader />
+      <UmFuturoInovadorDiversoComecaAqui />
       <ConectarETransformar />
       <PapelPAQ />
-      <UmFuturoInovadorDiversoComecaAqui />
       <PaqFaq />
     </>
   );
