@@ -18,8 +18,14 @@ const Card = styled.div`
 `;
 
 const Titulo = styled.h3`
-  font-size: 24px;
-  font-weight: 700;
+color: #FFF;
+text-align: center;
+font-family: "PP Formula Condensed";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
   letter-spacing: 1px;
 `;
 

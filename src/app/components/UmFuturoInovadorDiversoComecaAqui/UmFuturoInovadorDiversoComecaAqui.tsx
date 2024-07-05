@@ -19,8 +19,8 @@ export default function UmFuturoInovadorDiversoComecaAqui(){
           <p className="quadro3_text3"></p>
         </div>
 
-        <div className="section-inicial_quadro">
-          <p className="quadro4_text4"></p>
+        <div className="section-nicial_quadro">
+          <p className="quadro4_tiext4"></p>
           <div className="quadro4-img3"></div>
           <div className="quadro4-img4"></div>
         </div>
