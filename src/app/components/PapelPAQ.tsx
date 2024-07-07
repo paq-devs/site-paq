@@ -9,12 +9,17 @@ const ListaDeCards = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: -12px;
+  gap:-12px;
   width: 777.84px;
-  
-opacity: 0px;
-  :nth-child(even) {
-    rotate: -5deg;
+  height: 290.04px;
+  opacity: 0px;
+  justify-content: center;
+
+  :nth-child(odd){
+  transform: rotate(-1.48deg); 
+  } 
+  :nth-child(even){
+  transform: rotate(1.837deg);
   }
 `;
 
