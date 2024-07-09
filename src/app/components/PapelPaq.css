@@ -1,0 +1,7 @@
+.rotation:nth-child(odd) {
+    transform: rotate(-1.48deg);
+}
+
+.rotation:nth-child(even) {
+    transform: rotate(1.87deg);
+}

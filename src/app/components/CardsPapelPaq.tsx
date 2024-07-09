@@ -1,6 +1,7 @@
-"use client";
+'use client'
 import styled from "styled-components";
 import Image from "next/image";
+
 
 const Card = styled.div`
   height: 245.22px;
@@ -15,6 +16,8 @@ const Card = styled.div`
   color: #fff;
   font-family: "PP Formula Condensed";
   padding: 12px 10.825px;
+  
+
 `;
 
 const Titulo = styled.h3`
@@ -54,7 +57,8 @@ export default function CardsPapelPaq({
   texto: string;
 }) {
   return (
-    <Card>
+
+    <Card className="rotation">
       <div>
         <Icone src={icone} alt="" />
       </div>
@@ -65,5 +69,6 @@ export default function CardsPapelPaq({
         <Conteudo>{texto}</Conteudo>
       </div>
     </Card>
+
   );
 }
