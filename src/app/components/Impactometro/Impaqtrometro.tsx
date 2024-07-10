@@ -3,6 +3,7 @@ import styled from "styled-components";
 import imagemRelogio from './img/relogio.png'
 import Image from 'next/image'
 import GlobalStyle from './fontPaq'
+import CardImpaqtrometro from "./cardImpaqtrometro";
 
 
 const Impaqtrometrofundo = styled.div`
@@ -67,6 +68,8 @@ export default function Impaqtrometro() {
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven</p>
                 </Cabecalho>
+                <CardImpaqtrometro />
+                
             </Impaqtrometrofundo>
         </div>
     )
