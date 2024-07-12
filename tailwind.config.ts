@@ -11,6 +11,10 @@ const config: Config = {
       backgroundImage: {
           'paq-image': "url('./public/BG.png)",
       },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'],
+        'formula-condensed': ['PP Formula Condensed', 'sans-serif'],
+      },
     },
     colors: {
       'white': '#ffffff',

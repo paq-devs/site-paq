@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@font-face {
+    font-family: 'PP Formula Condensed';
+    src: url('/path-to-font/PPFormulaCondensed.woff2') format('woff2'),
+         url('/path-to-font/PPFormulaCondensed.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  };
