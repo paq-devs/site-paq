@@ -7,7 +7,6 @@ export default function Home() {
     <>
       <PaqHeader />
       <ConectarETransformar />
-      <VideoConexao />
     </>
   );
 }
