@@ -11,7 +11,7 @@ export function Header(){
               height={48} alt={""}></Image>
             </div>
             <div className="flex items-center  max-[400px]:justify-center max-[400px]:items-center gap-2 ">
-                <Button title="quero fazer parte" href="/"/>
+                <Button title="QUERO FAZER PARTE" href="/" width="172px" height="26px"/>
                 <FiAlignJustify className="text-azul-paq size-10" />
             </div>
         </div>

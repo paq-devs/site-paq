@@ -41,7 +41,7 @@ export default function ConectarETransformar() {
                     do <span className="text-black font-poppins text-[14px] font-bold leading-[15px] tracking-[-0.12px]">
                         é uma missão coletiva. </span></p>
             </div>
-            <Button title="NOSSA HISTÓRIA" href="" />
+            <Button title="NOSSA HISTÓRIA" href="" width="132px" height="42px"/>
         </div>
     );
 }
