@@ -3,6 +3,14 @@ import styled from "styled-components";
 import Image from "next/image";
 
 
+const Secoes = styled.div`
+  height: 245.22px;
+  width: 161.168px;
+  display: flex;
+ align-items: center;
+ justify-content:center;
+`
+
 const Card = styled.div`
   height: 245.22px;
   width: 196.05px;
@@ -16,8 +24,7 @@ const Card = styled.div`
   color: #fff;
   font-family: "PP Formula Condensed";
   padding: 12px 10.825px;
-  
-
+  justify-content:center;
 `;
 
 const Titulo = styled.h3`
@@ -59,15 +66,15 @@ export default function CardsPapelPaq({
   return (
 
     <Card className="rotation">
-      <div>
+        <Secoes>
         <Icone src={icone} alt="" />
-      </div>
-      <div>
+        </Secoes>
+        <Secoes>
         <Titulo>{titulo}</Titulo>
-      </div>
-      <div>
+        </Secoes>
+        <Secoes>
         <Conteudo>{texto}</Conteudo>
-      </div>
+        </Secoes>
     </Card>
 
   );
