@@ -68,7 +68,10 @@ export default function Impaqtrometro() {
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven</p>
                 </Cabecalho>
-                <CardImpaqtrometro />
+                <CardImpaqtrometro image="grupoDePessoas" numero="80" titulo="jovens" descricao="Ativos na comunidade de aprendizagem" />
+                <CardImpaqtrometro image="grupoDePessoas" numero="200" titulo="jovens" descricao="Atendidos em nossos programas" />
+                <CardImpaqtrometro image="grupoDePessoas" numero="40" titulo="jovens" descricao="Trabalhando em empresas de tecnologia" />
+                <CardImpaqtrometro image="grupoDePessoas" numero="780" titulo="reais" descricao="Ativos na comunidade de aprendizagem" />
                 
             </Impaqtrometrofundo>
         </div>
