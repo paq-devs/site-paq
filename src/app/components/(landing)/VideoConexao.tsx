@@ -1,12 +1,13 @@
 import Image from "next/image"
 
+
 export default function VideoConexao() {
     return (
         <div className="relative w-full h-[300px]">
-            <Image src='/ilustrações.png' layout="fill" objectFit="cover" alt="" />
+            <Image src='/fundo-conectar-e-transformar.png' layout="fill" objectFit="cover" alt="" className="justify-items-center w-full h-[300px]"/>
             <div className="absolute inset-0 flex justify-center items-start mt-28 shirink-0 ">
-                <iframe 
-                    width="330" 
+                <iframe
+                    width="330"
                     height="200"
                     src="https://www.youtube.com/embed/tgbNymZ7vqY"
                     frameBorder="0"
@@ -16,5 +17,5 @@ export default function VideoConexao() {
                 </iframe>
             </div>
         </div>
-    )   
+    )
 }

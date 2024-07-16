@@ -16,24 +16,24 @@ export default function ConectarETransformar() {
                 <h1 >CONECTAR E</h1>
                 <h2 className="text-[#00171F] font-formula-condensed text-[45px] font-bold leading-[40px] uppercase">TRANSFORMAR!</h2>
             </div>
-            <div className="py-4 text-black text-center font-poppins text-[14px] font-normal leading-[15px] tracking-[-0.12px] w-[218px;]">
+            <div className="pt-4 text-black text-center font-poppins text-[14px] font-normal leading-[15px] tracking-[-0.12px] w-[218px;]">
                 <p>Somos o
                     <span className="text-black font-poppins text-[14px] font-bold leading-[15px] tracking-[-0.12px]"> Prototipando a Quebrada, </span>
                     mas pode chamar de <span className="text-black font-poppins text-[14px] font-bold leading-[15px] tracking-[-0.12px]"> PAQ! </span>
                 </p>
             </div>
-            <div className="py-4 text-black text-center font-poppins text-[14px] font-normal leading-[15px] tracking-[-0.12px] w-[218px;]">
+            <div className="pt-2 text-black text-center font-poppins text-[14px] font-normal leading-[15px] tracking-[-0.12px] w-[218px;]">
                 <p className="text-black ">
                     Nossa missão é <span className="text-black font-poppins text-[14px] font-bold leading-[15px] tracking-[-0.12px]"> conectar a juventude da periferia </span> ao conhecimento e oportunidades
                     do <span className="text-black font-poppins text-[14px] font-bold leading-[15px] tracking-[-0.12px]">  ecossistema de tecnologia! </span></p>
             </div>
             <VideoConexao />
-            <div className="py-4 text-black text-center font-poppins text-[14px] font-normal leading-[15px] tracking-[-0.12px] w-[218px;]">
+            <div className="pt-4 text-black text-center font-poppins text-[14px] font-normal leading-[15px] tracking-[-0.12px] w-[218px;]">
                 <p>Além de uma ONG, somos uma
                     <span className="text-black font-poppins text-[14px] font-bold leading-[15px] tracking-[-0.12px]"> comunidade de aprendizagem </span>
                 </p>
             </div>
-            <div className="py-4 text-black text-center font-poppins text-[14px] font-normal leading-[15px] tracking-[-0.12px] w-[218px;]">
+            <div className="py-2 text-black text-center font-poppins text-[14px] font-normal leading-[15px] tracking-[-0.12px] w-[218px;]">
                 <p className="text-black ">
                     Somos uma ponte<span className="text-black font-poppins text-[14px] font-bold leading-[15px] tracking-[-0.12px]"> entre a quebrada
                         e os centros de inovação </span> e acreditamos
@@ -41,7 +41,7 @@ export default function ConectarETransformar() {
                     do <span className="text-black font-poppins text-[14px] font-bold leading-[15px] tracking-[-0.12px]">
                         é uma missão coletiva. </span></p>
             </div>
-            <Button title="NOSSA HISTÓRIA" href="" width="132px" height="42px"/>
+            <Button title="NOSSA HISTÓRIA" href="" width="150px" height="42px"/>
         </div>
     );
 }
