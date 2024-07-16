@@ -1,7 +1,10 @@
 'use client'
 import styled from "styled-components";
 import Image from "next/image";
-
+import { TfiSave } from "react-icons/tfi";
+import { BiLike } from "react-icons/bi";
+import { LuSunMedium } from "react-icons/lu";
+import { GrFormPin } from "react-icons/gr";
 
 const Secoes = styled.div`
   height: 245.22px;
@@ -63,11 +66,28 @@ export default function CardsPapelPaq({
   titulo: string;
   texto: string;
 }) {
+
+  function retornaIcone(icone:any) {
+    switch (icone){
+      case "joinha":
+        return (<BiLike />);
+      case "fogos":
+        return (<LuSunMedium />);
+        case "save":
+        return (<TfiSave />);
+      case "pin":
+        return (<GrFormPin />);
+    }
+  }
+
+  
+
+
   return (
 
     <Card className="rotation">
         <Secoes>
-        <Icone src={icone} alt="" />
+        {retornaIcone(icone)}
         </Secoes>
         <Secoes>
         <Titulo>{titulo}</Titulo>
