@@ -6,6 +6,7 @@ import { BiLike } from "react-icons/bi";
 import { LuSunMedium } from "react-icons/lu";
 import { GrFormPin } from "react-icons/gr";
 
+
 const Secoes = styled.div`
   height: 245.22px;
   width: 161.168px;
