@@ -8,8 +8,33 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        img1:{
+          '0% , 100%':{transform: 'translatex(0px)'},
+          '20%':{transform: 'translatex(-300px)'}
+        },
+        text1:{
+          '0% , 100%':{transform: 'translatex(0px)'},
+          '33%':{transform: 'translatex(500px)'}}
+      },
+
+      animation: {
+        'teste': 'text1 20s infinite ease-out',
+        'img1': 'img1 20s infinite'
+      },
+
+      colors: {
+        'preto': '#000000',
+        'branco': '#ffffff',
+        'azulpaq': '#0DA2D2'
+      },
+      fontSize:{
+        'font-sec1':  '70.02px'
+      },
       backgroundImage: {
-          'paq-image': "url('./public/BG.png)",
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+        "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
