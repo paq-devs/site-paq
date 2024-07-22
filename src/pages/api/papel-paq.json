@@ -1,0 +1,28 @@
+{
+  "content": [
+    {
+      "id": 0,
+      "icone": "",
+      "titulo": "Acolhe e empodera",
+      "texto": "Despertamos os jovem para que eles enxerguem novos futuros possíveis, se sintam pertencentes ao ecossistema tech e se empoderem para ocupar esses espaços."
+    },
+    {
+      "id": 1,
+      "icone": "",
+      "titulo": "Expande a Visão",
+      "texto": "“Só sonhamos com aquilo que conhecemos”. Conectamos os jovens com novos espaços, pessoas e experiências, ampliando sua visão sobre a cultura tech e também sobre o mundo."
+    },
+    {
+      "id": 2,
+      "icone": "",
+      "titulo": "qualifica em tech",
+      "texto": "Fornecemos acesso a infraestrutura de qualidade, cursos, mentorias e também o acompanhamento necessário para o desenvolvolvimento dos jovens até a conquista do sucesso nas principais carreiras  de tecnologia."
+    },
+    {
+      "id": 3,
+      "icone": "",
+      "titulo": "insere no mercado",
+      "texto": "Promovemos mobilidade social através da empregabilidade, conectando os jovens qualificados às vagas em empresas da área de tecnologia."
+    }
+  ]
+}

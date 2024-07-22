@@ -2,16 +2,22 @@
 
 import Link from "next/link";
 
-type props = {
+type Props = {
     title: string;
-    href: string
+    href: string;
+    width?: string;
+    height?: string;
 };
 
-export default function Button({ title, href  }: props){
+export default function Button({ title, href, width, height }: Props) {
     return (
-        <Link href={href} className='flex h-12 w-48 items-center justify-center  rounded-full bg-azul-paq text-base text-white font-semibold max-[450px]:h-8 max-[450px]:w-26 '
-        type='button'>
+        <Link
+            href={href}
+            className={`flex items-center justify-center rounded-[10px] bg-azul-paq text-base text-white font-semibold`}
+            type="button"
+            style={{ width: width, height: height }}
+        >
             {title}
         </Link>
-    )
+    );
 }
