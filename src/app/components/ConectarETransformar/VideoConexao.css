@@ -1,0 +1,15 @@
+.videoContainer {
+  background-image: url('./fundo-conectar-e-transformar.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 110%;
+  margin-bottom: 50px;
+}
+
+.videoContainer iframe {
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
