@@ -1,105 +1,86 @@
 'use client'
-import CardsPapelPaq from "./CardsPapelPaq";
-import styled from "styled-components";
-import './PapelPaq.css'
-import { HiOutlineLightBulb } from "react-icons/hi";
-import { Poppins } from 'next/font/google';
-import lampada from "./lampada.svg"
-const poppins = Poppins({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-poppins',
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
-});
-const TextoinfoPAQ = styled.p`
-color: #00171F;
-text-align: center;
-font-size: 12px;
-font-style: normal;
-font-weight: 500;
-line-height: 15px; /* 125% */
-letter-spacing: -0.12px;
-`
-
-const PapelPAq = styled.h3 `
-color: #00171F;
-text-align: center;
-font-family: "PP Formula Condensed";
-font-size: 37.405px;
-font-style: normal;
-font-weight: 700;
-line-height: 40px; /* 106.936% */
-text-transform: uppercase;`
-
-const ContainerOverflow = styled.div`
-    overflow-x: auto;
-    `
-
-const ListaDeCards = styled.div`
-    width: 500px;
-    display: flex;
-    flex-direction: row;
-`;
-
-const Carrosel = styled.div`
-       width: 777.84px;
-  height: 290.04px;
-       
-`
+import style from "./PapelPaq.module.css";
+import lampada from "../../../public/images/Vector.svg";
+import Image from "next/image";
+import like from "../../../public/images/Thumbup--Streamline-Beveled-Scribbles.svg";
+import { LuSunMedium } from "react-icons/lu";
+import { TfiSave } from "react-icons/tfi";
+import { GrFormPin } from "react-icons/gr";
+import img1 from "../../../public/images/Mask group-compressed.jpg";
+import img2 from "../../../public/images/Mask groupmissaoPaq2.jpg";
+import img3 from "../../../public/images/IMG_9646missaoPaq3.jpg"
+import img4 from "../../../public/images/IMG_9895 (1)missaoPaq4.png"
 
 export default async function PapelPAQ() {
-  // const response = await fetch('http://localhost:5000/cards')
-  // const data = await response.json()
-  const data = [
-    {
-      id: 0,
-      icone: "joinha",
-      titulo: "Acolhe e empodera",
-      texto: "Despertamos os jovem para que eles enxerguem novos futuros possíveis, se sintam pertencentes ao ecossistema tech e se empoderem para ocupar esses espaços.",
-    },
-    {
-      id: 1,
-      icone: "fogos",
-      titulo: "Expande a Visão",
-      texto: "“Só sonhamos com aquilo que conhecemos”. Conectamos os jovens com novos espaços, pessoas e experiências, ampliando sua visão sobre a cultura tech e também sobre o mundo.",
-    },
-    {
-      id: 2,
-      icone: "save",
-      titulo: "qualifica em tech",
-      texto: "Fornecemos acesso a infraestrutura de qualidade, cursos, mentorias e também o acompanhamento necessário para o desenvolvolvimento dos jovens até a conquista do sucesso nas principais carreiras  de tecnologia.",
-    },
-    {
-      id: 3,
-      icone: "pin",
-      titulo: "insere no mercado",
-      texto: "Promovemos mobilidade social através da empregabilidade, conectando os jovens qualificados às vagas em empresas da área de tecnologia.",
-    },
-  ];
   return (
-    <section className="section-papelpaq">
-      <div className="text-center flex flex-col items-center pt-[72px] pr-[33px] pb-[32px] pl-[33px]">
-      <p><HiOutlineLightBulb  className="fill-[#0DA2D2] w-[87.432px] h-[80.861px]"/></p>
-      <PapelPAq>papel do paq<br></br> na missão</PapelPAq>
-      <TextoinfoPAQ className={poppins.variable}>
-        O PAQ fortalece a jornada de quem tá <br></br> com a gente através desses pilares:
-      </TextoinfoPAQ>
+    <section className={style.papelPaq}>
+      <div className={style.separacao_text}>
+        <article className={style.conteudo_text}>
+          <Image src={lampada} className={style.iconelampada} width={87.43} height={80.86} alt="imagem de lampada simbolizando ideia" />
+          <h2>PAPEL DO PAQ <br /><span>NA MISSÃO</span></h2>
+        </article>
+        <div className={style.textPaqFortalece}>
+          <p>O PAQ fortalece a jornada de quem tá com a gente através desses pilares:</p>
+        </div>
       </div>
-      <ContainerOverflow className="pt-[0px] pr-[43px] pb-[40px] pl-[43px]  ">
-        <Carrosel>
-          <ListaDeCards>
 
-            {data.map((item: any) => (
-              <CardsPapelPaq
-                key={item.id}
-                icone={item.icone}
-                titulo={item.titulo}
-                texto={item.texto}
-              />
-            ))}
-          </ListaDeCards>
-        </Carrosel>
-      </ContainerOverflow>
+      <div className={style.separacao_carrossel}>
+        <div className={style.carrossel}>
+
+
+          <div className={style.container_img_e_card}>
+            <div className={style.card1}>
+              <div className={style.iconetitulo}>
+                <Image src={like} width={0} height={0} alt="imagem de um joinha" className={style.iconeCard1} />
+                <h2>Acolhe e empodera</h2>
+              </div>
+              <div className={style.text}>
+                <p>Despertamos os jovem para que eles enxerguem novos futuros possíveis, se sintam pertencentes ao ecossistema tech e se empoderem para ocupar esses espaços.</p>
+              </div>
+            </div>
+            <Image src={img1} alt="a" className={style.img_carrossel} />
+          </div>
+
+          <div className={style.container_img_e_card}>
+            <Image src={img2} alt="a" className={style.img_carrossel} />
+            <div className={style.card2}>
+              <div className={style.iconetitulo}>
+                <LuSunMedium className={style.iconeCard2} />
+                <h2>Acolhe e empodera</h2>
+              </div>
+              <div className={style.text}>
+                <p>Despertamos os jovem para que eles enxerguem novos futuros possíveis, se sintam pertencentes ao ecossistema tech e se empoderem para ocupar esses espaços.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className={style.container_img_e_card}>
+            <div className={style.card3}>
+              <div className={style.iconetitulo}>
+                <TfiSave className={style.iconeCard3} />
+                <h2>qualifica em tech</h2>
+              </div>
+              <div className={style.text}>
+                <p>Fornecemos acesso a infraestrutura de qualidade, cursos, mentorias e também o acompanhamento necessário para o desenvolvolvimento dos jovens até a conquista do sucesso nas principais carreiras  de tecnologia.</p>
+              </div>
+            </div>
+            <Image src={img3} alt="a" className={style.img_carrossel} />
+          </div>
+
+          <div className={style.container_img_e_card}>
+            <Image src={img4} alt="a" className={style.img_carrossel} />
+            <div className={style.card4}>
+              <div className={style.iconetitulo}>
+                <GrFormPin className={style.iconeCard4} />
+                <h2>insere no mercado</h2>
+              </div>
+              <div className={style.text}>
+                <p>Promovemos mobilidade social através da empregabilidade, conectando os jovens qualificados às vagas em empresas da área de tecnologia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
