@@ -5,11 +5,16 @@ import Image from 'next/image'
 import GlobalStyle from './fontPaq'
 import CardImpaqtrometro from "./cardImpaqtrometro";
 import Button from "../button";
+import voluntariado from './img/voluntariado1.png'
+import grupoDePessoas from './img/grupoDePessoas.png'
+import investidor from './img/investidor1.png'
+
 
 
 const Impaqtrometrofundo = styled.div`
-
-    height: 1505px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 20px;
     background: #00171F;
     padding: 53px 33px;
@@ -67,9 +72,8 @@ const PaqEstilizado = styled.span`
 
 export default function Impaqtrometro() {
     return (
-        <div>
+        <Impaqtrometrofundo>
             <GlobalStyle/>  
-            <Impaqtrometrofundo>
                 <Cabecalho>
                     <Image src={imagemRelogio} alt='' width={75} height={75} />
                     <div>
@@ -79,14 +83,13 @@ export default function Impaqtrometro() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven</p>
                 </Cabecalho>
                 <Corpo>
-                    <CardImpaqtrometro image="grupoDePessoas" numero="80" titulo="jovens" descricao="Ativos na comunidade de aprendizagem" />
-                    <CardImpaqtrometro image="grupoDePessoas" numero="200" titulo="jovens" descricao="Atendidos em nossos programas" />
-                    <CardImpaqtrometro image="grupoDePessoas" numero="40" titulo="jovens" descricao="Trabalhando em empresas de tecnologia" />
-                    <CardImpaqtrometro image="grupoDePessoas" numero="780" titulo="reais" descricao="Ativos na comunidade de aprendizagem" />
-                    <p className="mt-[55px] text-white text-center font-poppins text-[12px] not-italic font-normal leading-[15px] tracking-[-0.12px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, q </p>
+                    <CardImpaqtrometro image={grupoDePessoas} numero="80" titulo="jovens" descricao="Ativos na comunidade de aprendizagem" />
+                    <CardImpaqtrometro image={voluntariado} numero="200" titulo="jovens" descricao="Atendidos em nossos programas" />
+                    <CardImpaqtrometro image={voluntariado} numero="40" titulo="jovens" descricao="Trabalhando em empresas de tecnologia" />
+                    <CardImpaqtrometro image={investidor} numero="780" titulo="reais" descricao="Ativos na comunidade de aprendizagem" />
+                    <p className="mt-[55px] text-white text-center font-poppins text-[14px] not-italic font-normal leading-[15px] tracking-[-0.12px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, q </p>
                     <Button title="VER RELATÓRIOS" href="/" width="150px" height="42px" />
                 </Corpo>
-            </Impaqtrometrofundo>
-        </div>
+        </Impaqtrometrofundo>
     )
 }

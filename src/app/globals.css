@@ -14,8 +14,6 @@
 body {
   background: var(--fundo-pagina);
   text-align: center;
-  margin-left: 5%;
-    margin-right: 5%;
 }
 
 @media screen and (min-width: 640px) {
@@ -32,3 +30,7 @@ body {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+html {margin: 0;
+  padding: 0;
+}

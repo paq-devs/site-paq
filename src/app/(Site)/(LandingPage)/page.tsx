@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <PaqHeader />
-      <UmFuturoInovadorDiversoComecaAqui />
+      
       <Impaqtrometro />
       <ConectarETransformar />
       <PaqFaq />

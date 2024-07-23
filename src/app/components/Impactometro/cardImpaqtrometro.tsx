@@ -2,10 +2,11 @@
 import styled from 'styled-components';
 import grupoDePessoas from './img/grupoDePessoas.png'
 import Image from 'next/image'
+import voluntariado from './img/voluntariado1.png'
 
 
 type props = {
-    image: string;
+    image: any;
     numero: string;
     titulo: string;
     descricao: string;
@@ -80,7 +81,7 @@ export default function CardImpaqtrometro({ image, numero, titulo, descricao }: 
                 <div>
                     <ParteDeCima>
                         <Icones>
-                            <Image src={grupoDePessoas} alt='' width={58} height={49} />
+                            <Image src={image} alt='' width={58} height={49} />
                         </Icones>
                         <div>
                             <h2>
