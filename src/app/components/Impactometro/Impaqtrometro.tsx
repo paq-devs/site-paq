@@ -9,6 +9,9 @@ import voluntariado from './img/voluntariado1.png'
 import grupoDePessoas from './img/grupoDePessoas.png'
 import investidor from './img/investidor1.png'
 import formatura from './img/imagemformatura.png'
+import yohana from './img/yohanafeliz.png'
+import janvi from './img/fotinhaJanvi.png'
+import suanam from './img/suanam.png'
 
 
 
@@ -62,7 +65,7 @@ const Corpo = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 17px;
+
     margin-top: 55px;
 
 `
@@ -86,11 +89,24 @@ export default function Impaqtrometro() {
                 <Corpo>
                     <div className="flex items-center gap-6">
                         <CardImpaqtrometro image={grupoDePessoas} numero="80" titulo="jovens" descricao="Ativos na comunidade de aprendizagem" />
-                        <Image src={formatura} alt="" width={403} height={344} className="hidden xl:block"/>
+                        <Image src={formatura} alt="" width={403} height={344} className="hidden xl:block aspect-auto object-contain"/>
                     </div>
-                    <CardImpaqtrometro image={voluntariado} numero="200" titulo="jovens" descricao="Atendidos em nossos programas" />
-                    <CardImpaqtrometro image={voluntariado} numero="40" titulo="jovens" descricao="Trabalhando em empresas de tecnologia" />
-                    <CardImpaqtrometro image={investidor} numero="780" titulo="reais" descricao="Ativos na comunidade de aprendizagem" />
+
+                    <div className="flex items-center gap-6">
+                        <Image src={yohana} alt="" width={403} height={344} className="hidden xl:block aspect-auto object-contain rounded-2xl" />
+                        <CardImpaqtrometro image={voluntariado} numero="200" titulo="jovens" descricao="Atendidos em nossos programas" />
+                    </div>
+
+                    <div className="flex items-center gap-6">
+                        <CardImpaqtrometro image={voluntariado} numero="40" titulo="jovens" descricao="Trabalhando em empresas de tecnologia" />
+                        <Image src={janvi}  alt="" width={403} height={344} className="hidden xl:block aspect-auto object-contain  rounded-2xl"/>
+                    </div> 
+
+                    <div className="flex items-center gap-6">
+                        <Image src={suanam}  alt="" width={403} height={344} className="hidden xl:block aspect-auto object-contain  rounded-2xl" />
+                        <CardImpaqtrometro image={investidor} numero="780" titulo="reais" descricao="Ativos na comunidade de aprendizagem" />
+                    </div>
+
                     <p className="mt-[55px] text-white text-center font-poppins text-[14px] not-italic font-normal leading-[15px] tracking-[-0.12px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, q </p>
                     <Button title="VER RELATÓRIOS" href="/" width="150px" height="42px" />
                 </Corpo>
