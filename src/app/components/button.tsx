@@ -1,6 +1,8 @@
 'use-client'
 
 import Link from "next/link";
+import style from "./landing/PaqHeader.module.css"
+
 
 type Props = {
     title: string;
@@ -13,9 +15,9 @@ export default function Button({ title, href, width, height }: Props) {
     return (
         <Link
             href={href}
-            className={`flex items-center justify-center rounded-[10px] bg-azul-paq text-base text-white font-semibold`}
+            className={style.link}
             type="button"
-            style={{ width: width, height: height }}
+            style={{ width: width, height: height, }}
         >
             {title}
         </Link>

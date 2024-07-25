@@ -1,23 +1,28 @@
 import Image from "next/image";
 import  Button  from "./button";
 import { FiAlignJustify } from "react-icons/fi";
+import style from "./landing/PaqHeader.module.css"
 
 
 export function Header() {
   return (
-    <div className="sm:flex w-full items-center justify-between  bg-transparent absolute max-[450px]:flex max-[450px]:justify-between max-[450px]:items-center max-[450px]:py-8 max-[450px]:px-8">
+    <div className={style.icones_header}>
       <div>
+        <span><a href=""></a></span>
+        <span><a href=""></a></span>
+        <span><a href=""></a></span>
+        <span><a href=""></a></span>
+      <FiAlignJustify className="h-[30px] w-[30px]"/>
+      </div>
         <Image src="/logo-paq.png" width={44} height={48} alt={""}></Image>
-      </div>
-      <div className="flex items-center  max-[400px]:justify-center max-[400px]:items-center gap-2 ">
+        <div className="flex items-center justify-center mt-[-23px]">
         <Button
-          title="QUERO FAZER PARTE"
+          title="Apoiar"
           href="/"
-          width="172px"
-          height="26px"
+          width="auto"
+          height="auto"
         />
-        <FiAlignJustify className="text-azul-paq size-10" />
-      </div>
+        </div>
     </div>
   );
 }

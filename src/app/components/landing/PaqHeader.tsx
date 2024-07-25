@@ -1,10 +1,11 @@
 import { Header } from "../header";
+import style from "./PaqHeader.module.css"
 
 export default function PaqHeader() {
   return (
-    <div className="h-16 relative ">
+    <section className={style.header}>
       <Header />
-    </div>
+    </section>
   );
 }
 
