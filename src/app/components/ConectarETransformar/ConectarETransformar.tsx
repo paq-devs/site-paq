@@ -9,10 +9,10 @@ export default function ConectarETransformar() {
   return (
     <div className="container">
       <Image src={imagemSetaAbaixo} width={70} height={70} alt="" />
-      <Image src={imagemCompartilhar} width={53} height={53} alt="" />
-      <div className="text-[#00171F] text-center font-formula-condensed text-[45px] font-normal leading-[40px] uppercase mt-2">
+      <Image src={imagemCompartilhar} width={53} height={53} alt="" className="xl:hidden"/>
+      <div className="text-[#00171F] text-center font-formula-condensed text-[45px] font-normal leading-[40px] uppercase mt-2 xl:text-[60px] xl:leading-[68px]">
         <h1>CONECTAR E</h1>
-        <h2 className="text-[#00171F] font-formula-condensed text-[45px] font-bold leading-[40px] uppercase">
+        <h2 className="text-[#00171F] font-formula-condensed text-[45px] font-bold leading-[40px] uppercase xl:text-[60px] xl:leading-[68px]">
           TRANSFORMAR!
         </h2>
       </div>

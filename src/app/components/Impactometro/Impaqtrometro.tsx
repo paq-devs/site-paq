@@ -8,6 +8,7 @@ import Button from "../button";
 import voluntariado from './img/voluntariado1.png'
 import grupoDePessoas from './img/grupoDePessoas.png'
 import investidor from './img/investidor1.png'
+import formatura from './img/imagemformatura.png'
 
 
 
@@ -72,7 +73,7 @@ const PaqEstilizado = styled.span`
 
 export default function Impaqtrometro() {
     return (
-        <Impaqtrometrofundo>
+        <section className="w-full flex flex-col items-center rounded-[20px] bg-[#00171F] p-[53px_33px]">
             <GlobalStyle/>  
                 <Cabecalho>
                     <Image src={imagemRelogio} alt='' width={75} height={75} />
@@ -83,13 +84,16 @@ export default function Impaqtrometro() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven</p>
                 </Cabecalho>
                 <Corpo>
-                    <CardImpaqtrometro image={grupoDePessoas} numero="80" titulo="jovens" descricao="Ativos na comunidade de aprendizagem" />
+                    <div className="flex items-center gap-6">
+                        <CardImpaqtrometro image={grupoDePessoas} numero="80" titulo="jovens" descricao="Ativos na comunidade de aprendizagem" />
+                        <Image src={formatura} alt="" width={403} height={344} className="hidden xl:block"/>
+                    </div>
                     <CardImpaqtrometro image={voluntariado} numero="200" titulo="jovens" descricao="Atendidos em nossos programas" />
                     <CardImpaqtrometro image={voluntariado} numero="40" titulo="jovens" descricao="Trabalhando em empresas de tecnologia" />
                     <CardImpaqtrometro image={investidor} numero="780" titulo="reais" descricao="Ativos na comunidade de aprendizagem" />
                     <p className="mt-[55px] text-white text-center font-poppins text-[14px] not-italic font-normal leading-[15px] tracking-[-0.12px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, q </p>
                     <Button title="VER RELATÓRIOS" href="/" width="150px" height="42px" />
                 </Corpo>
-        </Impaqtrometrofundo>
+            </section>        
     )
 }
