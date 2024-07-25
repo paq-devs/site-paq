@@ -5,13 +5,12 @@ import style from "./landing/PaqHeader.module.css"
 
 
 type Props = {
-    title: string;
     href: string;
     width?: string;
     height?: string;
 };
 
-export default function Button({ title, href, width, height }: Props) {
+export default function Button({ href, width, height }: Props) {
     return (
         <Link
             href={href}
@@ -19,7 +18,6 @@ export default function Button({ title, href, width, height }: Props) {
             type="button"
             style={{ width: width, height: height, }}
         >
-            {title}
         </Link>
     );
 }
