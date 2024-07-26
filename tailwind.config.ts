@@ -29,7 +29,8 @@ const config: Config = {
       colors: {
         'preto': '#000000',
         'branco': '#ffffff',
-        'azulpaq': '#0DA2D2'
+        'azulpaq': '#0DA2D2',
+        'fundocinza': '#F7F7F7',
       },
       fontSize:{
         'font-sec1':  '70.02px'

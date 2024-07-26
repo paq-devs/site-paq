@@ -12,6 +12,7 @@ export default function Home() {
       <ConectarETransformar />
       <UmFuturoInovadorDiversoComecaAqui />
       <Impaqtrometro />
+      <JuntoComAGente />
       <PaqFaq />
     </>
   );

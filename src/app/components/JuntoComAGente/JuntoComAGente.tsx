@@ -1,20 +1,17 @@
-"use client";
-import styled from "styled-components"
 import Image from 'next/image'
-
-const CabecalhoJuntoComAgente = styled.div `
-    display:flex;
-` 
+import coroa from './img/coroa.png'
+import './JuntoComAGente.css'
+import CardParceira from './cardParceiras'
 
 export default function JuntoComAGente(){
     return(
-        <div>
-            <CabecalhoJuntoComAgente>
-                <div>
-                
-                </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et d</p>
-            </CabecalhoJuntoComAgente>
-        </div>
+        <div className='flex flex-col items-center'>
+            <Image src={coroa} alt='' width={160} height={90} className='my-9'/>
+            <h2 className='corpo'><span className='font-bold'>Junto com a gente</span> <br /> nessa missão!</h2>
+            <p className='paragrafo'>Nossa rede de apoio é fundamental para o sucesso de nossas iniciativas. Conheça nossos parceiros que acreditam em um futuro mais inclusivo e diversificado.</p> 
+            <div className='my-16'>
+                <CardParceira />
+            </div>
+            </div>
     )
 }
