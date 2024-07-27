@@ -8,8 +8,6 @@ import Button from "../button";
 
 
 const Impaqtrometrofundo = styled.div`
-
-    height: 1505px;
     border-radius: 20px;
     background: #00171F;
     padding: 53px 33px;

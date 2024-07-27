@@ -8,8 +8,7 @@
     text-transform: uppercase;
 }
 .paragrafo{
-    font-family: "Poppins";
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px; /* 125% */
@@ -27,6 +26,10 @@
     text-transform: uppercase;
 }
 
+.imagemTablet{
+    display: none;
+}
+
 @media (max-width: 768px){
     .corpo{
         font-size: 37px;
@@ -38,3 +41,12 @@
         width:50%;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1268px) {
+    .imagemTablet{
+      display: block;
+      aspect-ratio: auto;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+  }
