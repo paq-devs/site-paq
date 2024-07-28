@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+.header {
+  display: inline-flex;
+  height: 117px;
+  width: 100vw;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4.800000190734863px);
+}
+
+.icones_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 54px 16px 73px 16px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.icone {
+  display: flex;
+  width: 25.5px;
+  height: 18px;
+  padding: 3px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.link {
+  display: inline-flex;
+  height: 26px;
+  padding: 4px 6px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #1eb4e9;
+  color: #fff;
+  text-align: right;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.link::after {
+  content: "apoiar";
+  text-transform: uppercase;
+}
+
+.lista {
+  width: 22.65625rem;
+  height: 1.5rem;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  color: #000;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.01rem;
+  text-transform: uppercase;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 3rem;
+  flex-shrink: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburguer {
+  width: 1.59375rem;
+  height: 1.125rem;
+}
+
+.sobre {
+  position: relative;
+  appearance: none;
+}
+
+.sobre:checked ~ .menu_sobre {
+  display: block;
+}
+
+.menu_sobre {
+  display: none;
+  position: absolute;
+  text-align: start;
+  width: 9rem;
+  height: 5.8125rem;
+  border: transparent 1px solid;
+  background: #f7f7f7;
+  margin: 0px -70px -110px 0px;
+}
+
+.logo_paq {
+  width: 2.75rem;
+  height: 3rem;
+}
+
+@media (min-width: 744px) {
+  .hamburguer {
+    width: 2.04569rem;
+    height: 1.25888rem;
+  }
+
+  .link {
+    display: inline-flex;
+    height: 1.625rem;
+    padding: 0rem 0.75rem;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    font-size: 1rem;
+  }
+
+  .link::after {
+    content: "quero apoiar";
+  }
+
+  .logo_paq {
+    width: 2.75rem;
+    height: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lista {
+    display: flex;
+  }
+
+  .link {
+    display: flex;
+    padding: 0.25rem 0.9375rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    font-size: 1rem;
+  }
+
+  .hamburguer {
+    display: none;
+  }
+
+  .logo_paq {
+    margin-left: -250px;
+  }
+}
