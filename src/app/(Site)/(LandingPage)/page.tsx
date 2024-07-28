@@ -1,8 +1,8 @@
-
-import PaqHeader from "@/app/components/(landing)/PaqHeader";
+import PaqHeader from "@/app/components/Header/PaqHeader";
 import ConectarETransformar from "@/app/components/ConectarETransformar";
 import UmFuturoInovadorDiversoComecaAqui from "@/app/components/UmFuturoInovadorDiversoComecaAqui";
 import PaqFaq from "@/app/components/PaqFaq";
+import Impaqtrometro from "@/app/components/Impactometro/Impaqtrometro";
 import PapelPAQ from "@/app/components/PapelPaq/PapelPAQ";
 
 export default function Home() {
@@ -10,6 +10,7 @@ export default function Home() {
     <>
       <PaqHeader />
       <UmFuturoInovadorDiversoComecaAqui />
+      <Impaqtrometro />
       <ConectarETransformar />
       <PapelPAQ />
       <PaqFaq />
