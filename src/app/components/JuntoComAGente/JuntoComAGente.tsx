@@ -22,7 +22,7 @@ export default function JuntoComAGente() {
                 <CardEducacional />
                 <Image src={suanamfeliz} alt='' width={670} height={204} className='imagemTablet' />
             </div>
-            <div className='md:hidden  flex flex-col items-center xl:flex xl:flex-col'>
+            <div className='md:hidden flex flex-col items-center  lg:flex lg:flex-col'>
                 <p className='paragrafo'>Somos uma ponte <span className='font-bold'>entre a quebrada e os centros de inovação</span> e acreditamos que acabar com a desigualdade social
                     <span className='font-bold'>é uma missão coletiva.</span></p>
                 <div className='my-10'>
