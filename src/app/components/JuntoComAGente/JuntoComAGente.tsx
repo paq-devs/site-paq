@@ -20,9 +20,20 @@ export default function JuntoComAGente() {
                 <CardApoiadoras />
                 <CardParceira />
                 <CardEducacional />
-                <Image src={suanamfeliz} alt='' width={670} height={204} className='imagemTablet' />
+                <div className="hidden md:block relative w-full h-64 lg:hidden"> 
+                    <Image
+                        src={suanamfeliz} alt=''
+                        layout="fill"
+                        objectFit="cover"
+                        className="imagemTablet"
+                    />
+                    <div className="absolute inset-0 flex items-center justify-center">
+                        <h1 className="TextoPaqAgradece">O PAQ AGRADECE TODO O APOIO!</h1>
+                    </div>
+                </div>
+
             </div>
-            <div className='md:hidden  flex flex-col items-center xl:flex xl:flex-col'>
+            <div className='md:hidden  flex  items-center lg:flex flex-col'>
                 <p className='paragrafo'>Somos uma ponte <span className='font-bold'>entre a quebrada e os centros de inovação</span> e acreditamos que acabar com a desigualdade social
                     <span className='font-bold'>é uma missão coletiva.</span></p>
                 <div className='my-10'>
