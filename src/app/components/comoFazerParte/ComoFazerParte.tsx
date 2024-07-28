@@ -5,7 +5,7 @@ import './ComoFazerParte.css'
 
 export default function ComoFazerParte(){
     return(
-        <section className="flex flex-col items-center gap-7">
+        <section className="flex flex-col items-center gap-7 md:bg-[#D9D9D9] lg:bg-branco py-14">
             <Image
             src="images/perguntas-frequentes.svg"
             width={100}

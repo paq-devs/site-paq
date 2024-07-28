@@ -23,3 +23,29 @@
     letter-spacing: -0.158px;
     text-align: left;
 }
+
+@media (min-width:768px) and (max-width:1024px) {
+    .titulocardfazerparte{
+        font-size: 41px;
+        line-height: 44.471px;
+    }
+    
+    .textinhofazerparte{
+        font-size: 9.391px;
+        line-height: 11.739px;
+    }
+}
+
+@media (max-width: 768px){
+    .titulocardfazerparte{
+        font-size: 32px;
+        line-height: 44.471px;
+        text-align: center;
+    }
+
+    .textinhofazerparte{
+        font-size: 9.391px;
+        line-height: 11.739px;
+        text-align: center;
+    }
+}

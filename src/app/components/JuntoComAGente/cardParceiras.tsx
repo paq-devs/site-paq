@@ -13,7 +13,7 @@ const imagesTop = [
     { src: acate, width: 191, height: 95 },
     { src: inaitec, width:124, height:119},
     { src: ambar, width: 117, height: 117 },
-    { src: bewiki, width: 156, height: 36 }, // Dimensões personalizadas para bewiki
+    { src: bewiki, width: 156, height: 36 }, 
     { src: impacthub, width: 102, height: 102 },
     { src: txm, width: 123, height: 60 },
     { src: rdstation, width: 188, height: 34 },

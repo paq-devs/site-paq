@@ -16,7 +16,7 @@ export default function CardApoiadora(){
     const imagesTop  = [
         { src: betahub, width: 194, height: 63 },
         { src: mercadoLivre, width: 170, height: 43 },
-        { src: cd2, width: 100, height:  49 }, // Dimensões personalizadas para cd2
+        { src: cd2, width: 100, height:  49 }, 
         { src: silvaSchutz, width: 120, height: 88 },
       ];
 
