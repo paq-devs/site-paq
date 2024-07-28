@@ -1,94 +1,92 @@
-.icone{
-    display:flex;
-    width: 120px;
-    height: 120px;
-    flex-shrink: 0;
-    background-color: #0EB3E8;
-    border-radius: 100%;
-    align-items: center;
-    justify-content:center;
-    margin-left: -10px
+.icone {
+  display: flex;
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+  background-color: #0eb3e8;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: -10px;
 }
 
-.parteDeCima{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-
+.parteDeCima {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .parteDeCima h2 {
-    color: #FFF;
-    text-align: right;
-    font-family: "PP Formula Condensed";
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 71px;
-    text-transform: uppercase;
-    margin-right: 13px;
+  color: #fff;
+  text-align: right;
+  font-family: "PP Formula Condensed";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 71px;
+  text-transform: uppercase;
+  margin-right: 13px;
 }
 .parteDeCima h3 {
-    color: #FFF;
-    text-align: right;
-    font-family: "PP Formula Condensed";
-    font-size: 48.584px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    text-transform: uppercase;
-    margin-right: 13px;
+  color: #fff;
+  text-align: right;
+  font-family: "PP Formula Condensed";
+  font-size: 48.584px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-right: 13px;
 }
 
-.fundoImpaqtrometro{
-    width: 252px;
-    height: 215px;
-    flex-shrink: 0;
-    border-radius: 25px;
-    background: #122329;
-    padding: 19px 0;
+.fundoImpaqtrometro {
+  width: 252px;
+  height: 215px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #122329;
+  padding: 19px 0;
 }
 
-.parteDeBaixo{
-    display:flex;
-    justify-content:end;
-    margin-right: 15px;
-    color: #FFF;
-    text-align: right;
-    font-family: Poppins;
-    font-size: 16px;
+.parteDeBaixo {
+  display: flex;
+  justify-content: end;
+  margin-right: 15px;
+  color: #fff;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+@media (min-width: 1260px) {
+  .fundoImpaqtrometro {
+    width: 403px;
+    height: 344px;
+  }
+
+  .parteDeBaixo p {
+    font-size: 25.606px;
     font-style: normal;
     font-weight: 500;
-    line-height: 18px;
-}
+    line-height: 28.807px;
+  }
 
-@media (min-width:1260px) {
-    .fundoImpaqtrometro{
-        width: 403px;
-        height: 344px;
-    }
+  .icone {
+    width: 192.044px;
+    height: 192.044px;
+  }
 
-    .parteDeBaixo p{
-        font-size: 25.606px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 28.807px;
-    }
-    
-    .icone{
-        width: 192.044px;
-        height: 192.044px;
-    }
-
-    .parteDeCima h2 {
-        font-size: 102.423px;   
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150.701px; /* 147.135% */
-    }
-    .parteDeCima h3{
-        font-size: 77.752px;
-        font-style: normal;
-        font-weight: 400;
-
-    }
+  .parteDeCima h2 {
+    font-size: 102.423px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150.701px; /* 147.135% */
+  }
+  .parteDeCima h3 {
+    font-size: 77.752px;
+    font-style: normal;
+    font-weight: 400;
+  }
 }
