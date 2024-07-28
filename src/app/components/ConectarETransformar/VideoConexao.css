@@ -6,10 +6,35 @@
   height: 350px;
   width: 100%;
   margin-bottom: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .videoContainer iframe {
   margin-top: 150px;
   margin-left: auto;
   margin-right: auto;
+  width: 288px;
+  height: 161px;
+}
+
+@media (min-width: 1280px){
+  .videoContainer{
+      background-image: url('./fundo-desktop.png');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 120%;
+      height: 950px;
+  }
+
+  .videoContainer iframe {
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 490px;
+  }
+
+  
 }
