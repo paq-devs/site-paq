@@ -1,5 +1,5 @@
-import { Header } from "../header";
-import style from "./PaqHeader.module.css"
+import { Header } from "./header";
+import style from "./PaqHeader.module.css";
 
 export default function PaqHeader() {
   return (
@@ -8,4 +8,3 @@ export default function PaqHeader() {
     </section>
   );
 }
-
