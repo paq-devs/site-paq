@@ -1,0 +1,14 @@
+.placeholder {
+    font-family: 'Poppins Medium', sans-serif;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px 15px;
+}
+
+.placeholder::placeholder {
+    font-family: 'Poppins Medium', sans-serif;
+    color: #717171;
+    font-size: 1rem;
+    font-weight: 400;
+}

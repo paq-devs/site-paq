@@ -4,7 +4,7 @@
     "contact.name.placeholder": "Nome",
     "contact.phone.placeholder": "Telefone",
     "contact.message.placeholder": "Mensagem",
-    "contact.button.send": "Enviar",
+    "contact.button.send": "ENVIAR",
     "contact.success": "Mensagem enviada com sucesso!",
     "contact.error": "Erro ao enviar mensagem!",
     "contact.name.required": "Informe o nome",

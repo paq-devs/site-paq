@@ -17,8 +17,6 @@ export class ContactMailChimpClient implements ContactAdapter {
             }
         }
 
-        console.log(body)
-
         const response = await fetch(`${process.env.MAILCHIMP_SEND_URL}`, {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},

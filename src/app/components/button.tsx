@@ -9,6 +9,13 @@ type Props = {
     height?: string;
 };
 
+type SubmitProps = {
+    title: string;
+    width?: string;
+    height?: string;
+    isEnabled?: boolean;
+};
+
 export default function Button({ title, href, width, height }: Props) {
     return (
         <Link
@@ -19,5 +26,18 @@ export default function Button({ title, href, width, height }: Props) {
         >
             {title}
         </Link>
+    );
+}
+
+export function SubmitButton({ title, width, height, isEnabled }: SubmitProps) {
+    return (
+        <button
+            type="submit"
+            className={`flex items-center justify-center rounded-[10px] bg-azul-paq text-base text-white submit-button`}
+            style={{ width: width, height: height }}
+            disabled={!isEnabled}
+        >
+            {title}
+        </button>
     );
 }
