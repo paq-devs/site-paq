@@ -62,6 +62,7 @@ const Card: React.FC<CardProps> = ({ content }) => (
 
 const CardContent1: React.FC = () => (
   <div>
+    {/* Card Desktop e tablet */}
     <div className='hidden md:flex items-center gap-5 lg:bg-fundocinza  rounded-2xl w-auto md:bg-white'>
       <div className='gap-9 flex flex-col mx-16'>
         <h2 className='titulocardfazerparte'>estudar<br /> no PAQ</h2>
@@ -76,6 +77,7 @@ const CardContent1: React.FC = () => (
       <Image src={anajulia} alt='' width={450} height={526} className='hidden lg:block aspect-auto object-cover rounded-2xl' />
       <Image src={anajulia} alt='' width={270} height={333} className='hidden md:block aspect-auto object-cover rounded-2xl lg:hidden' />
     </div>
+    {/* Card Mobile */}
     <div className='md:hidden flex flex-col items-center gap-4 pb-6 justify-center border rounded-2xl border-azulpaq w-full'>
       <Image src={anajuliamobile} alt='' width={270} height={190} className='object-contain rounded-t-2xl ' />
       <h2 className='titulocardfazerparte'>Educando</h2>
@@ -87,6 +89,7 @@ const CardContent1: React.FC = () => (
 
 const CardContent2: React.FC = () => (
   <div>
+    {/* Card Desktop e tablet */}
     <div className='hidden md:flex items-center gap-5 lg:bg-fundocinza  rounded-2xl w-auto md:bg-white'>
       <div className='gap-9 flex flex-col mx-16'>
         <h2 className='titulocardfazerparte'>mentorar<br /> no PAQ</h2>
@@ -101,6 +104,7 @@ const CardContent2: React.FC = () => (
       <Image src={evanz} alt='' width={450} height={526} className='hidden lg:block aspect-auto object-cover rounded-2xl' />
       <Image src={evanz} alt='' width={270} height={333} className='hidden md:block aspect-auto object-cover rounded-2xl lg:hidden' />
     </div>
+    {/* Card Mobile */}
     <div className='md:hidden flex flex-col items-center gap-4 pb-6 justify-center border rounded-2xl border-azulpaq w-full'>
       <Image src={evanz} alt='' width={270} height={190} className='object-contain rounded-t-2xl ' />
       <h2 className='titulocardfazerparte'>Mentor</h2>
@@ -112,6 +116,7 @@ const CardContent2: React.FC = () => (
 
 const CardContent3: React.FC = () => (
   <div>
+    {/* Card Desktop e tablet */}
     <div className='hidden md:flex items-center gap-5 lg:bg-fundocinza  rounded-2xl w-auto md:bg-white'>
       <div className='gap-9 flex flex-col mx-16'>
         <h2 className='titulocardfazerparte'>Voluntário<br /> no PAQ</h2>
@@ -126,6 +131,7 @@ const CardContent3: React.FC = () => (
       <Image src={costaspaq} alt='' width={450} height={526} className='hidden lg:block aspect-auto object-cover rounded-2xl' />
       <Image src={costaspaq} alt='' width={270} height={333} className='hidden md:block aspect-auto object-cover rounded-2xl lg:hidden' />
     </div>
+     {/* Card Mobile */}
     <div className='md:hidden flex flex-col items-center gap-4 pb-6 justify-center border rounded-2xl border-azulpaq w-full'>
       <Image src={costaspaq} alt='' width={270} height={190} className='object-contain rounded-t-2xl ' />
       <h2 className='titulocardfazerparte'>Voluntário</h2>
