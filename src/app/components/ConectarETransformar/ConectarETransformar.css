@@ -20,3 +20,15 @@ p {
   width: 70%;
   margin: 10px 0;
 }
+
+@media (min-width: 1268px) {
+  .container{
+    gap: 40px;
+    margin-top: 5%;
+  }
+  
+  p{
+    font-size: 16px;
+    width: 40%;
+  }
+}
