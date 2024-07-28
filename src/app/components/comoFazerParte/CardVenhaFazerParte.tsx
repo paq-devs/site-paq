@@ -10,13 +10,13 @@ import costaspaq from './img/costaspaq.png'
 
 import anajuliamobile from './img/anajuliamobile.png'
 
-import './ButtonCard.css'
+import './CardVenhaFazerParte.css'
 
 type CardProps = {
   content: ReactNode;
 };
 
-const ButtonCard: React.FC = () => {
+const CardVenhaFazerParte: React.FC = () => {
   const [selectedButton, setSelectedButton] = useState<number | null>(null);
 
   const handleClick = (buttonId: number) => {
@@ -95,10 +95,10 @@ const CardContent2: React.FC = () => (
         <h2 className='titulocardfazerparte'>mentorar<br /> no PAQ</h2>
         <p className='textinhofazerparte'>Traga sua bagagem e experiências<br />para trocar com nossos jovens.<br /> Essa é uma oportunidade incrível de<br />conexão, onde você se desafia a<br />ensinar e também a aprender!</p>
         <div className='hidden lg:block'>
-          <Button title='Quero estudar no PAQ' href='/' width='225px' height='55px' />
+          <Button title='Quero ser mentor' href='/' width='225px' height='55px' />
         </div>
         <div className='hidden md:block lg:hidden'>
-          <Button title='Quero estudar no PAQ' href='/' width='160px' height='45px' />
+          <Button title='Quero ser mentor' href='/' width='160px' height='45px' />
         </div>
       </div>
       <Image src={evanz} alt='' width={450} height={526} className='hidden lg:block aspect-auto object-cover rounded-2xl' />
@@ -109,7 +109,7 @@ const CardContent2: React.FC = () => (
       <Image src={evanz} alt='' width={270} height={190} className='object-contain rounded-t-2xl ' />
       <h2 className='titulocardfazerparte'>Mentor</h2>
       <p className='textinhofazerparte'>Traga sua bagagem e experiências<br />para trocar com nossos jovens.<br /> Essa é uma oportunidade incrível de<br />conexão, onde você se desafia a<br />ensinar e também a aprender!</p>
-      <Button title='Quero estudar no PAQ' href='/' width='160px' height='45px' />
+      <Button title='Quero ser mentor' href='/' width='160px' height='45px' />
     </div>
   </div>
 );
@@ -122,10 +122,10 @@ const CardContent3: React.FC = () => (
         <h2 className='titulocardfazerparte'>Voluntário<br /> no PAQ</h2>
         <p className='textinhofazerparte'>Venha fazer parte da da missão<br />do Prototipando a Quebrada <br /> colaborando com o que você faz de <br />melhor - todas as áreas tem a sua<br />importância, certo? </p>
         <div className='hidden lg:block'>
-          <Button title='Quero estudar no PAQ' href='/' width='225px' height='55px' />
+          <Button title='Quero ser voluntario' href='/' width='225px' height='55px' />
         </div>
         <div className='hidden md:block lg:hidden'>
-          <Button title='Quero estudar no PAQ' href='/' width='160px' height='45px' />
+          <Button title='Quero ser voluntario' href='/' width='160px' height='45px' />
         </div>
       </div>
       <Image src={costaspaq} alt='' width={450} height={526} className='hidden lg:block aspect-auto object-cover rounded-2xl' />
@@ -136,10 +136,10 @@ const CardContent3: React.FC = () => (
       <Image src={costaspaq} alt='' width={270} height={190} className='object-contain rounded-t-2xl ' />
       <h2 className='titulocardfazerparte'>Voluntário</h2>
       <p className='textinhofazerparte'>Venha fazer parte da da missão<br />do Prototipando a Quebrada <br /> colaborando com o que você faz de <br />melhor - todas as áreas tem a sua<br />importância, certo? </p>
-      <Button title='Quero estudar no PAQ' href='/' width='160px' height='45px' />
+      <Button title='Quero ser voluntario' href='/' width='160px' height='45px' />
     </div>
   </div>
 
 );
 
-export default ButtonCard;
+export default CardVenhaFazerParte;

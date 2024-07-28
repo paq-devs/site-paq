@@ -1,5 +1,5 @@
 import Image from "next/image"
-import ButtonCard from './ButtonCard'
+import CardVenhaFazerParte from './CardVenhaFazerParte'
 
 import './ComoFazerParte.css'
 
@@ -14,7 +14,7 @@ export default function ComoFazerParte(){
             />
             <h2 className="titulo"> como posso <br/><span className="font-bold">fazer parte?</span></h2>
             <p className="texto">Faça parte da nossa comunidade e ajude <br/>a construir um futuro melhor para todos.<br/>Descubra como você pode contribuir. </p>
-            <ButtonCard />
+            <CardVenhaFazerParte />
         </section>
     )
 }
