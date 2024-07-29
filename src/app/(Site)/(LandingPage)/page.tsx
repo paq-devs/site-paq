@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <PaqHeader />
-      <UmFuturoInovadorDiversoComecaAqui />
+      {/* <UmFuturoInovadorDiversoComecaAqui />*/}
       <ConectarETransformar />
       <PapelPAQ />
       <PaqFaq />

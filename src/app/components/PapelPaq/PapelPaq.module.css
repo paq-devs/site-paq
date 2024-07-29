@@ -106,7 +106,7 @@
     justify-content: center;
 }
 
-.iconetitulo {
+.iconetitulo1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,7 +114,7 @@
     align-self: stretch;
 }
 
-.text {
+.text1 {
     width: 10.073rem;
     display: flex;
     justify-content: center;
@@ -122,7 +122,7 @@
     align-items: center;
 }
 
-.text p {
+.text1 p {
     color: #FFF;
     width: 10.073rem;
     text-align: center;
@@ -134,7 +134,7 @@
     /* 125% */
 }
 
-.iconetitulo h2 {
+.iconetitulo1 h2 {
     color: #FFF;
     text-align: center;
     font-family: "PP Formula Condensed";
@@ -148,9 +148,11 @@
 }
 
 .iconeCard1 {
-    width: 3rem;
-    height: 2.9375rem;
+    margin: 0px;
+    width: 3.93481rem;
+    height: 3.85281rem;
     transform: rotate(1.48deg);
+
 }
 
 /*Card 2*/
@@ -198,12 +200,24 @@
     flex-direction: column;
     align-items: center;
     align-self: stretch;
-    gap: 10px;
 }
 
 .iconeCard2 {
     width: 61px;
     height: 53px;
+    margin: 0px;
+}
+
+.text2 p {
+    width: 10.073rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0.9375rem;
+    /* 125% */
 }
 
 /*Card 3*/
@@ -211,12 +225,10 @@
     width: 12.253rem;
     height: 285.07px;
     display: flex;
-    width: 12.253rem;
     transform: rotate(-1.48deg);
     padding: 0.75rem 0.67656rem;
     justify-content: center;
     align-items: flex-start;
-    gap: 0.75169rem;
     border-radius: 0.451rem;
     border: 2px solid #DEF5FC;
     background: #0DA2D2;
@@ -227,17 +239,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 35px;
+
 }
 
 .iconeCard3 {
+    margin: 0px;
     width: 2.625rem;
     height: 2.625rem;
     transform: rotate(1.48deg);
 }
 
 .iconetitulo3 {
-    margin-top: -20px;
     height: 87.07px;
     display: flex;
     flex-direction: column;
@@ -286,19 +298,27 @@
 .card4 {
     display: flex;
     width: 12.253rem;
-    height: 15.02rem;
+    height: 240.32px;
     transform: rotate(1.837deg);
-    padding: 1.5rem 0.67656rem;
+    padding: 0.75rem 0.67656rem;
     justify-content: center;
+    align-items: flex-start;
+    gap: 0.75169rem;
     border-radius: 0.451rem;
     border: 2px solid #DEF5FC;
     background: #0DA2D2;
+}
+
+.conteudocard4 {
+    display: flex;
+    padding: 0.75rem 0rem;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    align-self: stretch;
 }
 
 .iconetitulo4 {
+    height: 87.32px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -319,18 +339,13 @@
 }
 
 .iconeCard4 {
+    margin: 0px;
     width: 2.625rem;
     height: 2.625rem;
     transform: rotate(-1.837deg);
 }
 
-.text4 {
-    margin-top: -10px;
-    align-self: stretch;
-}
-
 .text4 p {
-    margin-top: -10px;
     width: 10.073rem;
     color: #FFF;
     text-align: center;
@@ -339,7 +354,6 @@
     font-style: normal;
     font-weight: 500;
     line-height: 0.9375rem;
-    align-self: stretch;
     /* 125% */
 }
 
@@ -382,10 +396,11 @@
     }
 
     .card1 {
-        width: auto;
+        width: 152.54px;
+        height: 190.99px;
         display: inline-flex;
-        transform: rotate(-1.48deg);
         padding: 0.58356rem 0.84813rem 0.57rem 0.84813rem;
+        transform: rotate(-1.48deg);
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -397,25 +412,127 @@
         z-index: 2;
     }
 
+    .conteudocard1 {
+        width: 100%;
+        height: 172.53px;
+        padding: 9.34px, 0px, 9.34px, 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+    }
+
+    .iconetitulo1 {
+        width: 104%;
+        height: 71.86px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.58356rem;
+        align-self: stretch;
+
+        & h2 {
+            color: #FFF;
+            text-align: center;
+            font-family: "PP Formula Condensed";
+            font-size: 1.16rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            align-self: stretch;
+        }
+    }
+
+    .iconeCard1 {
+        margin: 0px;
+        width: 2.33425rem;
+        height: 2.28563rem;
+        transform: rotate(1.48deg);
+    }
+
+    .text1 p {
+        width: 7.83775rem;
+        height: 82px;
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 0.58356rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 0.72944rem;
+        /* 125% */
+    }
+
     .card2 {
         display: flex;
         width: 9.53394rem;
-        height: 13.87388rem;
-        transform: rotate(-1.48deg);
+        height: 13.05313rem;
+        transform: rotate(1.837deg);
         padding: 0.58356rem 0.52644rem;
         justify-content: center;
         align-items: flex-start;
-        gap: 0.58488rem;
         flex-shrink: 0;
         margin-bottom: -16px;
         margin-left: -30px;
         z-index: 2;
     }
 
+    .conteudocard2 {
+        display: flex;
+        padding: 0.58356rem 0rem;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    .iconetitulo2 {
+        height: 77.85px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.63219rem;
+        align-self: stretch;
+    }
+
+    .iconetitulo2 h2 {
+        color: #FFF;
+        text-align: center;
+        font-family: "PP Formula Condensed";
+        font-size: 1.16713rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        align-self: stretch;
+    }
+
+    .iconeCard2 {
+        width: 2.9665rem;
+        height: 2.57744rem;
+        transform: rotate(-1.837deg);
+    }
+
+    .text2 p {
+        width: 7.83775rem;
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 0.58356rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 0.72944rem;
+        /* 125% */
+    }
+
+
+
     .card3 {
         display: flex;
-        width: auto;
-        height: auto;
+        width: 9.53394rem;
+        height: 13.87388rem;
         transform: rotate(-1.48deg);
         padding: 0.58356rem 0.52644rem;
         justify-content: center;
@@ -427,47 +544,113 @@
         z-index: 2;
     }
 
+    .conteudocard3 {
+        display: flex;
+        padding: 0.58356rem 0rem;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    .iconetitulo3 {
+        height: 67.85px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.58356rem;
+        align-self: stretch;
+
+        & h2 {
+            color: #FFF;
+            text-align: center;
+            font-family: "PP Formula Condensed";
+            font-size: 1.16713rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+            align-self: stretch;
+        }
+
+        &.iconeCard3 {
+            width: 2.0425rem;
+            height: 2.0425rem;
+            transform: rotate(1.48deg);
+        }
+    }
+
+    .text3 p {
+        width: 7.83775rem;
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 0.58356rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 0.72944rem;
+        /* 125% */
+    }
+
     .card4 {
         display: flex;
         width: 9.53394rem;
-        height: auto;
+        height: 11.69869rem;
         transform: rotate(1.837deg);
         padding: 0.58356rem 0.52644rem;
         justify-content: center;
         align-items: flex-start;
         gap: 0.58488rem;
         flex-shrink: 0;
-        margin-bottom: -16px;
-        margin-left: -30px;
-        z-index: 2;
+        border-radius: 0.35094rem;
+        border: 1.556px solid #DEF5FC;
+        background: #0DA2D2;
     }
 
+    .conteudocard4 {
+        display: flex;
+        padding: 0.58356rem 0rem;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+    }
 
-    .text {
+    .iconetitulo4 {
+        height: 68.05px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.58356rem;
+        align-self: stretch;
+    }
+
+    .iconeCard4 {
+        width: 2.0425rem;
+        height: 2.0425rem;
+        transform: rotate(-1.837deg);
+    }
+
+    .iconetitulo4 h2 {
+        color: #FFF;
+        text-align: center;
+        font-family: "PP Formula Condensed";
+        font-size: 1.16713rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .text4 p {
         width: 7.83775rem;
-    }
-
-    .text p {
-        font-size: 0.58rem;
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 0.58356rem;
+        font-style: normal;
         font-weight: 500;
         line-height: 0.72944rem;
+        /* 125% */
     }
-
-    .iconeCard1 {
-        width: 37px;
-        height: 36px;
-    }
-
-    .iconetitulo {
-        gap: 0.58356rem;
-    }
-
-    .iconetitulo h2 {
-        font-size: 1.16713rem;
-    }
-
-
-
 
 }
 
@@ -532,31 +715,144 @@
     }
 
     .card1 {
-        width: auto;
-        height: auto;
+        width: 257.14px;
+        height: 321.95px;
+        display: inline-flex;
+        transform: rotate(-1.48deg);
         padding: 0.98369rem 1.42963rem 0.98375rem 1.42963rem;
-        margin-right: -30px;
-        margin-bottom: -16px;
-        z-index: 2;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
+    .conteudocard1 {
+        display: flex;
+        padding: 0.98369rem 0rem;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    .iconetitulo1 {
+        height: 120.99px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.98369rem;
+        align-self: stretch;
+
+        & h2 {
+            color: #FFF;
+            text-align: center;
+            font-family: "PP Formula Condensed";
+            font-size: 1.96738rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    }
+
+    .iconeCard1 {
+        width: 3.93481rem;
+        height: 3.85281rem;
+        transform: rotate(1.48deg);
+    }
+
+    .text1 {
+        width: 13.21181rem;
+    }
+
+    .text1 p {
+        width: 13.21181rem;
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 0.98369rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.22963rem;
+        /* 125% */
+    }
+
+
     .card2 {
-        width: auto;
-        height: auto;
+        width: 16.07106rem;
+        height: 352.05px;
         padding: 0.98369rem 0.88738rem;
         margin-bottom: -16px;
         margin-left: -30px;
         z-index: 2;
     }
 
+    .conteudocard2 {
+        padding: 0.98369rem 0rem;
+    }
+
+    .iconetitulo2 {
+        gap: 1.06569rem;
+        height: 131.09px;
+        width: 100%;
+
+        & h2 {
+            color: #FFF;
+            text-align: center;
+            font-family: "PP Formula Condensed";
+            font-size: 1.96738rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+    }
+
+    .iconeCard2 {
+        width: 5.0005rem;
+        height: 4.34469rem;
+        transform: rotate(-1.837deg);
+    }
+
+    .text2 {
+        width: 13.21181rem;
+
+        & p {
+            width: 13.21181rem;
+            color: #FFF;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 0.98369rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.22963rem;
+            /* 125% */
+        }
+    }
+
     .card3 {
-        width: auto;
-        height: auto;
+        width: 16.07106rem;
+        height: 374.19px;
         padding: 0.98369rem 0.88738rem;
         margin-right: -30px;
         margin-bottom: -16px;
         z-index: 2;
+
+        & .conteudocard3{
+            padding: 0.58356rem 0rem;
+        }
     }
+    .iconetitulo3{
+        gap: 0.58356rem;
+
+        & .iconeCard3 {
+            width: 2.0425rem;
+            height: 2.0425rem;
+            transform: rotate(1.48deg);
+        } & h2{
+            font-size: 1.96738rem;
+        }
+    }
+
 
     .card4 {
         width: auto;
@@ -568,41 +864,10 @@
     }
 
 
-    .text {
-        width: 13.21181rem;
-    }
 
-    .text p {
-        font-size: 0.98369rem;
-        line-height: 1.22963rem;
-        font-weight: 500
-    }
-
-    .iconeCard1 {
-        width: 3.93481rem;
-        height: 3.85281rem;
-    }
-
-    .iconeCard2 {
-        width: 3.44294rem;
-        height: 3.44294rem;
-    }
-
-    .iconeCard3 {
-        width: 5.0005rem;
-        height: 4.34469rem;
-    }
 
     .iconeCard4 {
         width: 3.44294rem;
         height: 3.44294rem;
-    }
-
-    .iconetitulo {
-        gap: 0.98369rem;
-    }
-
-    .iconetitulo h2 {
-        font-size: 1.96738rem;
     }
 }
