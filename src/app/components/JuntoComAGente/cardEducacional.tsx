@@ -12,9 +12,9 @@ const imagesTop = [
 ];
 
 const imagesBottom = [
-  { src: fullcycle, width: 212, height: 51 },
+  { src: rocketseat, width: 212, height: 51 },
   { src: lab365, width: 212, height: 35 },
-  { src: rocketseat, width: 212, height: 40 },
+  { src: fullcycle, width: 212, height: 40 },
 ];
 
 export default function CardEducacional() {
