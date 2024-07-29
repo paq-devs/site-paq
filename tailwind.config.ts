@@ -35,6 +35,7 @@ const config: Config = {
         'fundinhocinza':'#F7F7F7',
         'fundobotao': '#F3F3F3',
         'borda': '#D3D3D3',
+        'numeroestilizado': '#0EB3E8',
       },
       fontSize:{
         'font-sec1':  '70.02px'
@@ -43,6 +44,10 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
         "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'],
+        'formula-condensed': ['PP Formula Condensed', 'sans-serif'],
       },
     },
     colors: {
