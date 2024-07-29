@@ -17,7 +17,7 @@ type CardProps = {
 };
 
 const CardVenhaFazerParte: React.FC = () => {
-  const [selectedButton, setSelectedButton] = useState<number | null>(null);
+  const [selectedButton, setSelectedButton] = useState<number>(1);
 
   const handleClick = (buttonId: number) => {
     setSelectedButton(buttonId);
@@ -28,19 +28,19 @@ const CardVenhaFazerParte: React.FC = () => {
       <div className="flex space-x-4 mb-8 lg:bg-fundinhocinza rounded-[40px] px-3 md:bg-white bg-fundocinza">
         <button
           onClick={() => handleClick(1)}
-          className={`px-4 md:px-7 py-2 ${selectedButton === 1 ? 'bg-azulopcoes text-white rounded-[40px]  my-1' : 'bg-fundobotao text-black rounded-[40px] my-1 border border-solid border-borda'}`}
+          className={`px-4 md:px-7 py-2 font-bold ${selectedButton === 1 ? 'bg-azulopcoes text-white rounded-[40px]  my-1' : 'bg-fundobotao text-black rounded-[40px] my-1 border border-solid border-borda'}`}
         >
           Estudar
         </button>
         <button
           onClick={() => handleClick(2)}
-          className={`px-4 md:px-6 py-2 ${selectedButton === 2 ? 'bg-azulopcoes text-white rounded-[40px] my-1' : 'bg-fundobotao text-black rounded-[40px] my-1 border border-solid border-borda'}`}
+          className={`px-4 md:px-6 py-2 font-bold ${selectedButton === 2 ? 'bg-azulopcoes text-white rounded-[40px] my-1' : 'bg-fundobotao text-black rounded-[40px] my-1 border border-solid border-borda'}`}
         >
           Mentorar
         </button>
         <button
           onClick={() => handleClick(3)}
-          className={`px-4 md:px-6 py-2 ${selectedButton === 3 ? 'bg-azulopcoes text-white rounded-[40px] my-1' : 'bg-fundobotao text-black rounded-[40px] my-1 border border-solid border-borda'}`}
+          className={`px-4 md:px-6 py-2 font-bold ${selectedButton === 3 ? 'bg-azulopcoes text-white rounded-[40px] my-1' : 'bg-fundobotao text-black rounded-[40px] my-1 border border-solid border-borda'}`}
         >
           Voluntariar
         </button>

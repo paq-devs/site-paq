@@ -15,11 +15,11 @@
 
 .textinhofazerparte{
     color: #303030;
-    font-size: 15.838px;
+    font-size: 14px;
     font-family:'poppins';
     font-style: normal;
     font-weight: 400;
-    line-height: 19.797px; /* 125% */
+    line-height: 16px; /* 125% */
     letter-spacing: -0.158px;
     text-align: left;
 }
@@ -38,7 +38,7 @@
 
 @media (max-width: 768px){
     .titulocardfazerparte{
-        font-size: 32px;
+        font-size: 35px;
         line-height: 44.471px;
         text-align: center;
     }
