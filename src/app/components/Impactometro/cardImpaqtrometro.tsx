@@ -5,11 +5,11 @@ import Image from 'next/image'
 
 
 type props = {
-    image: string;
-    numero: string;
-    titulo: string;
-    descricao: string;
-}
+  image: any;
+  numero: string;
+  titulo: string;
+  descricao: string;
+};
 
 const CardImpaqtrometrofundo = styled.div`
     width: 252px;
