@@ -30,6 +30,7 @@ const config: Config = {
         'preto': '#000000',
         'branco': '#ffffff',
         'azulpaq': '#0DA2D2',
+        'fundocinza': '#F7F7F7',
         'numeroestilizado': '#0EB3E8',
       },
       fontSize:{
