@@ -1,52 +1,65 @@
 .corpo {
-    color: #000;
-    font-family: "PP Formula Condensed";
-    font-size: 67.34px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 68px;
-    text-transform: uppercase;
+  color: #000;
+  font-family: "PP Formula Condensed";
+  font-size: 67.34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 68px;
+  text-transform: uppercase;
 }
-.paragrafo{
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 125% */
-    letter-spacing: -0.16px;
-    width: 37%;
-    margin-top: 20px;
+.paragrafo {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.16px;
+  width: 37%;
+  margin-top: 20px;
 }
 
-.titulocard{
-    font-family: "PP Formula Condensed";
+.titulocard {
+  font-family: "PP Formula Condensed";
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  text-transform: uppercase;
+}
+
+.imagemTablet {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .corpo {
     font-size: 37px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 40px; /* 111.111% */
-    text-transform: uppercase;
-}
-
-.imagemTablet{
-    display: none;
-}
-
-@media (max-width: 768px){
-    .corpo{
-        font-size: 37px;
-        line-height: 40px;
-    }
-    .paragrafo{
-        line-height: 15px;
-        font-size: 12px;
-        width:50%;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    .imagemTablet{
-      display: block;
-      aspect-ratio: auto;
-      border-radius: 12px;
-      object-fit: cover;
-    }
+    line-height: 40px;
   }
+  .paragrafo {
+    line-height: 15px;
+    font-size: 12px;
+    width: 50%;
+  }
+}
+
+.TextoPaqAgradece {
+  color: #fff;
+  text-align: center;
+  font-family: "PP Formula Condensed";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 53.125px; /* 111.111% */
+  text-transform: uppercase;
+}
+
+@media (min-width: 769px) and (max-width: 1268px) {
+  .imagemTablet {
+    display: block;
+    position: absolute;
+    inset: 0px;
+    aspect-ratio: auto;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+}
