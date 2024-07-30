@@ -25,11 +25,15 @@ const config: Config = {
       },
 
       colors: {
-        preto: "#000000",
-        branco: "#ffffff",
-        azulpaq: "#0DA2D2",
-        fundocinza: "#F7F7F7",
-        numeroestilizado: "#0EB3E8",
+        'preto': '#000000',
+        'branco': '#ffffff',
+        'azulpaq': '#0DA2D2',
+        'fundocinza': '#F7F7F7',
+        'azulopcoes': '#1EB4E9',
+        'fundinhocinza':'#F7F7F7',
+        'fundobotao': '#F3F3F3',
+        'borda': '#D3D3D3',
+        'numeroestilizado': '#0EB3E8',
       },
       fontSize: {
         "font-sec1": "70.02px",
