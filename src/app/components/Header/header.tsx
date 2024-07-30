@@ -45,7 +45,7 @@ export function Header() {
           alt={""}
         />
         <div className="flex items-center justify-center mt-[-23px]">
-          <Button href="/" width="auto" height="auto" />
+          <Button href="/" width="auto" height="auto" title="Quero apoiar" />
         </div>
       </div>
     </div>
