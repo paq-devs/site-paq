@@ -8,9 +8,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
-      },
       keyframes: {
         img1:{
           '0% , 100%':{transform: 'translatex(0px)'},
@@ -31,6 +28,10 @@ const config: Config = {
         'branco': '#ffffff',
         'azulpaq': '#0DA2D2',
         'fundocinza': '#F7F7F7',
+        'azulopcoes': '#1EB4E9',
+        'fundinhocinza':'#F7F7F7',
+        'fundobotao': '#F3F3F3',
+        'borda': '#D3D3D3',
         'numeroestilizado': '#0EB3E8',
       },
       fontSize:{

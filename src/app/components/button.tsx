@@ -1,7 +1,6 @@
 "use-client";
 
 import Link from "next/link";
-import style from "./Header/PaqHeader.module.css";
 
 type Props = {
     title: string;
