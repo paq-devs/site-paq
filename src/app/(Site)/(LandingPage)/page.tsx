@@ -1,7 +1,10 @@
-import PaqHeader from "@/app/components/(landing)/PaqHeader";
+import PaqHeader from "@/app/components/Header/PaqHeader";
 import ConectarETransformar from "@/app/components/ConectarETransformar";
 import UmFuturoInovadorDiversoComecaAqui from "@/app/components/UmFuturoInovadorDiversoComecaAqui";
 import PaqFaq from "@/app/components/PaqFaq";
+import Impaqtrometro from "@/app/components/Impactometro/Impaqtrometro";
+import JuntoComAGente from "@/app/components/JuntoComAGente/JuntoComAGente";
+import ComoFazerParte from "@/app/components/comoFazerParte/ComoFazerParte";
 import Contact from "@/app/components/Contact";
 import { ToastContainer } from "react-toastify";
 
@@ -10,6 +13,9 @@ export default function Home() {
     <>
       <PaqHeader />
       <UmFuturoInovadorDiversoComecaAqui />
+      <Impaqtrometro />
+      <JuntoComAGente />
+      <ComoFazerParte />
       <ConectarETransformar />
       <PaqFaq />
       <Contact />
