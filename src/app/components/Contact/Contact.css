@@ -55,4 +55,8 @@
     #contact-container {
         background-image: none;
     }
+
+    .contact-subtitle {
+        width: 100%;
+    }
 }
