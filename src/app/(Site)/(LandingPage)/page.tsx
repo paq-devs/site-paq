@@ -5,6 +5,7 @@ import PaqFaq from "@/app/components/PaqFaq";
 import Impaqtrometro from "@/app/components/Impactometro/Impaqtrometro";
 import JuntoComAGente from "@/app/components/JuntoComAGente/JuntoComAGente";
 import ComoFazerParte from "@/app/components/comoFazerParte/ComoFazerParte";
+import ComoPossoFazerParte from "@/app/components/ComoPossoApoiar/ComoPossoApoiar";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <UmFuturoInovadorDiversoComecaAqui />
       <Impaqtrometro />
       <JuntoComAGente />
+      <ComoPossoFazerParte />
       <ComoFazerParte />
       <ConectarETransformar />
       <PaqFaq />
