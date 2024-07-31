@@ -1,9 +1,9 @@
 "use client";
-import "./VideoConexao.css";
+import styles from "./VideoConexao.module.css";
 
 export default function VideoConexao() {
   return (
-    <div className="videoContainer">
+    <div className={styles.videoContainer}>
       <iframe
         src="https://www.youtube.com/embed/tgbNymZ7vqY"
         allowFullScreen

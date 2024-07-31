@@ -1,13 +1,10 @@
 .videoContainer {
-  background-image: url('./fundo-conectar-e-transformar.png');
+  background-image: url("./img/fundo-conectar-e-transformar.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 350px;
   width: 100%;
-  margin-bottom: 50px;
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 .videoContainer iframe {
@@ -18,14 +15,13 @@
   height: 161px;
 }
 
-@media (min-width: 1280px){
-  .videoContainer{
-      background-image: url('./fundo-desktop.png');
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      width: 120%;
-      height: 950px;
+@media (min-width: 1280px) {
+  .videoContainer {
+    background-image: url("./img/fundo-desktop.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 950px;
   }
 
   .videoContainer iframe {
@@ -35,6 +31,4 @@
     width: 900px;
     height: 490px;
   }
-
-  
 }
