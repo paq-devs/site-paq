@@ -6,10 +6,10 @@ import iconLike from "./imgs/iconLike.svg";
 import iconPin from "./imgs/iconPin.svg";
 import iconSave from "./imgs/iconSave.svg";
 import iconShining from "./imgs/iconShining.svg";
-import img1 from "./imgs/img1.svg";
-import img2 from "./imgs/img2.svg";
-import img3 from "./imgs/img3.svg";
-import img4 from "./imgs/img4.svg";
+import img1 from "./imgs/IMG_5969-Enhanced-NR-2 1image1.png";
+import img2 from "./imgs/FORMATURA 23 1.png";
+import img3 from "./imgs/IMG_4453 1.png";
+import img4 from "./imgs/IMG_9895 (1)img4.png";
 
 export default async function PapelPAQ() {
   return (

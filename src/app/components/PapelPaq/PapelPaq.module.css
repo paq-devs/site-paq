@@ -371,7 +371,7 @@
 @media (min-width:744px) and (max-width: 1023px) {
     .papelPaq {
         width: 100vw;
-        height: 1734px;
+        height: 122.125rem;
         align-items: center;
     }
 
@@ -660,13 +660,13 @@
 @media (min-width:1024px) and (max-width:4000px) {
     .papelPaq {
         width: 100vw;
-        height: 167.9375rem;
+        height: 155.125rem;
         align-items: center;
         gap: 50px;
     }
 
     .separacao_text {
-        width: 80rem;
+        width: 23rem;
     }
 
     .iconelampada {
@@ -686,12 +686,15 @@
 
     .textPaqFortalece {
         width: 25.125rem;
+        display: flex;
+        justify-content: center;
     }
 
     .textPaqFortalece p {
         line-height: 1.25rem;
         letter-spacing: -0.01rem;
         font-size: 1rem;
+
     }
 
     .carrossel {
@@ -702,16 +705,18 @@
     }
 
     .container_img_e_card {
-        width: 43rem;
-        height: 102.125rem;
-        justify-content: center;
+        height: 26.27994rem;
+        flex-shrink: 0;
+        margin: 0px 13.4px 0px 12.9px;
     }
 
     .img_carrossel {
         display: block;
-        width: 44.1875rem;
-        height: 29.4375rem;
-        border-radius: 7.12px;
+        width: 40.375rem;
+        height: 24.47844rem;
+        flex-shrink: 0;
+        border-radius: 0.75rem;
+        margin: 0px;
     }
 
     .card1 {
@@ -723,6 +728,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: -16px;
+        margin-right: -50px;
+        z-index: 2;
     }
 
     .conteudocard1 {
@@ -830,44 +838,97 @@
     }
 
     .card3 {
+        transform: rotate(1.837deg);
         width: 16.07106rem;
         height: 374.19px;
         padding: 0.98369rem 0.88738rem;
-        margin-right: -30px;
+        gap: 0.98594rem;
         margin-bottom: -16px;
+        margin-right: -50px;
         z-index: 2;
-
-        & .conteudocard3{
-            padding: 0.58356rem 0rem;
-        }
     }
-    .iconetitulo3{
-        gap: 0.58356rem;
 
-        & .iconeCard3 {
-            width: 2.0425rem;
-            height: 2.0425rem;
-            transform: rotate(1.48deg);
-        } & h2{
-            font-size: 1.96738rem;
-        }
+    .conteudocard3 {
+        padding: 0.98369rem 0rem;
+    }
+
+    .iconetitulo3 {
+        gap: 0.98369rem;
+        height: 114.23px;
+    }
+
+    .iconeCard3 {
+        width: 3.44294rem;
+        height: 3.44294rem;
+        transform: rotate(1.48deg);
+    }
+
+    .iconetitulo3 h2 {
+        color: #FFF;
+        text-align: center;
+        font-family: "PP Formula Condensed";
+        font-size: 1.96738rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .text3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .text3 p {
+        width: 13.21181rem;
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 0.98369rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.22963rem;
+        /* 125% */
     }
 
 
     .card4 {
-        width: auto;
-        height: auto;
+        width: 16.07106rem;
+        height: 315.52px;
+        transform: rotate(1.837deg);
         padding: 0.98369rem 0.88738rem;
         margin-bottom: -16px;
-        margin-left: -30px;
+        margin-left: -50px;
         z-index: 2;
     }
 
+    .conteudocard4 {
+        padding: 0.98369rem 0rem;
+    }
 
+    .iconetitulo4 {
+        gap: 0.98369rem;
+        height: 114.56px;
+    }
 
+    .iconetitulo4 h2 {
+        font-size: 1.96738rem;
+    }
 
     .iconeCard4 {
-        width: 3.44294rem;
-        height: 3.44294rem;
+        width: 3.37413rem;
+        height: 2.68294rem;
+        flex-shrink: 0;
+    }
+
+    .text4 {
+        width: 13.21181rem;
+
+    }
+
+    .text4 p {
+        width: 13.21181rem;
+        font-size: 0.98369rem;
+        line-height: 1.22963rem;
     }
 }
