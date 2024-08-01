@@ -13,10 +13,10 @@ export default function Home() {
     <>
       <PaqHeader />
       <UmFuturoInovadorDiversoComecaAqui />
+      <ConectarETransformar />
       <Impaqtrometro />
       <JuntoComAGente />
       <ComoFazerParte />
-      <ConectarETransformar />
       <PaqFaq />
       <Contact />
       <ToastContainer position="bottom-center" />

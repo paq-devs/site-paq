@@ -2,7 +2,7 @@
 #
 # To get started with Next.js see: https://nextjs.org/docs/getting-started
 #
-name: Verificação de integridade do projeto
+name: Build do projeto
 
 on:
   # Runs on pushes targeting the default branch
