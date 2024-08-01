@@ -15,6 +15,7 @@ export default function Home() {
   return (
     <>
       <PaqHeader />
+      <UmFuturoInovadorDiversoComecaAqui/>
       <ConectarETransformar />
       <PapelPAQ />
       <Impaqtrometro />
