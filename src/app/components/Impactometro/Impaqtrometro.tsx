@@ -118,7 +118,7 @@ export default function Impaqtrometro() {
             image={investidor}
             numero="780mil"
             titulo="reais"
-            descricao="Ativos na comunidade de aprendizagem"
+            descricao="injetados nas quebradas através dos jovens"
           />
         </div>
       </div>

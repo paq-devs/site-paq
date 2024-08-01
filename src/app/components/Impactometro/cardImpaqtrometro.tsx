@@ -21,7 +21,7 @@ export default function CardImpaqtrometro({ image, numero, titulo, descricao }: 
                     {titulo}
                     </h2>
                 </div>
-            <p className='cardImpaqtrometroTexto'>{descricao}</p>
+            <p className='cardImpaqtrometroTexto w-80 ml-16'>{descricao}</p>
             </div>
             <div className='bg-[#122329] py-8 w-[244px] h-[208px] rounded-[40px] lg:hidden'>
                 <div className='flex items-center gap-4'>
