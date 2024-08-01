@@ -13,6 +13,7 @@ export default function Home() {
   return (
     <>
       <PaqHeader />
+      <UmFuturoInovadorDiversoComecaAqui/>
       <ConectarETransformar />
       <Impaqtrometro />
       <JuntoComAGente />
