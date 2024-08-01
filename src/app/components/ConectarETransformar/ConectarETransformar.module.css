@@ -24,6 +24,16 @@
   margin-bottom: 80px;
 }
 
+.container .textoSubtitulo {
+  width: 300px;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.container .textoSubtitulo p {
+  margin-top: 30px;
+}
+
 @media (min-width: 1268px) {
   .container {
     margin-top: 5%;
@@ -35,12 +45,6 @@
 
   .container a[type="button"] {
     margin-bottom: 250px;
-  }
-
-  .container .textoSubtitulo {
-    width: 360px;
-    margin-top: 40px;
-    align-items: center;
   }
 
   .container .textoAbaixoVideo {
