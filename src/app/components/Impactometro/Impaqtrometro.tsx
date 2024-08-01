@@ -26,11 +26,13 @@ export default function Impaqtrometro() {
           <span className="font-bold">IM<span className="text-azulpaq">PAQ</span>TÔMETRO:</span><br />
           O IMPACTO REAL
         </h2>
-        <p className="ImpaqtrometroTexto">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim ven
-        </p>
+        <div className="w-[498px]">
+          <p className="ImpaqtrometroTexto">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim ven
+          </p>
+        </div>
       </div>
       <div className="flex flex-col gap-3 mb-20">
         <div className="flex items-center gap-6">
@@ -122,11 +124,13 @@ export default function Impaqtrometro() {
           />
         </div>
       </div>
-      <p className="ImpaqtrometroTexto mb-9">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, q
-      </p>
+      <div className="w-[498px]">
+        <p className="ImpaqtrometroTexto mb-9">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, q
+        </p>
+      </div>
       <Button title="VER RELATÓRIOS" href="/" width="150px" height="42px"/>
     </section>
   );
