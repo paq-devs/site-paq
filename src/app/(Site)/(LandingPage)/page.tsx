@@ -18,7 +18,6 @@ export default function Home() {
       <JuntoComAGente />
       <ComoPossoFazerParte />
       <ComoFazerParte />
-      <PaqFaq />
       <Contact />
       <ToastContainer position="bottom-center" />
     </>

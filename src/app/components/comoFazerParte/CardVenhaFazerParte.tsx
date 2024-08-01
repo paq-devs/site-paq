@@ -68,10 +68,10 @@ const CardContent1: React.FC = () => (
         <h2 className='titulocardfazerparte'>estudar<br /> no PAQ</h2>
         <p className='textinhofazerparte w-full'>Se você é um <span className='font-bold'>jovem de quebrada da<br />Grande Floripa</span> e tem entre <span className='font-bold'>16 e 21<br /> anos</span>, vem participar do PAQ e<br />transformar o seu futuro! </p>
         <div className='hidden lg:block'>
-          <Button title='Quero estudar no PAQ' href='/' width='225px' height='55px'></Button>
+          <Button title='Quero ser educando' href='/' width='225px' height='55px'></Button>
         </div>
         <div className='hidden md:block lg:hidden'>
-          <Button title='Quero estudar no PAQ' href='/' width='160px' height='45px' />
+          <Button title='Quero ser educando' href='/' width='160px' height='45px' />
         </div>
       </div>
       <Image src={anajulia} alt='' width={450} height={526} className='hidden lg:block aspect-auto object-cover rounded-2xl my-0' />
@@ -82,7 +82,7 @@ const CardContent1: React.FC = () => (
       <Image src={anajuliamobile} alt='' width={270} height={190} className='object-contain rounded-t-2xl my-0' />
       <h2 className='titulocardfazerparte'>Educando</h2>
       <p className='textinhofazerparte'>Se você é um <span className='font-bold'>jovem de quebrada da<br />Grande Floripa</span> e tem entre <span className='font-bold'>16 e 21<br /> anos</span>, vem participar do PAQ e<br />transformar o seu futuro! </p>
-      <Button title='Quero estudar no PAQ' href='/' width='160px' height='45px' />
+      <Button title='Quero ser educando' href='/' width='160px' height='45px' />
     </div>
   </div>
 );
