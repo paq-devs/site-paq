@@ -8,6 +8,7 @@ import JuntoComAGente from "@/app/components/JuntoComAGente/JuntoComAGente";
 import ComoFazerParte from "@/app/components/comoFazerParte/ComoFazerParte";
 import Contact from "@/app/components/Contact";
 import { ToastContainer } from "react-toastify";
+import Footer from "@/app/components/footer/footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <PaqFaq />
       <Contact />
       <ToastContainer position="bottom-center" />
+      <Footer/>
     </>
   );
 }
