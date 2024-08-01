@@ -26,10 +26,10 @@ const DesktopPessoa : React.FC = () =>{
             <Image src={tituloparcas} alt="" width={263} height={192} className="flex items-center"/>
             <p className='textinhofazerparte w-full'>Se você é um <span className='font-bold'>jovem de quebrada da<br/>Grande Floripa</span> e tem entre <span className='font-bold'>16 e 21<br /> anos</span>, vem participar do PAQ e<br />transformar o seu futuro! </p>
             <div className='hidden lg:block'>
-                <ButtonPreto title='Quero estudar no PAQ' href='/' width='225px' height='55px'></ButtonPreto>
+                <ButtonPreto title='Quero ser Parça!' href='/' width='225px' height='55px'></ButtonPreto>
             </div>
             <div className='hidden md:block lg:hidden'>
-                <ButtonPreto title='Quero ser Madrinha!' href='/' width='160px' height='45px' />
+                <ButtonPreto title='Quero ser Parça!' href='/' width='160px' height='45px' />
             </div>
         </div>
         <Image src={parcas} alt='' width={450} height={526} className='hidden lg:block aspect-auto object-cover rounded-2xl m-0' />
@@ -45,7 +45,7 @@ const MobilePessoa : React.FC = () => {
             construa junto com a gente um novo<br/>
              mercado de tecnologia, mais <br/>
              diverso, equalitário e inovador!</p>
-             <ButtonPreto title='Quero ser Madrinha!' href='/' width='160px' height='45px' />
+             <ButtonPreto title='Quero ser Parça!' href='/' width='160px' height='45px' />
         </div>
     )
 }
