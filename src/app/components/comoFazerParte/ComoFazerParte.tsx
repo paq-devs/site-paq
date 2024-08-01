@@ -5,16 +5,12 @@ import './ComoFazerParte.css'
 
 export default function ComoFazerParte(){
     return(
-        <section className="flex flex-col items-center gap-7 md:bg-[#D9D9D9] lg:bg-branco py-14">
-            <Image
-            src="images/perguntas-frequentes.svg"
-            width={100}
-            height={300}
-            alt="Ícone de verificação"
-            />
-            <h2 className="titulo"> como posso <br/><span className="font-bold">fazer parte?</span></h2>
-            <p className="texto">Faça parte da nossa comunidade e ajude <br/>a construir um futuro melhor para todos.<br/>Descubra como você pode contribuir. </p>
+        <section className="flex flex-col items-center gap-7 md:bg-[#D9D9D9] lg:bg-branco py-14 mt-48">
+            <h2 className="titulo mt-32"> OUTRAS FORMAS <br/><span className="font-bold">DE FAZER PARTE</span></h2>
             <CardVenhaFazerParte />
+            <div className="mt-14 w-64 md:w-[454px]">
+                <p className="font-poppins text-[16px] text-[#00171F] leading-5" >O PAQ é construído diariamente por um time incrível  <strong>totalmente dedicado para a missão:</strong> O PAQ é construído diariamente por um time incrível  <strong>totalmente dedicado para a missão:</strong> O PAQ é construído diariamente por um time incrível  <strong>totalmente dedicado para a missão:</strong>.</p>
+            </div>
         </section>
     )
 }

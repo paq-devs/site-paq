@@ -22,7 +22,7 @@ const imagesTop = [
 
 export default function CardParceira() {
   return (
-    <div className="bg-fundocinza rounded-[20px] py-4 ">
+    <div className="bg-fundocinza rounded-[20px] py-4 mx-5">
       <h2 className="titulocard">PARCEIRAS</h2>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 p-4 items-center justify-items-center">
         {imagesTop.map((image, index) => (

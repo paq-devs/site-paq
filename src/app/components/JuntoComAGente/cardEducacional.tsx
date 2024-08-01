@@ -19,7 +19,7 @@ const imagesBottom = [
 
 export default function CardEducacional() {
   return (
-    <div className="bg-fundocinza rounded-[20px] py-4 my-6">
+    <div className="bg-fundocinza rounded-[20px] py-4 my-6 mx-5">
       <h2 className="titulocard">PARCEIRAS EDUCACIONAIS</h2>
       <div className="flex p-4 items-center justify-center">
         {imagesTop.map((image, index) => (
@@ -33,7 +33,7 @@ export default function CardEducacional() {
           </div>
         ))}
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 items-center justify-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 items-center justify-items-center ">
         {imagesBottom.map((image, index) => (
           <div key={index} className="w-auto">
             <Image
