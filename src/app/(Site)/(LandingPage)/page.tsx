@@ -4,16 +4,28 @@ import UmFuturoInovadorDiversoComecaAqui from "@/app/components/UmFuturoInovador
 import PaqFaq from "@/app/components/PaqFaq";
 import Impaqtrometro from "@/app/components/Impactometro/Impaqtrometro";
 import Depoimentos from "@/app/components/Depoimentos/Depoimentos";
+import PapelPAQ from "@/app/components/PapelPaq/PapelPAQ";
+import JuntoComAGente from "@/app/components/JuntoComAGente/JuntoComAGente";
+import ComoFazerParte from "@/app/components/comoFazerParte/ComoFazerParte";
+import ComoPossoFazerParte from "@/app/components/ComoPossoApoiar/ComoPossoApoiar";
+import Contact from "@/app/components/Contact";
+import { ToastContainer } from "react-toastify";
+import Footer from "@/app/components/footer/footer";
 
 export default function Home() {
   return (
     <>
-      {/* <PaqHeader />
-      <UmFuturoInovadorDiversoComecaAqui />
+      <PaqHeader />
+      <ConectarETransformar />
+      <PapelPAQ />
       <Impaqtrometro />
-      <ConectarETransformar /> */}
+      <JuntoComAGente />
       <Depoimentos />
-      {/* <PaqFaq /> */}
+      <ComoPossoFazerParte />
+      <ComoFazerParte />
+      <Contact />
+      <ToastContainer position="bottom-center" />
+      <Footer/>
     </>
   );
 }
