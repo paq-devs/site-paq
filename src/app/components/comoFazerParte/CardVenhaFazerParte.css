@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
 .titulocardfazerparte{
     color:#1EB4E9;
     font-family: "PP Formula Condensed";
     height: auto;
     font-size: 70px;
     font-style: normal;
-    font-weight: 700; 
+    font-weight: 700;
     line-height: 75px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
@@ -29,7 +27,7 @@
         font-size: 41px;
         line-height: 44.471px;
     }
-    
+
     .textinhofazerparte{
         font-size: 9.391px;
         line-height: 11.739px;
