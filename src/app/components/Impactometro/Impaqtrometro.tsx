@@ -26,7 +26,7 @@ export default function Impaqtrometro() {
           <span className="font-bold">IM<span className="text-azulpaq">PAQ</span>TÔMETRO:</span><br />
           O IMPACTO REAL
         </h2>
-        <div className="w-[498px]">
+        <div className="w-64 md:w-[498px]">
           <p className="ImpaqtrometroTexto">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -124,7 +124,7 @@ export default function Impaqtrometro() {
           />
         </div>
       </div>
-      <div className="w-[498px]">
+      <div className="w-64 md:w-[498px]">
         <p className="ImpaqtrometroTexto mb-9">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
