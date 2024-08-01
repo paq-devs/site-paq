@@ -52,3 +52,16 @@
     align-items: center;
   }
 }
+
+@media (max-width: 400px) {
+  .container .textoSubtitulo {
+    width: 60%;
+    margin-top: 40px;
+    align-items: center;
+  }
+
+  .container .textoAbaixoVideo {
+    width: 70%;
+    align-items: center;
+  }
+}
