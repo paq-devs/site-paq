@@ -1,0 +1,14 @@
+{
+    "contact.title": "Entrar em contato",
+    "contact.subtitle": "Estamos ansiosos para receber sua mensagem. Compartilhe conosco suas dúvidas, sugestões ou críticas.",
+    "contact.name.placeholder": "Nome",
+    "contact.phone.placeholder": "Telefone",
+    "contact.message.placeholder": "Mensagem",
+    "contact.button.send": "ENVIAR",
+    "contact.success": "Mensagem enviada com sucesso!",
+    "contact.error": "Erro ao enviar mensagem!",
+    "contact.name.required": "Informe o nome",
+    "contact.phone.required": "Informe o telefone",
+    "contact.message.required": "Informe a mensagem",
+    "contact.mailchimp.subject": "Contato recebido via site"
+}

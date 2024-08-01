@@ -2,9 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import 'react-toastify/dist/ReactToastify.css';
+
 @font-face {
   font-family: "PP Formula Condensed";
   src: url("/fonts/PPFormulaCondensed-Regular.otf");
+}
+
+@font-face {
+  font-family: 'Poppins Medium';
+  src: url("/fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'Poppins SemiBold';
+  src: url("/fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: 'Poppins Regular';
+  src: url("/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Poppins Bold';
+  src: url("/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Poppins Medium';
+  src: url("/fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'Poppins SemiBold';
+  src: url("/fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: 'Poppins Regular';
+  src: url("/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Poppins Bold';
+  src: url("/fonts/Poppins-Bold.ttf");
 }
 
 :root {
@@ -14,6 +56,10 @@
 body {
   background: var(--fundo-pagina);
   text-align: center;
+}
+
+.submit-button {
+  font-family: 'Poppins Bold', sans-serif;
 }
 
 @media screen and (min-width: 640px) {
