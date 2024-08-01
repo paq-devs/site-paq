@@ -4,6 +4,10 @@ import UmFuturoInovadorDiversoComecaAqui from "@/app/components/UmFuturoInovador
 import PaqFaq from "@/app/components/PaqFaq";
 import Impaqtrometro from "@/app/components/Impactometro/Impaqtrometro";
 import PapelPAQ from "@/app/components/PapelPaq/PapelPAQ";
+import JuntoComAGente from "@/app/components/JuntoComAGente/JuntoComAGente";
+import ComoFazerParte from "@/app/components/comoFazerParte/ComoFazerParte";
+import Contact from "@/app/components/Contact";
+import { ToastContainer } from "react-toastify";
 
 export default function Home() {
   return (
@@ -13,7 +17,14 @@ export default function Home() {
       <Impaqtrometro />
       <ConectarETransformar />
       <PapelPAQ />
+      <UmFuturoInovadorDiversoComecaAqui />
+      <ConectarETransformar />
+      <Impaqtrometro />
+      <JuntoComAGente />
+      <ComoFazerParte />
       <PaqFaq />
+      <Contact />
+      <ToastContainer position="bottom-center" />
     </>
   );
 }

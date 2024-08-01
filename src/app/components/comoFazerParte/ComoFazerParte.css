@@ -1,0 +1,21 @@
+.titulo{
+    color: #000;
+    text-align: center;
+    font-family: "PP Formula Condensed";
+    font-size: 67.34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 68px; /* 100.98% */
+    text-transform: uppercase;
+}
+
+.texto{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.16px;
+}
