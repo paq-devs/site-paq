@@ -1,0 +1,33 @@
+.cardContainer {
+  border: 1px solid red;
+  width: 432px;
+  border-radius: 26px;
+}
+
+.cardContainer .imagem {
+  width: 432px;
+  height: 536px;
+  background-color: aqua;
+}
+
+.cardContainer .depoimento {
+  width: 400px;
+  height: 261px;
+  background-color: burlywood;
+}
+
+.cardContainer .margemConteudo {
+  margin: 0 19px;
+}
+
+.cardContainer .nome {
+  display: flex;
+  align-items: left;
+  color: blue;
+}
+
+.cardContainer .cargo {
+  display: flex;
+  align-items: left;
+  color: blueviolet;
+}

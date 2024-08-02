@@ -24,6 +24,18 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 https://site-paq-staging.vercel.app/
 
+## Env vars
+
+To send e-mail we are using the [MailChimp](https://mailchimp.com/developer/transactional/guides/send-first-email/) and need some ENV vars to do that.
+
+- MAILCHIMP_SEND_URL: Endpoint to send e-mail [https://mandrillapp.com/api/1.0/messages/send](https://mandrillapp.com/api/1.0/messages/send)
+- MAILCHIMP_API_KEY: API key to MailChimp
+- MAILCHIMP_FROM_EMAIL: Sender e-mail
+- MAILCHIMP_TO_EMAIL: Recipient e-mail
+
+We keeps the environment variables locally to a mock endpoint **/mail-mock**
+Not commit API Key for security reasons
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

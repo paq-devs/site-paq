@@ -1,5 +1,4 @@
 "use client";
-import styled from "styled-components";
 import imagemRelogio from "./img/relogio.png";
 import Image from "next/image";
 import GlobalStyle from "./fontPaq";
@@ -8,80 +7,34 @@ import Button from "../button";
 import voluntariado from "./img/voluntariado1.png";
 import grupoDePessoas from "./img/grupoDePessoas.png";
 import investidor from "./img/investidor1.png";
-import formatura from "./img/imagemformatura.png";
-import yohana from "./img/yohanafeliz.png";
-import janvi from "./img/fotinhaJanvi.png";
-import suanam from "./img/suanam.png";
+import anajulia from "./img/anaju.png";
+import Tedd from "./img/Tedd.png";
+import william from "./img/William.png";
+import suanam from "./img/suanamecaio.png";
+import formados from './img/grupoDePessoasFormadas.png'
 
-const Cabecalho = styled.div`
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 11px;
-  h2 {
-    font-family: "PP Formula Condensed";
-    color: #fff;
-    font-size: 37.405px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 40px;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 26px;
-  }
-  h3 {
-    color: #fff;
-    font-family: "PP Formula Condensed";
-    font-size: 37.405px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 40px;
-    text-transform: uppercase;
-  }
-  p {
-    color: #fff;
-    text-align: center;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 15px;
-    letter-spacing: -0.12px;
-  }
-`;
+import './impaqtrometro.css'
 
-const Corpo = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  margin-top: 55px;
-`;
-
-const PaqEstilizado = styled.span`
-  color: #1eb4e9;
-`;
 
 export default function Impaqtrometro() {
   return (
-    <section className="w-full flex flex-col items-center rounded-[20px] bg-[#00171F] p-[53px_33px]">
+    <section className="w-full flex flex-col items-center rounded-[20px] bg-[#00171F] p-[53px_33px] pb-56">
       <GlobalStyle />
-      <Cabecalho>
+      <div className="flex flex-col items-center gap-7 mt-12 mb-16 lg:mt-36">
         <Image src={imagemRelogio} alt="" width={75} height={75} />
-        <div>
-          <h2>
-            {" "}
-            IM<PaqEstilizado>PAQ</PaqEstilizado>TÔMETRO:
-          </h2>
-          <h3>o impacto real</h3>
+        <h2 className="ImpaqtrometroTitulo">
+          <span className="font-bold">IM<span className="text-azulpaq">PAQ</span>TÔMETRO:</span><br />
+          O IMPACTO REAL
+        </h2>
+        <div className="w-64 md:w-[498px]">
+          <p className="ImpaqtrometroTexto">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim ven
+          </p>
         </div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim ven
-        </p>
-      </Cabecalho>
-      <Corpo>
+      </div>
+      <div className="flex flex-col gap-3 mb-20">
         <div className="flex items-center gap-6">
           <CardImpaqtrometro
             image={grupoDePessoas}
@@ -90,30 +43,42 @@ export default function Impaqtrometro() {
             descricao="Ativos na comunidade de aprendizagem"
           />
           <Image
-            src={formatura}
+            src={william}
             alt=""
             width={403}
             height={344}
-            className="hidden xl:block aspect-auto object-contain"
+            className="hidden lg:block aspect-auto object-contain rounded-[40px]"
+          />
+           <Image
+            src={william}
+            alt=""
+            width={244}
+            height={208}
+            className="hidden md:block aspect-auto object-contain  rounded-[40px] lg:hidden"
           />
         </div>
-
         <div className="flex items-center gap-6">
           <Image
-            src={yohana}
+            src={Tedd}
             alt=""
             width={403}
             height={344}
-            className="hidden xl:block aspect-auto object-contain rounded-2xl"
+            className="hidden lg:block aspect-auto object-contain rounded-[40px]"
+          />
+           <Image
+            src={Tedd}
+            alt=""
+            width={244}
+            height={208}
+            className="hidden md:block aspect-auto object-contain  rounded-[40px] lg:hidden"
           />
           <CardImpaqtrometro
-            image={voluntariado}
+            image={formados}
             numero="200"
             titulo="jovens"
             descricao="Atendidos em nossos programas"
           />
         </div>
-
         <div className="flex items-center gap-6">
           <CardImpaqtrometro
             image={voluntariado}
@@ -122,37 +87,51 @@ export default function Impaqtrometro() {
             descricao="Trabalhando em empresas de tecnologia"
           />
           <Image
-            src={janvi}
+            src={anajulia}
             alt=""
             width={403}
             height={344}
-            className="hidden xl:block aspect-auto object-contain  rounded-2xl"
+            className="hidden lg:block aspect-auto object-contain  rounded-[40px]"
+          />
+           <Image
+            src={anajulia}
+            alt=""
+            width={244}
+            height={208}
+            className="hidden md:block aspect-auto object-contain  rounded-[40px] lg:hidden"
           />
         </div>
-
         <div className="flex items-center gap-6">
           <Image
             src={suanam}
             alt=""
             width={403}
             height={344}
-            className="hidden xl:block aspect-auto object-contain  rounded-2xl"
+            className="hidden lg:block aspect-auto object-contain  rounded-[40px]"
+          />
+          <Image
+            src={suanam}
+            alt=""
+            width={244}
+            height={208}
+            className="hidden md:block aspect-auto object-contain  rounded-[40px] lg:hidden"
           />
           <CardImpaqtrometro
             image={investidor}
-            numero="780"
+            numero="780mil"
             titulo="reais"
-            descricao="Ativos na comunidade de aprendizagem"
+            descricao="injetados nas quebradas através dos jovens"
           />
         </div>
-
-        <p className="mt-[55px] text-white text-center font-poppins text-[14px] not-italic font-normal leading-[15px] tracking-[-0.12px]">
+      </div>
+      <div className="w-64 md:w-[498px]">
+        <p className="ImpaqtrometroTexto mb-9">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, q{" "}
+          minim veniam, q
         </p>
-        <Button title="VER RELATÓRIOS" href="/" width="150px" height="42px" />
-      </Corpo>
+      </div>
+      <Button title="VER RELATÓRIOS" href="/" width="150px" height="42px"/>
     </section>
   );
 }

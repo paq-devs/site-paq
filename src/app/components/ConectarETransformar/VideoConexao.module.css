@@ -1,0 +1,39 @@
+.videoContainer {
+  background-image: url("./img/fundo-video-conexao.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 950px;
+  width: 100%;
+}
+
+.videoContainer iframe {
+  margin-top: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 841px;
+  height: 471px;
+}
+
+@media (min-width: 1280px) {
+
+  .videoContainer iframe {
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 490px;
+  }
+}
+
+@media (max-width: 400px) {
+  .videoContainer {
+    height: 300px;
+  }
+
+  .videoContainer iframe {
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+  }
+}
