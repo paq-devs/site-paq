@@ -1,33 +1,55 @@
 .cardContainer {
-  border: 1px solid red;
-  width: 432px;
-  border-radius: 26px;
+  display: flex;
+  width: 432.894px;
+  padding-bottom: 31.07px;
+  flex-direction: column;
+  align-items: center;
+  gap: 22.405px;
+  border-radius: 26.682px;
+  background: #ccc;
 }
 
 .cardContainer .imagem {
-  width: 432px;
-  height: 536px;
+  width: 432.894px;
+  height: 366.479px;
   background-color: aqua;
 }
 
 .cardContainer .depoimento {
-  width: 400px;
-  height: 261px;
-  background-color: burlywood;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 20.012px;
+  /* 125.073% */
 }
 
 .cardContainer .margemConteudo {
-  margin: 0 19px;
+  display: flex;
+  padding: 0px 19.204px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8.802px;
+  align-self: stretch;
 }
 
 .cardContainer .nome {
-  display: flex;
-  align-items: left;
-  color: blue;
+  color: var(--blue-zima, #1EB4E9);
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20.012px;
+  /* 105.325% */
 }
 
 .cardContainer .cargo {
-  display: flex;
-  align-items: left;
-  color: blueviolet;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20.012px;
+  /* 125.073% */
 }

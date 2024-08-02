@@ -3,7 +3,7 @@ import depoimentos from "./depoimentos.json";
 
 export default function Depoimentos() {
   return (
-    <>
+    <section className="bg-[#00171F]">
       {depoimentos.map((depoimento) => (
         <CardDepoimento
           id={depoimento.id}
@@ -13,6 +13,6 @@ export default function Depoimentos() {
           role={depoimento.role}
         />
       ))}
-    </>
+      </section>
   );
 }
