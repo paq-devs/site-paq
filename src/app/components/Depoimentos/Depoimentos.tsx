@@ -1,36 +1,50 @@
+'use client'
 
 import Image from "next/image"
-import Swiper from 'swiper';
-import './swiper.css';
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-});
-export function Depoimentos() {
+import styled from "styled-components"
+
+export async function Depoimentos(){
 
 
-    return (
-        <>
-            <div className="swiper mySwiper">
-                <div className="swiper-wrapper">
-                    <div className="swiper-slide">Slide 1</div>
-                    <div className="swiper-slide">Slide 2</div>
-                    <div className="swiper-slide">Slide 3</div>
-                    <div className="swiper-slide">Slide 4</div>
-                    <div className="swiper-slide">Slide 5</div>
-                    <div className="swiper-slide">Slide 6</div>
-                    <div className="swiper-slide">Slide 7</div>
-                    <div className="swiper-slide">Slide 8</div>
-                    <div className="swiper-slide">Slide 9</div>
-                </div>
-                <div className="swiper-pagination"></div>
-            </div>
 
-        </>
+    const Section = styled.section`
+    width: 80rem;
+    height: 88.6875rem;
+    flex-shrink: 0;
+    background: #00171F;
+    `
+    const Historias = styled.div`
+    display: flex;
+    width: 100vw;
+    padding: 3.75rem 0rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5625rem;
+    `
+    const TituloHistoria = styled.h2`
+    color: #FFF;
+    text-align: center;
+    font-family: "PP Formula Condensed";
+    font-size: 4.20875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.25rem; /* 100.98% */
+    text-transform: uppercase;
+    `
+
+    const ParteCards = styled.div`
+
+    `
+
+    return(
+        <Section>
+            <Historias>
+                <Image src={""} alt="" />            
+                <TituloHistoria>Histórias de quem já viveu!</TituloHistoria>
+            </Historias>
+            <ParteCards>
+                
+            </ParteCards>
+        </Section>       
     )
 }
