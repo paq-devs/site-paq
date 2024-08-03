@@ -56,9 +56,9 @@ export default function PaqHeader() {
           <Button
             href="#"
             title="APOIAR"
-            height="50px"
-            width="100px"
-            key="btnQueroApioarMob"
+            height="30px"
+            width="80px"
+            key="btnQueroApoiarMob"
           />
         </div>
       </div>
