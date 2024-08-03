@@ -1,4 +1,3 @@
-'use client'
 import style from "./PapelPaq.module.css";
 import Image from "next/image";
 import lampada from "./imgs/iconLampada.svg"
