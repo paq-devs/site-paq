@@ -10,6 +10,7 @@ import ComoPossoFazerParte from "@/app/components/ComoPossoApoiar/ComoPossoApoia
 import Contact from "@/app/components/Contact";
 import { ToastContainer } from "react-toastify";
 import Footer from "@/app/components/footer/footer";
+import NossoTime from "@/app/components/NossoTime/NossoTime";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <PapelPAQ />
       <Impaqtrometro />
       <JuntoComAGente />
+      <NossoTime/>
       <ComoPossoFazerParte />
       <ComoFazerParte />
       <Contact />
