@@ -1,4 +1,5 @@
 import style from "./CardDepoimento.module.css";
+import Image from "next/image";
 
 export default function CardDepoimento({
   id,
@@ -9,9 +10,11 @@ export default function CardDepoimento({
 }: any) {
   return (
     <div className={style.cardContainer}>
-      <div className={style.imagem}>{pathFoto}</div>
+      <div className={style.imagem}>
+        <Image src={pathFoto} width={300} alt={name} />
+      </div>
 
-      <div className={style.margemConteudo}> 
+      <div className={style.margemConteudo}>
         <div className={style.depoimento}>{text}</div>
         <div className={style.nome}>{name}</div>
         <div className={style.cargo}>{role}</div>
@@ -19,4 +22,3 @@ export default function CardDepoimento({
     </div>
   );
 }
- 

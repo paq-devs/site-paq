@@ -1,11 +1,12 @@
 import CardDepoimento from "./CardDepoimento";
-import depoimentos from "./depoimentos.json";
+import depoimentos from "./depoimentos";
 
 export default function Depoimentos() {
   return (
     <section className="bg-[#00171F]">
       {depoimentos.map((depoimento) => (
         <CardDepoimento
+          key={depoimento.id}
           id={depoimento.id}
           pathFoto={depoimento.pathFoto}
           text={depoimento.text}
