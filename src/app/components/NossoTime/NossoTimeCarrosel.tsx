@@ -1,6 +1,8 @@
 
 "use client";
 import { useState, ReactNode } from 'react';
+import CardsTime from './Cards/CardsTime';
+import CardEducacionalMentores from './Cards/CardsMentores';
 
 type NossoTimeCarroselprops = {
     content: ReactNode;
@@ -45,13 +47,13 @@ const Card: React.FC<NossoTimeCarroselprops> = ({ content }) => (
 
 const CardContent1: React.FC = () => (
   <div>
-
+    <CardsTime/>
   </div>
 );
 
 const CardContent2: React.FC = () => (
     <div>
-  
+      <CardEducacionalMentores />
     </div>
   );
 
