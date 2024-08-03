@@ -1,52 +1,55 @@
+"use client";
+import React, { useState } from "react";
 import Image from "next/image";
 import Button from "../button";
-import { FiAlignJustify } from "react-icons/fi";
+import { FiAlignJustify, FiChevronDown } from "react-icons/fi";
 import style from "./PaqHeader.module.css";
 import icone_sobre from "./img/chevron-down.png";
 import logoPaq from "./img/logo-paq.png";
 
-export function Header() {
+const DropdownPaq = ({ text, isOpen, setIsOpen }: any) => {
   return (
-    <div className={style.icones_header}>
-      <div className={style.conteudo}>
-        <div className="flex">
-          <ul className={style.lista}>
-            <li className="flex items-center justify-center">
-              <input
-                type="checkbox"
-                name="menu"
-                id="menu"
-                className={style.sobre}
-              />
-              <label
-                htmlFor="menu"
-                className="flex items-center justify-center gap-[0.03125rem]"
-              >
-                Sobre <Image src={icone_sobre} width={16} height={18} alt="" />{" "}
-              </label>
-              <ul className={style.menu_sobre}>
-                <li>quem somos</li>
-                <li>papel do paq</li>
-                <li>impacto</li>
-              </ul>
-            </li>
-            <li>apoio</li>
-            <li>programas</li>
-            <li>histórias</li>
-          </ul>
+    <div className={style.paqDropdown}>
+      <a
+        href="#"
+        className={style.dropdownButton}
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        {text}
+        <FiChevronDown />
+      </a>
+      {isOpen && (
+        <div className={style.dropdownContent}>
+          <a href="#">quem somos</a>
+          <a href="#">papel do paq</a>
+          <a href="#">impacto</a>
+        </div>
+      )}
+    </div>
+  );
+};
 
-          <FiAlignJustify className={style.hamburguer} />
-        </div>
-        <Image
-          src={logoPaq}
-          width={44}
-          height={48}
-          className={style.logo_paq}
-          alt={""}
+export function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+  return (
+    <div className={style.container}>
+      <div className={style.dropdownContainer}>
+        <DropdownPaq text={"Sobre"} isOpen={isOpen} setIsOpen={setIsOpen} />
+        <a href="#">Apoio</a>
+        <a href="#">Programas</a>
+        <a href="#">Histórias</a>
+      </div>
+      <div className={style.logo}>
+        <Image src={logoPaq} alt="Logo PAQ" />
+      </div>
+      <div className={style.containerButton}>
+        <Button
+          href="#"
+          title="Quero apioar"
+          height="50px"
+          width="150px"
+          key="btnQueroApioar"
         />
-        <div className="flex items-center justify-center mt-[-23px]">
-          <Button href="/" width="auto" height="auto" title="Apoiar"/>
-        </div>
       </div>
     </div>
   );
