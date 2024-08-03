@@ -10,11 +10,13 @@ import ComoPossoFazerParte from "@/app/components/ComoPossoApoiar/ComoPossoApoia
 import Contact from "@/app/components/Contact";
 import { ToastContainer } from "react-toastify";
 import Footer from "@/app/components/footer/footer";
+import PaqCarrossel from "@/app/components/Carrossel";
 
 export default function Home() {
   return (
     <>
-      <PaqHeader />
+      <PaqCarrossel />
+      {/* <PaqHeader />
       <UmFuturoInovadorDiversoComecaAqui/>
       <ConectarETransformar />
       <PapelPAQ />
@@ -24,7 +26,7 @@ export default function Home() {
       <ComoFazerParte />
       <Contact />
       <ToastContainer position="bottom-center" />
-      <Footer/>
+      <Footer/> */}
     </>
   );
 }
