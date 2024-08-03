@@ -50,3 +50,46 @@
   margin-right: auto;
   width: 70px;
 }
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .container .containerButton a[data-text]:after {
+    content: 'Apoiar'; /* Text for mobile screens */
+  }
+}
+
+.container .containerButton .buttonDesktop {
+  display: block;
+}
+
+.container .containerButton .buttonMobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .dropdownContainer {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    margin-left: 20px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* justify-content: center; */
+  }
+
+  .container .containerButton .buttonDesktop {
+    display: none;
+  }
+
+  .container .containerButton .buttonMobile {
+    display: block;
+  }
+}
