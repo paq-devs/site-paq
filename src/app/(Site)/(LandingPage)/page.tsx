@@ -10,11 +10,12 @@ import ComoPossoFazerParte from "@/app/components/ComoPossoApoiar/ComoPossoApoia
 import Contact from "@/app/components/Contact";
 import { ToastContainer } from "react-toastify";
 import Footer from "@/app/components/footer/footer";
+import { MenuHamburguer } from "@/app/components/Headerv2/Headerv2";
 
 export default function Home() {
   return (
     <>
-      <PaqHeader />
+      <MenuHamburguer />
       <UmFuturoInovadorDiversoComecaAqui/>
       <ConectarETransformar />
       <PapelPAQ />
