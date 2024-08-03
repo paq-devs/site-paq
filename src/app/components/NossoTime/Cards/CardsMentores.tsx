@@ -19,21 +19,21 @@ import miguel from '../img/miguel.png'
 import sahra from '../img/sahra.png'
 
 const CardsMentoresNomes = [
-    { src: cerutti, nome: 'sThiago Cerutti', cargo: 'programação' },
-    { src: thaysa, nome: 'Thaysa Lacerda', cargo: 'programação' },
-    { src: welington, nome: 'Wellington Rodrigues', cargo: 'programação' },
-    { src: layse, nome: 'Layse Gabrielly', cargo: 'programação' },
-    { src: euler, nome: 'Euler Filho', cargo: 'programação' },
-    { src: nathalia, nome: ' Nathália Cechetti ', cargo: 'design' },
-    { src: hugo, nome: 'Hugo Raniere', cargo: 'design' },
-    { src: ariana, nome: 'Ariana Regina', cargo: 'design' },
-    { src: waltao, nome: 'Waltão', cargo: 'design' },
+    { src: cerutti, nome: 'Thiago Cerutti', cargo: 'PROGRAMAÇÃO' },
+    { src: thaysa, nome: 'Thaysa Lacerda', cargo: 'PROGRAMAÇÃO' },
+    { src: welington, nome: 'Wellington Rodrigues', cargo: 'PROGRAMAÇÃO' },
+    { src: layse, nome: 'Layse Gabrielly', cargo: 'PROGRAMAÇÃO' },
+    { src: euler, nome: 'Euler Filho', cargo: 'PROGRAMAÇÃO' },
+    { src: nathalia, nome: ' Nathália Cechetti ', cargo: 'DESIGN' },
+    { src: hugo, nome: 'Hugo Raniere', cargo: 'DESIGN' },
+    { src: ariana, nome: 'Ariana Regina', cargo: 'DESIGN' },
+    { src: waltao, nome: 'Waltão', cargo: 'DESIGN' },
     { src: dafne, nome: 'Dafne Miranda', cargo: 'DESIGN' },
     { src: solange, nome: 'Solange Gamboa', cargo: 'PROGRAMAÇÃO' },
     { src: kleber, nome: 'Kleber Furtado', cargo: 'PROGRAMAÇÃO' },
     { src: felipe, nome: 'Felipe Flores', cargo: 'PROGRAMAÇÃO' },
-    { src: mariasilveira, nome: 'maria silveira', cargo: 'design' },
-    { src: miguel, nome: 'Miguel Matos', cargo: 'design' },
+    { src: mariasilveira, nome: 'maria silveira', cargo: 'DESIGN' },
+    { src: miguel, nome: 'Miguel Matos', cargo: 'DESIGN' },
     { src: sahra, nome: 'Sahra Di Bernardi', cargo: 'PROGRAMAÇÃO' },
 ];
 
