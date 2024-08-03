@@ -27,7 +27,7 @@ const CardsTimeNomes = [
 
 export default function CardsTime(){
     return(
-        <div>
+        <div className="hidden lg:block">
             <CardEducacional/>
         </div>
     )

@@ -39,7 +39,7 @@ const CardsMentoresNomes = [
 
 export default function CardEducacionalMentores(){
     return(
-        <div>
+        <div className="hidden lg:block">
             <CardEducacional/>
         </div>
     )
