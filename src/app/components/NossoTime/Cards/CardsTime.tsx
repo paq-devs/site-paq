@@ -13,16 +13,16 @@ import igor from '../img/igor.png'
 import evanz from '../img/evanz.png'
 
 const CardsTimeNomes = [
-    { src: jeff, nome: 'jeff lima', cargo: 'líder de captação'},
-    { src: yohana, nome: 'yohana', cargo: 'líder de comunidade'},
-    { src: ted, nome: 'pedro tedaldi', cargo: 'líder de operações'},
-    { src: cadu, nome: 'cadu', cargo: 'líder de aprendizagem'},
+    { src: jeff, nome: 'Jeff Lima', cargo: 'líder de captação'},
+    { src: yohana, nome: 'Yohana', cargo: 'líder de comunidade'},
+    { src: ted, nome: 'Pedro Tedaldi', cargo: 'líder de operações'},
+    { src: cadu, nome: 'Cadu', cargo: 'líder de aprendizagem'},
     { src: fernando, nome: 'Fernando', cargo: 'estrategista de marketing'},
-    { src: bow, nome: 'bow', cargo: 'designer e audiovisual'},
-    { src: marilia, nome: 'marilia', cargo: 'mediadora de comunidade'},
-    { src: pompeu, nome: 'pompeu', cargo: 'mediador de comunidade'},
-    { src: igor, nome: 'igor', cargo: 'mediador de comunidade'},
-    { src: evanz, nome: 'evanz', cargo: 'voluntário em inovação'},
+    { src: bow, nome: 'Bow', cargo: 'designer e audiovisual'},
+    { src: marilia, nome: 'Marilia', cargo: 'mediadora de comunidade'},
+    { src: pompeu, nome: 'Pompeu', cargo: 'mediador de comunidade'},
+    { src: igor, nome: 'Igor', cargo: 'mediador de comunidade'},
+    { src: evanz, nome: 'Evanz', cargo: 'voluntário em inovação'},
   ];
 
 export default function CardsTime(){
