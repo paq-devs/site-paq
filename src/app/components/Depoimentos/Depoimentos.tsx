@@ -1,5 +1,6 @@
+import React from "react";
 import CardDepoimento from "./CardDepoimento";
-import depoimentos from "./depoimentos";
+import depoimentos from "./cards";
 
 export default function Depoimentos() {
   return (

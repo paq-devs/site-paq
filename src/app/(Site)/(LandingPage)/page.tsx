@@ -3,7 +3,7 @@ import ConectarETransformar from "@/app/components/ConectarETransformar";
 import UmFuturoInovadorDiversoComecaAqui from "@/app/components/UmFuturoInovadorDiversoComecaAqui";
 import PaqFaq from "@/app/components/PaqFaq";
 import Impaqtrometro from "@/app/components/Impactometro/Impaqtrometro";
-import Depoimentos from "@/app/components/Depoimentos/Depoimentos";
+import Depoimentos from "@/app/components/Depoimentos/cards"
 import PapelPAQ from "@/app/components/PapelPaq/PapelPAQ";
 import JuntoComAGente from "@/app/components/JuntoComAGente/JuntoComAGente";
 import ComoFazerParte from "@/app/components/comoFazerParte/ComoFazerParte";
