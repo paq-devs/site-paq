@@ -1,21 +1,37 @@
-.cardContainer {
+.container_card{
   display: flex;
   width: 432.894px;
+  overflow-x: scroll;
+  gap: 70px;
+}
+
+.card {
+  display: flex;
+  width: 432.894px;
+  height: 749.76px;
   padding-bottom: 31.07px;
   flex-direction: column;
   align-items: center;
   gap: 22.405px;
   border-radius: 26.682px;
-  background: #ccc;
+  background: #FFF;
 }
 
-.cardContainer .imagem {
+.card_image {
   width: 432.894px;
   height: 366.479px;
-  background-color: aqua;
 }
 
-.cardContainer .depoimento {
+.descricao {
+  display: flex;
+  padding: 0px 19.204px;
+  flex-direction: column;
+  text-align: start;
+  gap: 8.802px;
+  align-self: stretch;
+}
+
+.texto {
   color: #000;
   font-family: Poppins;
   font-size: 16px;
@@ -25,16 +41,7 @@
   /* 125.073% */
 }
 
-.cardContainer .margemConteudo {
-  display: flex;
-  padding: 0px 19.204px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8.802px;
-  align-self: stretch;
-}
-
-.cardContainer .nome {
+.nome {
   color: var(--blue-zima, #1EB4E9);
   font-family: Poppins;
   font-size: 19px;
@@ -44,7 +51,7 @@
   /* 105.325% */
 }
 
-.cardContainer .cargo {
+.cargo {
   color: #000;
   font-family: Poppins;
   font-size: 16px;
