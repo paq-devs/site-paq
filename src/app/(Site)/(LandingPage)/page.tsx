@@ -11,13 +11,15 @@ import ComoPossoFazerParte from "@/app/components/ComoPossoApoiar/ComoPossoApoia
 import Contact from "@/app/components/Contact";
 import { ToastContainer } from "react-toastify";
 import Footer from "@/app/components/footer/footer";
+import Teste from "@/app/components/Depoimentos/Teste";
 
 export default function Home() {
   return (
     <>
+      <Teste />
       <PaqHeader />
       <ConectarETransformar />
-      <PapelPAQ />
+      {/* <PapelPAQ /> */}
       <Impaqtrometro />
       <JuntoComAGente />
       <Depoimentos />
