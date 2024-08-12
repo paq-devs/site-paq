@@ -8,7 +8,6 @@
 .card {
   display: flex;
   width: 432.894px;
-  height: 749.76px;
   padding-bottom: 31.07px;
   flex-direction: column;
   align-items: center;
@@ -59,4 +58,9 @@
   font-weight: 500;
   line-height: 20.012px;
   /* 125.073% */
+}
+.carrossel{
+  display: flex;
+  flex-direction: row;
+
 }
