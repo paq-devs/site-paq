@@ -1,0 +1,137 @@
+/* General Styles */
+#our-history-title {
+    text-align: center;
+    font-style: normal;
+    text-transform: uppercase;
+    font-family: "PP Formula Condensed";
+    font-size: 67.34px;
+    font-weight: 400;
+    line-height: 68px;
+    color: #000;
+}
+
+.svg-timeline-desktop {
+    position: absolute; /* Ensure absolute positioning */
+    right: 38%;
+    top: 115%;
+}
+
+.svg-timeline-mobile {
+    display: none;
+}
+
+.image-col {
+    padding-top: 100px;
+}
+
+.image-content:nth-child(even) {
+    padding-top: 150px;
+}
+
+.text-content {
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #F7F7F7;
+}
+
+.text-content-title {
+    text-align: center;
+    font-style: normal;
+    text-transform: uppercase;
+    font-family: "PP Formula Condensed";
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    padding-top: 30px;
+    color: #000;
+}
+
+.text-content-content {
+    text-align: center;
+    font-style: normal;
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #000;
+    padding: 10px 30px 30px 30px;
+}
+
+.highlight-content {
+    margin-top: 100px;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Media Queries */
+@media (max-width: 1440px) {
+    .svg-timeline-desktop {
+        top: 128%;
+        right: 34%;
+    }
+}
+
+@media (max-width: 1366px) {
+    .svg-timeline-desktop {
+        top: 165%;
+        right: 33%;
+    }
+}
+
+@media (max-width: 820px) {
+    .svg-timeline-desktop {
+        top: 105%;
+        right: 21%;
+    }
+}
+
+@media (max-width: 500px) {
+    #our-history-title {
+        font-size: 50px;
+    }
+
+    .image-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .svg-timeline-desktop {
+        display: none;
+    }
+
+    .svg-timeline-mobile {
+        position: absolute;
+        display: block;
+        top: 156%;
+    }
+
+    .text-content {
+        width: 350px;
+    }
+
+    .text-content-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .text-content-content {
+        font-size: 14px;
+    }
+
+    .history-images {
+        width: 350px;
+    }
+
+    .image-content:nth-child(even) {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .svg-timeline-mobile {
+        top: 180%;
+    }
+}

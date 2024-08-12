@@ -12,17 +12,23 @@ import Contact from "@/app/components/Contact";
 import { ToastContainer } from "react-toastify";
 import Footer from "@/app/components/footer/footer";
 import Teste from "@/app/components/Depoimentos/Teste";
+import NossoTime from "@/app/components/NossoTime/NossoTime";
 
 export default function Home() {
   return (
     <>
       <Teste />
       <PaqHeader />
+      <UmFuturoInovadorDiversoComecaAqui/>
       <ConectarETransformar />
       {/* <PapelPAQ /> */}
       <Impaqtrometro />
       <JuntoComAGente />
+<<<<<<< HEAD
       <Depoimentos />
+=======
+      <NossoTime/>
+>>>>>>> main
       <ComoPossoFazerParte />
       <ComoFazerParte />
       <Contact />

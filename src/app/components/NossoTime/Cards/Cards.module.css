@@ -1,0 +1,22 @@
+.CardsNossoTimeNome{
+    color: #00171F;
+    text-align: center;
+    font-family: "PP Formula Condensed";
+    font-size: 32.492px;
+    font-weight: 700;
+    line-height: 20.308px; /* 62.5% */
+    letter-spacing: 0.65px;
+    text-transform: uppercase;
+    margin: 20px 0 10px 0;
+
+}
+
+.CardsNossoTimeCargo{
+    color: #00171F;
+    text-align: center;
+    font-family: "PP Formula Condensed";
+    font-size: 20.308px;
+    font-weight: 400;
+    line-height: 20.308px; /* 100% */
+    letter-spacing: 0.406px;
+}

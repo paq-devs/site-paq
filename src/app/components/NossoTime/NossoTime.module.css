@@ -1,0 +1,21 @@
+.NossoTimeTitulo{
+    color: #00171F;
+    font-family: "PP Formula Condensed";
+    font-size: 67.34px;
+    font-weight: 400;
+    line-height: 68px;
+    text-transform: uppercase;
+    width: 350px;
+}
+
+.NossoTimeParagrafo{
+    color: #00171F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.16px;
+    width: 454px;
+    text-transform: uppercase;
+}
