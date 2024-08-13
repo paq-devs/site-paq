@@ -14,7 +14,7 @@ export default function CardDepoimento({
 
   return (
     <>
-      <div className={style.card}>
+      <div className={style.card} key={id}>
         <figure>
           <Image src={pathFoto} alt="" className={style.card_image} />
         </figure>
