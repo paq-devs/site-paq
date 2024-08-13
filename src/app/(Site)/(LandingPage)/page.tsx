@@ -16,19 +16,19 @@ import NossoTime from "@/app/components/NossoTime/NossoTime";
 export default function Home() {
   return (
     <>
-      <PaqHeader />
+      {/*<PaqHeader />
       <UmFuturoInovadorDiversoComecaAqui/>
       <ConectarETransformar />
-      {/* <PapelPAQ /> */}
+      <PapelPAQ /> 
       <Impaqtrometro />
-      <JuntoComAGente />
+      <JuntoComAGente />*/}
       <Depoimentos />
-      <NossoTime/>
+      {/*<NossoTime/>
       <ComoPossoFazerParte />
       <ComoFazerParte />
       <Contact />
       <ToastContainer position="bottom-center" />
-      <Footer/>
+      <Footer/>*/}
     </>
   );
 }

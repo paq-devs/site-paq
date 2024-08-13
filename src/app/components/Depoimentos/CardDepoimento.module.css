@@ -1,13 +1,13 @@
 .container_card{
   display: flex;
-  width: 432.894px;
+  width: 422.894px;
   overflow-x: scroll;
   gap: 70px;
 }
 
 .card {
   display: flex;
-  width: 432.894px;
+  width: 402.894px;
   padding-bottom: 31.07px;
   flex-direction: column;
   align-items: center;
@@ -19,6 +19,7 @@
 .card_image {
   width: 432.894px;
   height: 366.479px;
+  border-radius: 26.682px;
 }
 
 .descricao {
@@ -58,9 +59,4 @@
   font-weight: 500;
   line-height: 20.012px;
   /* 125.073% */
-}
-.carrossel{
-  display: flex;
-  flex-direction: row;
-
 }
