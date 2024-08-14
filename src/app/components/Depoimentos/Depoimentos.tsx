@@ -17,7 +17,7 @@ import 'swiper/css';
 export default function Depoimentos() {
 
   return (
-    <section className="bg-[#00171F] h-[88.6875rem] ">
+    <section className="bg-[#00171F] h-[88.6875rem] flex-col items-center justify-center">
       <aside className={style.text_historias}>
         <div className={style.container_historias}>
           <div className={style.text_paragrafoEimg}>
@@ -31,7 +31,7 @@ export default function Depoimentos() {
       </aside>
       <div className={style.carrossel}>
 
-        <Swiper
+        <Swiper className={style.mySwiper}
           pagination={{
             dynamicBullets: true,
           }}
@@ -57,11 +57,6 @@ export default function Depoimentos() {
             </SwiperSlide>
           ))}
         </Swiper>
-      </div>
-
-
-      <div>
-
       </div>
     </section>
   );
