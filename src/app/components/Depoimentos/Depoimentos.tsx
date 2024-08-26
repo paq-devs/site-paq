@@ -32,19 +32,14 @@ export default function Depoimentos() {
       <div className={style.carrossel}>
 
         <Swiper className={style.mySwiper}
-          pagination={{
-            dynamicBullets: true,
-          }}
           loop={true}
-          modules={[Pagination, Navigation]}
-          spaceBetween={50}
-          slidesPerView={3}
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}
+          modules={[ Navigation, Pagination]}
+          slidesPerView={4}
+          centeredSlides={true}
           navigation={true}
         >
-          {depoimentos.map((depoimento) => (
-            <SwiperSlide>
+          {depoimentos.map((depoimento, index) => (
+            <SwiperSlide key={index}>
               <CardDepoimento
                 key={depoimento.id}
                 id={depoimento.id}

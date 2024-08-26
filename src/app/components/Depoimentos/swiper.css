@@ -15,11 +15,11 @@
 
   .swiper-button-next::after{
     position: relative;
-    margin-bottom: -750px;
+    margin-bottom: -780px;
     margin-left: -1200px;
   }
   .swiper-button-prev::after{
-    margin-bottom: -750px;
+    margin-bottom: -780px;
     margin-left: 1200px;
   }
   .swiper-pagination{
