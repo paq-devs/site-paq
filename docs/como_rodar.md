@@ -8,13 +8,13 @@ Para conseguir rodar, você vai precisar ter as seguintes dependencias instalada
 
 A primeira coisa que você vai precisar instalar para rodar o projeto é um runtime para Javascript, como o Node, Deno ou Bun.
 
-Nós recomendadmos que você utilize o Node, e a melhor forma de instalalo é usando o NVM:
+Nós recomendamos que você utilize o Node, e a melhor forma de instala-lo é usando o [NVM (Node Version Manager)](https://github.com/nvm-sh/nvm):
 
 #### Windows
 
 Para instalar o NVM e o Node no windows, basta seguir as instruções de instação do NVM no [repositório oficial no Github](https://github.com/coreybutler/nvm-windows#installation--upgrades)
 
-Depois que o NVM estiver instalado você pode rodar os seguintes comandos no Powershell:
+Depois que o NVM estiver instalado você pode rodar o seguinte comando no Powershell:
 
 ```powershell
 nvm install <node_version>
@@ -60,7 +60,7 @@ Para rodar o projeto em modo de desenvolvimento, basta rodar o comando:
 npm run dev
 ```
 
-Apos isso, você podera abrir no seu navegador o endereço [http://localhost:3000](http://localhost:3000) para ver o resultado.
+Após isso, você podera abrir o seu navegador no endereço [http://localhost:3000](http://localhost:3000) para ver o resultado.
 
 
 ## Site em Staging (Vercel)
@@ -68,8 +68,6 @@ Apos isso, você podera abrir no seu navegador o endereço [http://localhost:300
 https://site-paq-staging.vercel.app/
 
 ## Variáveis de ambiente
-
-To send e-mail we are using the [MailChimp](https://mailchimp.com/developer/transactional/guides/send-first-email/) and need some ENV vars to do that.
 
 Para enviar emails nos estamos utilizando o [MailChimp](https://mailchimp.com/developer/transactional/guides/send-first-email/) e precisamos configurar algumas variavéis de ambiênte para ele funcionar.
 
