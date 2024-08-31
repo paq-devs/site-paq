@@ -11,22 +11,24 @@ import Contact from "@/app/components/Contact";
 import { ToastContainer } from "react-toastify";
 import Footer from "@/app/components/footer/footer";
 import NossoTime from "@/app/components/NossoTime/NossoTime";
+import ProgramasEspacos from "@/app/components/ProgramasEspacos/ProgramasEspacos";
 
 export default function Home() {
   return (
     <>
       <PaqHeader />
-      <UmFuturoInovadorDiversoComecaAqui/>
+      <UmFuturoInovadorDiversoComecaAqui />
       <ConectarETransformar />
       <PapelPAQ />
       <Impaqtrometro />
       <JuntoComAGente />
-      <NossoTime/>
+      <ProgramasEspacos />
+      <NossoTime />
       <ComoPossoFazerParte />
       <ComoFazerParte />
       <Contact />
       <ToastContainer position="bottom-center" />
-      <Footer/>
+      <Footer />
     </>
   );
 }
