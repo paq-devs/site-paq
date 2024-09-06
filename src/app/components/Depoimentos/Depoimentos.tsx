@@ -34,9 +34,13 @@ export default function Depoimentos() {
         <Swiper className={style.mySwiper}
           loop={true}
           modules={[ Navigation, Pagination]}
-          slidesPerView={4}
+          slidesPerView={3}
           centeredSlides={true}
           navigation={true}
+          grabCursor={true}
+          pagination={{
+          clickable: true,
+        }}
         >
           {depoimentos.map((depoimento, index) => (
             <SwiperSlide key={index}>

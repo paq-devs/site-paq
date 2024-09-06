@@ -57,3 +57,130 @@
     /* 100.98% */
     text-transform: uppercase;
 }
+
+@media (min-width:320px) and (max-width:740px) {
+    .text_historias {
+        display: flex;
+        width: 319px;
+        height: 376px;
+        padding: 60px 32.5px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container_historias {
+        display: flex;
+        width: 254px;
+        height: 256px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    .text_paragrafoEimg {
+        display: flex;
+        width: 254px;
+        height: 256px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        flex-shrink: 0;
+    }
+
+    .imgETitulo {
+        display: flex;
+        width: 203px;
+        height: 184px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-shrink: 0;
+    }
+
+    .imgETitulo h3 {
+        color: #FFF;
+        text-align: center;
+        font-family: "PP Formula Condensed";
+        font-size: 37.405px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        /* 106.936% */
+        text-transform: uppercase;
+    }
+
+    .text_paragrafoEimg p {
+        width: 254px;
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        /* 125% */
+        letter-spacing: -0.12px;
+    }
+
+}
+
+@media (min-width:745px)and (max-width:1020) {
+    .text_historias {
+        display: flex;
+        width: 319px;
+        padding: 60px 0px;
+        flex-direction: column;
+        align-items: center;
+        gap: 57px;
+    }
+
+    .container_historias {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 31px;
+    }
+
+    .text_paragrafoEimg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .text_paragrafoEimg p {
+        width: 374px;
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        /* 123.077% */
+        letter-spacing: -0.13px;
+    }
+
+    .imgETitulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .imgETitulo h3 {
+        color: #FFF;
+        text-align: center;
+        font-family: "PP Formula Condensed";
+        font-size: 67.34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 68px;
+        /* 100.98% */
+        text-transform: uppercase;
+    }
+}
