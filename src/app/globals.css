@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import 'react-toastify/dist/ReactToastify.css';
-@import url("./components/Depoimentos/CardDepoimento.module.css");
 @import '~react-toastify/dist/ReactToastify.min.css';
 
 @tailwind base;

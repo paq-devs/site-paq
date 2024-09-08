@@ -17,7 +17,7 @@ import 'swiper/css';
 export default function Depoimentos() {
 
   return (
-    <section className="bg-[#00171F] h-[88.6875rem] flex-col items-center justify-center">
+    <section className={style.container}>
       <aside className={style.text_historias}>
         <div className={style.container_historias}>
           <div className={style.text_paragrafoEimg}>
@@ -34,7 +34,7 @@ export default function Depoimentos() {
         <Swiper className={style.mySwiper}
           loop={true}
           modules={[ Navigation, Pagination]}
-          slidesPerView={3}
+          slidesPerView={4}
           centeredSlides={true}
           navigation={true}
           grabCursor={true}
