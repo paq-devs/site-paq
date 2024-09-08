@@ -1,7 +1,6 @@
 import PaqHeader from "@/app/components/Header/PaqHeader";
 import ConectarETransformar from "@/app/components/ConectarETransformar";
 import UmFuturoInovadorDiversoComecaAqui from "@/app/components/UmFuturoInovadorDiversoComecaAqui";
-import PaqFaq from "@/app/components/PaqFaq";
 import Impaqtrometro from "@/app/components/Impactometro/Impaqtrometro";
 import Depoimentos from "@/app/components/Depoimentos/Depoimentos"
 import PapelPAQ from "@/app/components/PapelPaq/PapelPAQ";
@@ -16,19 +15,19 @@ import NossoTime from "@/app/components/NossoTime/NossoTime";
 export default function Home() {
   return (
     <>
-      {/*<PaqHeader />
-      <UmFuturoInovadorDiversoComecaAqui/>
+      <PaqHeader />
+      <UmFuturoInovadorDiversoComecaAqui />
       <ConectarETransformar />
-      <PapelPAQ /> 
+      <PapelPAQ />
       <Impaqtrometro />
-      <JuntoComAGente />*/}
+      <JuntoComAGente />
       <Depoimentos />
-      {/*<NossoTime/>
+      <NossoTime />
       <ComoPossoFazerParte />
       <ComoFazerParte />
       <Contact />
       <ToastContainer position="bottom-center" />
-      <Footer/>*/}
+      <Footer />
     </>
   );
 }
