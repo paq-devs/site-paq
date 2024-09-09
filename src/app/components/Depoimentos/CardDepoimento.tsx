@@ -10,7 +10,7 @@ export default function CardDepoimento({ id, pathFoto, text, name, role }: any) 
       </figure>
       <article className={style.descricao}>
         <p className={style.texto}>{text}</p>
-        <div>
+        <div className={style.nameRole}>
           <h3 className={style.nome}>{name}</h3>
           <p className={style.cargo}>{role}</p>
         </div>

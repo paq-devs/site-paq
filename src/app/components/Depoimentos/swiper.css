@@ -1,5 +1,5 @@
 .swiper {
-  display: flex;
+  padding-bottom: 100px !important;
 }
 .swiper-wrapper {
   display: flex;
@@ -16,13 +16,13 @@
 
 .swiper-button-next::after {
   position: relative;
-  margin-bottom: -780px;
-  margin-left: -800px;
+  margin-bottom: -700px;
+  margin-left: -1200px;
 }
 .swiper-button-prev::after {
   position: relative;
-  margin-bottom: -780px;
-  margin-left: 800px;
+  margin-bottom: -700px;
+  margin-left: 1200px;
 }
 .swiper-pagination {
   display: none;

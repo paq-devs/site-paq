@@ -1,37 +1,26 @@
-.container_card {
-  display: flex;
-  width: 422.894px;
-  overflow-x: scroll;
-  gap: 70px;
-}
-
 .card {
   display: flex;
-  width: 450px;
+  width: 432.894px;
+  height: 749.76px;
   padding-bottom: 31.07px;
   flex-direction: column;
   align-items: center;
   gap: 22.405px;
-  background: #FFF;
-  height: 90%;
   border-radius: 26.682px;
-  height: 750px;
 }
 
 .card_image {
   width: 432.894px;
   height: 366.479px;
+  flex-shrink: 0;
   border-radius: 26.682px;
-  object-fit: cover;
-  object-position: center;
-  margin-top: 10px;
 }
 
 .descricao {
   display: flex;
   padding: 0px 19.204px;
   flex-direction: column;
-  text-align: start;
+  align-items: flex-start;
   gap: 8.802px;
   align-self: stretch;
 }
@@ -42,8 +31,15 @@
   font-size: 16px;
   font-style: italic;
   font-weight: 500;
-  line-height: 20.012px;
-  /* 125.073% */
+  line-height: 20.012px; /* 125.073% */
+}
+.nameRole{
+  display: flex;
+width: 252.148px;
+padding: 8px 0px;
+flex-direction: column;
+align-items: flex-start;
+gap: 2px;
 }
 
 .nome {
@@ -52,8 +48,7 @@
   font-size: 19px;
   font-style: normal;
   font-weight: 700;
-  line-height: 20.012px;
-  /* 105.325% */
+  line-height: 20.012px; /* 105.325% */
 }
 
 .cargo {
@@ -62,7 +57,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 20.012px;
+  line-height: 20.012px; /* 125.073% */
 }
 
 @media (min-width:320px) and (max-width:740px) {

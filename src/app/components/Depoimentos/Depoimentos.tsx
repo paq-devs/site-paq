@@ -33,17 +33,17 @@ export default function Depoimentos() {
 
         <Swiper className={style.mySwiper}
           loop={true}
-          modules={[ Navigation, Pagination]}
-          slidesPerView={4}
+          modules={[Navigation, Pagination]}
+          slidesPerView={3}
           centeredSlides={true}
           navigation={true}
           grabCursor={true}
           pagination={{
-          clickable: true,
-        }}
+            clickable: true,
+          }}
         >
           {depoimentos.map((depoimento, index) => (
-            <SwiperSlide key={index}>
+            <SwiperSlide key={index} className="h-[80rem]">
               <CardDepoimento
                 key={depoimento.id}
                 id={depoimento.id}
