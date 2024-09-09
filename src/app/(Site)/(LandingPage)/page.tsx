@@ -21,8 +21,8 @@ export default function Home() {
       <PapelPAQ />
       <Impaqtrometro />
       <JuntoComAGente />
-      <Depoimentos />
       <NossoTime />
+      <Depoimentos />
       <ComoPossoFazerParte />
       <ComoFazerParte />
       <Contact />
