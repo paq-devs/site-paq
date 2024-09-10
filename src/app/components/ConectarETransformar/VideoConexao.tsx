@@ -5,9 +5,8 @@ export default function VideoConexao() {
   return (
     <div className={styles.videoContainer}>
       <iframe
-        src="https://www.youtube.com/embed/tgbNymZ7vqY"
+        src="https://www.youtube.com/embed/9y1dih3eeJA"
         allowFullScreen
-        className="rounded-md"
       ></iframe>
     </div>
   );
