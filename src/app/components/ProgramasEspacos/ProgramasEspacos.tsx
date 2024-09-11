@@ -13,7 +13,7 @@ import "./ProgramasEspacos.css"
 
 export default function ProgramasEspacos() {
   return (
-    <section className="program-spaces">
+    <section id="programas-e-espacos" className="program-spaces">
       <div className="program-header">
         <Image src={bookSvg} alt="Livro com óculos" id="bookIcon" />
         <h2 className="mt-32" id="programs-title"><span className="font-bold">PROGRAMAS</span> <br /> E ESPAÇOS</h2>
@@ -27,7 +27,7 @@ export default function ProgramasEspacos() {
         <AccordionCard
           title="IMERSÃO"
           content="Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia,
-          desenvolver habilidades e competências básicas - Porta de entrada para quem quer 
+          desenvolver habilidades e competências básicas - Porta de entrada para quem quer
           iniciar no PAQ!"
           imageSrc={cardImgOne}
           alt="Jovens no PAQ"
@@ -37,7 +37,7 @@ export default function ProgramasEspacos() {
         <AccordionCard
           title="ACELERAÇÃO"
           content="Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia,
-          desenvolver habilidades e competências básicas - Porta de entrada para quem quer 
+          desenvolver habilidades e competências básicas - Porta de entrada para quem quer
           iniciar no PAQ!"
           imageSrc={cardImgTwo}
           alt="Jovens no PAQ"
@@ -47,7 +47,7 @@ export default function ProgramasEspacos() {
         <AccordionCard
           title="EXPERIÊNCIAS DE APRENDIZADO"
           content="Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia,
-          desenvolver habilidades e competências básicas - Porta de entrada para quem quer 
+          desenvolver habilidades e competências básicas - Porta de entrada para quem quer
           iniciar no PAQ!"
           imageSrc={cardImgThree}
           alt="Jovens no PAQ"
@@ -57,7 +57,7 @@ export default function ProgramasEspacos() {
         <AccordionCard
           title="CENTROS DE APRENDIZADO"
           content="Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia,
-          desenvolver habilidades e competências básicas - Porta de entrada para quem quer 
+          desenvolver habilidades e competências básicas - Porta de entrada para quem quer
           iniciar no PAQ!"
           imageSrc={cardImgFour}
           alt="Sala com computadores"

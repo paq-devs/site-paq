@@ -7,7 +7,7 @@ import styles from "./ConectarETransformar.module.css";
 
 export default function ConectarETransformar() {
   return (
-    <div className={styles.container}>
+    <div id="quem-somos" className={styles.container}>
       <Image src={imagemSetaAbaixo} width={70} height={70} alt="" />
       <Image
         src={imagemCompartilhar}

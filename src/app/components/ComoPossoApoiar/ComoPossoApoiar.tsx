@@ -14,7 +14,7 @@ export default function ComoPossoFazerParte() {
   };
 
   return (
-    <section className={`flex flex-col items-center gap-7 pt-14 transition-all duration-500 ease-in-out  ${selectedButton === 1 ? 'bg-azul-paq' : 'bg-[#FF9A3E]'}`}>
+    <section id="como-apoiar" className={`flex flex-col items-center gap-7 pt-14 transition-all duration-500 ease-in-out  ${selectedButton === 1 ? 'bg-azul-paq' : 'bg-[#FF9A3E]'}`}>
       <div className=" flex flex-col mt-40 items-center">
       <Image
         src={check}
@@ -29,7 +29,7 @@ export default function ComoPossoFazerParte() {
         <p className="ComoPossoApoiarTexto w-full">O apoio financeiro é essencial para a permanência da nossa <br/>
         missão no mundo, mas existem diversas formas de fortalecer a <br/>
         nossa missão e ser parte da construção de um futuro mais <br/>
-        diverso e realmente inovador. 
+        diverso e realmente inovador.
         </p>
       </div>
       </div>
