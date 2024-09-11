@@ -1,0 +1,103 @@
+.accordion-card {
+    width: 50%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #FFFFFF;
+    margin: 40px auto;
+    border-radius: 30px;
+    align-items: center;
+}
+
+
+.accordion-card-content {
+    padding-left: 20px;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    text-align: left;
+    height: 80%;
+    margin-right: 10px;
+}
+
+.accordion-card-title {
+    font-size: 45px;
+    font-family: "PP Formula Condensed";
+    font-weight: 400;
+    color: #1EB4E9;
+}
+
+.accordion-card-body {
+    font-family: Poppins;
+    margin-bottom: 10px;
+}
+
+.accordion-button {
+    width: 100px;
+    height: 40px;
+    background-color: #1EB4E9;
+    color: #FFFFFF;
+    font-family: Poppins;
+    border-radius: 20px;
+}
+
+.accordion-card-img {
+    height: 100%;
+}
+
+.accordion-card-img-img {
+    width: 100%; 
+    height: 300px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+@media (max-width: 1028px) {
+
+    .accordion-card {
+        width: 90%;
+        height: 300px;
+    }
+
+
+    .accordion-card-img-img {
+        width: 100%; 
+        height: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
+
+    .accordion-card-content {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media (max-width: 1380px) {
+
+    .accordion-card {
+        width: 60%;
+        height: 300px;
+    }
+
+
+    .accordion-card-content {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .accordion-card-img-img {
+        width: 100%; 
+        height: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
+}
+
+
