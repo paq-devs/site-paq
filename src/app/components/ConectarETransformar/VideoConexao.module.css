@@ -13,16 +13,17 @@
   margin-right: auto;
   width: 841px;
   height: 471px;
+  border-radius: 15px;
 }
 
 @media (min-width: 1280px) {
-
   .videoContainer iframe {
     margin-top: 300px;
     margin-left: auto;
     margin-right: auto;
     width: 900px;
     height: 490px;
+    border-radius: 15px;
   }
 }
 
@@ -32,6 +33,7 @@
   }
 
   .videoContainer iframe {
+    border-radius: 10px;
     width: 300px;
     height: 200px;
     margin-top: 50px;
