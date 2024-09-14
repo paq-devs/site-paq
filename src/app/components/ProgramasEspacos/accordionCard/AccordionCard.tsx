@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from "next/image"
-import "./AccordionCard.css"
+import styles from "./AccordionCard.module.css";
 
 type AccordionCardProps = {
   title: string;
@@ -11,25 +11,21 @@ type AccordionCardProps = {
 export default function AccordionCard(props: AccordionCardProps ) {
   return (
     <>
-    <div className="accordion-card">
-      <div className="accordion-card-content">
-        <div className="accordion-card-title">
-          {props.title}
-        </div>
-        <div className="accordion-card-body">
-          {props.content}
-        </div>
+      <div className={styles.accordionCard}>
+        <div className={styles.accordionCardContent}>
+          <div className={styles.accordionCardTitle}>{props.title}</div>
+          <div className={styles.accordionCardBody}>{props.content}</div>
 
-        <button className="accordion-button">Ver mais</button>
-      </div>
-      <div className="accordion-card-img">
-          <Image 
-            src={props.imageSrc} 
-            alt={props.alt} 
-            className="accordion-card-img-img" 
+          <button className={styles.accordionButton}>Ver mais</button>
+        </div>
+        <div className={styles.accordionCardImg}>
+          <Image
+            src={props.imageSrc}
+            alt={props.alt}
+            className={styles.accordionCardImgImg}
           />
+        </div>
       </div>
-      </div>
-  </>
+    </>
   );
 }

@@ -1,0 +1,91 @@
+.accordionCard {
+  width: 50%;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #ffffff;
+  margin: 40px auto;
+  border-radius: 30px;
+  align-items: center;
+}
+
+.accordionCardContent {
+  padding-left: 20px;
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  text-align: left;
+  height: 80%;
+  margin-right: 10px;
+}
+
+.accordionCardTitle {
+  font-size: 45px;
+  font-family: "PP Formula Condensed";
+  font-weight: 400;
+  color: #1eb4e9;
+}
+
+.accordionCardBody {
+  font-family: Poppins;
+  margin-bottom: 10px;
+}
+
+.accordionButton {
+  width: 100px;
+  height: 40px;
+  background-color: #1eb4e9;
+  color: #ffffff;
+  font-family: Poppins;
+  border-radius: 15px;
+}
+
+.accordionCard-img {
+  height: 100%;
+}
+
+.accordionCardImgImg {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+@media (max-width: 1028px) {
+  .accordionCard {
+    width: 90%;
+    height: 300px;
+  }
+
+  .accordionCardImgImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+
+  .accordionCardContent {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 1380px) {
+  .accordionCard {
+    width: 60%;
+    height: 300px;
+  }
+
+  .accordionCardContent {
+    width: 100%;
+    height: 100%;
+  }
+
+  .accordionCardImgImg {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+}
