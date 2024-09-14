@@ -19,9 +19,9 @@ const DropdownPaq = ({ text, isOpen, setIsOpen }: any) => {
       </a>
       {isOpen && (
         <div className={style.dropdownContent}>
-          <a href="#">Quem somos</a>
-          <a href="#">Papel do paq</a>
-          <a href="#">Impacto</a>
+          <a href="#quem-somos">Quem somos</a>
+          <a href="#papel-do-paq">Papel do paq</a>
+          <a href="#impaqtometro">Impacto</a>
         </div>
       )}
     </div>
@@ -35,9 +35,9 @@ export default function PaqHeader() {
       <FiAlignJustify className={style.hamburger} />
       <div className={style.dropdownContainer}>
         <DropdownPaq text={"Sobre"} isOpen={isOpen} setIsOpen={setIsOpen} />
-        <a href="#">Apoio</a>
-        <a href="#">Programas</a>
-        <a href="#">Histórias</a>
+        <a href="#como-apoiar">Apoio</a>
+        <a href="#programas-e-espacos">Programas</a>
+        <a href="#historias">Histórias</a>
       </div>
       <div className={style.logo}>
         <Image src={logoPaq} alt="Logo PAQ" />
@@ -45,7 +45,7 @@ export default function PaqHeader() {
       <div className={style.containerButton}>
         <div className={style.buttonDesktop}>
           <Button
-            href="#"
+            href="#como-apoiar"
             title="Quero apoiar"
             height="50px"
             width="150px"

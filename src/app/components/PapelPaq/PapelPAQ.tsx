@@ -12,7 +12,7 @@ import img4 from "./imgs/IMG_9895 (1)img4.png";
 
 export default async function PapelPAQ() {
   return (
-    <section className={style.papelPaq}>
+    <section id="papel-do-paq" className={style.papelPaq}>
       <div className={style.separacao_text}>
         <article className={style.conteudo_text}>
           <Image src={lampada} className={style.iconelampada} width={87.43} height={80.86} alt="imagem de lampada simbolizando ideia" />
