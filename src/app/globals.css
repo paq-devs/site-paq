@@ -58,6 +58,11 @@
 
 :root {
   --fundo-pagina: #fff;
+  --azul-paq: #1EB4E9;
+
+  /* breakpoints */
+  --breakpoint-smartphone: 480px;
+  --breakpoint-tablet: 768px;
 }
 
 body {

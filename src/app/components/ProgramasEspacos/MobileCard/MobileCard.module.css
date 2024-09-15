@@ -4,12 +4,19 @@
   justify-content: center;
   align-items: center;
   width: 288px;
-  background-color: #FFF;
+  background-color: var(--fundo-pagina);
   border-radius: 10px;
 }
 
 .cardContainer .conteudo {
   margin: 20px 10px;
+}
+
+.cardContainer svg {
+  color: var(--azul-paq);
+  font-size: 40px;
+  position: relative;
+  bottom: -20px;
 }
 
 .imagemCard {
@@ -23,7 +30,7 @@
 }
 
 .imagemCard span {
-  color: #FFF;
+  color: var(--fundo-pagina);
   text-align: center;
   font-family: "PP Formula Condensed";
   font-size: 40px;

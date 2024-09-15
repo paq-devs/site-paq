@@ -1,4 +1,5 @@
 import styles from "./MobileCard.module.css";
+import { FaPlusCircle } from "react-icons/fa";
 
 export default function MobileCard({
   titulo,
@@ -23,7 +24,7 @@ export default function MobileCard({
           <span>{titulo}</span>
         </div>
         <span className={styles.conteudo}>{descricaoCurta}</span>
-        <span>botão +</span>
+        <FaPlusCircle />
       </div>
     </>
   );

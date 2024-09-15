@@ -1,3 +1,15 @@
+@media (min-width: 480px) {
+  .mobileVersion {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .desktopVersion {
+    display: none;
+  }
+}
+
 .programSpaces {
   width: 100%;
   display: 40.8125rem;
@@ -64,3 +76,4 @@
 .contanierTituloPagina .tituloEspacos {
     margin-bottom: 30px;
 }
+
