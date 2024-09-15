@@ -1,18 +1,25 @@
 import Image from "next/image"
 import bookSvg from "./imgs/book.svg"
 import AccordionCard from "./accordionCard/AccordionCard"
+import MobileCard from "./MobileCard";
 
-
-import cardImgOne from "./imgs/img_1.png"
-import cardImgTwo from "./imgs/img_2.png"
-import cardImgThree from "./imgs/img_3.jpeg"
-import cardImgFour from "./imgs/img_4.png"
+import cardImgOne from "./imgs/img_1.png";
+import cardImgTwo from "./imgs/img_2.png";
+import cardImgThree from "./imgs/img_3.jpeg";
+import cardImgFour from "./imgs/img_4.png";
+import imersao from "./img/bg-imersao.png";
 
 import styles from "./ProgramasEspacos.module.css";
 
 export default function ProgramasEspacos() {
   return (
     <section className={styles.programSpaces}>
+      <MobileCard
+        titulo="Imersão"
+        imagem={imersao}
+        descricaoCurta="Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia,  desenvolver habilidades e competências básicas - Porta de entrada para quem quer iniciar no PAQ!
+"
+      />
       <div className={styles.programHeader}>
         <Image src={bookSvg} alt="Livro com óculos" />
         <div className={styles.contanierTituloPagina}>

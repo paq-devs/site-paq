@@ -1,0 +1,34 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 288px;
+  background-color: #FFF;
+  border-radius: 10px;
+}
+
+.cardContainer .conteudo {
+  margin: 20px 10px;
+}
+
+.imagemCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.imagemCard span {
+  color: #FFF;
+  text-align: center;
+  font-family: "PP Formula Condensed";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 68.211px;
+  text-transform: uppercase;
+}

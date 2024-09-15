@@ -17,12 +17,12 @@ export default function Home() {
   return (
     <>
       <PaqHeader />
+      <ProgramasEspacos />
       <UmFuturoInovadorDiversoComecaAqui />
       <ConectarETransformar />
       <PapelPAQ />
       <Impaqtrometro />
       <JuntoComAGente />
-      <ProgramasEspacos />
       <NossoTime />
       <Depoimentos />
       <ComoPossoFazerParte />
