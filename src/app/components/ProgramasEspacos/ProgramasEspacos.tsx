@@ -8,9 +8,8 @@ import cardImgTwo from "./imgs/img_2.png";
 import cardImgThree from "./imgs/img_3.jpeg";
 import cardImgFour from "./imgs/img_4.png";
 
-import imersao from "./img/bg-imersao.png";
-
 import styles from "./ProgramasEspacos.module.css";
+import CardImersao from "./CardImersao";
 
 export default function ProgramasEspacos() {
   return (
@@ -27,12 +26,7 @@ export default function ProgramasEspacos() {
         </p>
       </div>
       <div className={styles.mobileVersion}>
-        <MobileCard
-          titulo="Imersão"
-          imagem={imersao}
-          descricaoCurta="Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia,  desenvolver habilidades e competências básicas - Porta de entrada para quem quer iniciar no PAQ!
-"
-        />
+        <CardImersao />
       </div>
       <div className={styles.desktopVersion}>
         <div className={styles.programCards}>

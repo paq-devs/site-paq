@@ -1,12 +1,12 @@
 @media (min-width: 480px) {
   .mobileVersion {
-    display: none;
+    /* display: none; */
   }
 }
 
 @media (max-width: 480px) {
   .desktopVersion {
-    display: none;
+    /* display: none; */
   }
 }
 
