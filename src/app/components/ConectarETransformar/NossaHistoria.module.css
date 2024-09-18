@@ -1,0 +1,126 @@
+.containerPrincipal {
+    width: 1280px;
+    height: 2666px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.tituloPrincipal {
+    margin-bottom: 100px;
+    width: 329px;
+    height: 136px;
+    color: #00171F;
+    text-align: center;
+    font-family: "PP Formula Condensed";
+    font-size: 67.34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 68px;
+    text-transform: uppercase;
+}
+
+.containerImagensETextos {
+    background-image: url("./img/Vector\ 1.svg");
+    background-repeat: no-repeat;
+    background-position: top 120px left 500px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.image_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.text_content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 551px;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 25px;
+    flex-shrink: 0;
+    background: var(--Fundo-Cinza, #F7F7F7);
+    padding: 25px 47px 44px;
+}
+
+.text_content_title {
+    width: 340px;
+    color: #001219;
+    text-align: center;
+    font-family: "PP Formula Condensed";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 133.333% */
+    text-transform: uppercase;
+}
+
+.text_content_content {
+    width: 340px;
+    color: #001219;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 125% */
+}
+
+.img1 {
+    width: 594.068px;
+    height: 397.829px;
+    transform: rotate(-1.582deg);
+    flex-shrink: 0;
+    border-radius: 42.816px;
+}
+
+.img5 {
+    width: 917.172px;
+    height: 528.558px;
+    transform: rotate(-1.582deg);
+    flex-shrink: 0;
+    border-radius: 42.816px;
+}
+
+.linha {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+@media (width:744px) and (width:1279px) {
+    .containerPrincipal {
+        width: 744px;
+        height: 1859px;
+    }
+
+    .containerImagensETextos {
+        display: flex;
+        width: 744px;
+        padding: 106px 96px 276.232px 96px;
+        flex-direction: column;
+        align-items: center;
+        gap: 84px;
+    }
+
+    .text_content {
+        width: 324.025px;
+        padding: 14.702px 223.21px 27.639px 25.875px;
+        border-radius: 14.702px;
+    }
+
+}
