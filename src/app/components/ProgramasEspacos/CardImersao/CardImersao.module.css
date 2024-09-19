@@ -1,0 +1,12 @@
+.container {
+  margin: 20px;
+}
+
+.container p {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.container ul {
+  text-align: left;
+}
