@@ -122,7 +122,7 @@ export default function Impaqtrometro() {
         Clique no botão abaixo para acessar os relatórios institucionais dos últimos anos e ver detalhes:
         </p>
       </div>
-      <Button title="VER RELATÓRIOS" href="/" width="150px" height="42px"/>
+      <Button title="VER RELATÓRIOS" href="https://drive.google.com/drive/folders/1BWlhJdLAxDiH627k0KvBmNHLD5hKT3fe" width="150px" height="42px"/>
     </section>
   );
 }
