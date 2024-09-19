@@ -3,7 +3,7 @@
 /*Papel do paq na missão*/
 .papelPaq {
     width: 100%;
-    display: 40.8125rem;
+    height: 40.8125rem;
     display: flex;
     align-items: center;
     flex-direction: column;

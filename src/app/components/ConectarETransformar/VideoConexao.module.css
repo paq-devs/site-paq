@@ -11,8 +11,8 @@
   margin-top: 300px;
   margin-left: auto;
   margin-right: auto;
-  width: 841px;
-  height: 471px;
+  width: 504.07px;
+height: 282.273px;
   border-radius: 15px;
 }
 
@@ -27,7 +27,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 700px) {
   .videoContainer {
     height: 300px;
   }

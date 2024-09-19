@@ -1,0 +1,223 @@
+.containerPrincipal {
+    width: 100vw;
+    height: 2666px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.tituloPrincipal {
+    margin-bottom: 100px;
+    width: 329px;
+    height: 136px;
+    color: #00171F;
+    text-align: center;
+    font-family: "PP Formula Condensed";
+    font-size: 67.34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 68px;
+    text-transform: uppercase;
+}
+
+.containerImagensETextos {
+    background-image: url("./img/Vector\ 1.svg");
+    background-repeat: no-repeat;
+    background-position: top 100px left 350px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.image_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.text_content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 25px;
+    flex-shrink: 0;
+    background: var(--Fundo-Cinza, #F7F7F7);
+    padding: 25px 47px 44px;
+}
+
+.text_content_title {
+    width: 340px;
+    color: #001219;
+    text-align: center;
+    font-family: "PP Formula Condensed";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 133.333% */
+    text-transform: uppercase;
+}
+
+.text_content_content {
+    width: 340px;
+    color: #001219;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 125% */
+}
+
+.img1 {
+    width: 442.37px;
+    height: 379.232px;
+    transform: rotate(-1.582deg);
+    flex-shrink: 0;
+    border-radius: 42.816px;
+}
+
+.img5 {
+    width: 917.172px;
+    height: 528.558px;
+    transform: rotate(-1.582deg);
+    flex-shrink: 0;
+    border-radius: 42.816px;
+}
+
+@media (min-width:744px) and (max-width:1000px) {
+    .containerPrincipal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .containerImagensETextos {
+        height: 1256.768px;
+        justify-content: center;
+        background-position: top 100px left 205px;
+    }
+
+    .image_content {
+
+        height: 341.108px;
+        flex-shrink: 0;
+    }
+
+    .text_content {
+        display: flex;
+        width: 326.199px;
+        padding: 14.702px 27.639px 25.875px;
+        align-items: center;
+    }
+
+    .text_content_title h3 {
+        width: 199.943px;
+        color: #001219;
+        text-align: center;
+        font-family: "PP Formula Condensed";
+        font-size: 17.642px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 23.523px;
+        text-transform: uppercase;
+    }
+
+    .text_content_content p {
+        width: 199.943px;
+        color: #001219;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 11.761px;
+        /* 117.613% */
+    }
+
+    .img1 {
+        width: 340.144px;
+        height: 223.014px;
+        flex-shrink: 0;
+        border-radius: 25.179px;
+    }
+
+    .img5 {
+        width: 539.359px;
+        height: 310.828px;
+    }
+}
+
+@media (min-width:300px) and (max-width:743px) {
+    .containerPrincipal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url(img/Vector\ 2.svg);
+        background-repeat: no-repeat;
+        background-position: left 160px top 530px;
+    }
+
+    .containerImagensETextos {
+        display: flex;
+        justify-content: center;
+        background-image: none;
+        gap: 0px;
+    }
+
+    .text_content {
+        display: flex;
+        width: 266px;
+        padding-top: 18px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .text_content_title {
+        color: #001219;
+        text-align: center;
+        font-family: "PP Formula Condensed";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        /* 166.667% */
+        text-transform: uppercase;
+    }
+
+    .text_content_content {
+        width: 252px;
+        color: #001219;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 15px;
+        /* 125% */
+    }
+
+    .img1 {
+        width: 283.297px;
+        height: 242.862px;
+        transform: rotate(-1.582deg);
+        flex-shrink: 0;
+        border-radius: 27.419px;
+    }
+
+    .img5 {
+        width: 283.297px;
+        height: 242.862px;
+        transform: rotate(-1.582deg);
+    }
+}
