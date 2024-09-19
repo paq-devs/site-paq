@@ -17,7 +17,7 @@ import 'swiper/css';
 export default function Depoimentos() {
 
   return (
-    <section className={style.container}>
+    <section id="historias" className={style.container}>
       <aside className={style.text_historias}>
         <div className={style.container_historias}>
           <div className={style.text_paragrafoEimg}>

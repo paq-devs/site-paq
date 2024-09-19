@@ -51,7 +51,7 @@ export default function JuntoComAGente() {
         <div className="my-10">
           <Button
             title="Também quero apoiar"
-            href="/"
+            href="#como-apoiar"
             width="215px"
             height="50px"
           ></Button>

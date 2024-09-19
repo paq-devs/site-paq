@@ -18,7 +18,7 @@ import './impaqtrometro.css'
 
 export default function Impaqtrometro() {
   return (
-    <section className="w-full flex flex-col items-center rounded-[20px] bg-[#00171F] p-[53px_33px] pb-56">
+    <section id="impaqtometro" className="w-full flex flex-col items-center rounded-[20px] bg-[#00171F] p-[53px_33px] pb-56">
       <GlobalStyle />
       <div className="flex flex-col items-center gap-7 mt-12 mb-16 lg:mt-36">
         <Image src={imagemRelogio} alt="" width={75} height={75} />
@@ -122,7 +122,7 @@ export default function Impaqtrometro() {
         Clique no botão abaixo para acessar os relatórios institucionais dos últimos anos e ver detalhes:
         </p>
       </div>
-      <Button title="VER RELATÓRIOS" href="/" width="150px" height="42px"/>
+      <Button title="VER RELATÓRIOS" href="https://drive.google.com/drive/folders/1BWlhJdLAxDiH627k0KvBmNHLD5hKT3fe" width="150px" height="42px"/>
     </section>
   );
 }

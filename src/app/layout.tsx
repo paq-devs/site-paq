@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Poppins } from 'next/font/google';
 
+
 const poppins = Poppins({
   subsets: ['latin'],
   display: 'swap',
@@ -13,7 +14,7 @@ const poppins = Poppins({
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: "SitePaq",
+  title: "Prototipando a quebrada",
 };
 
 export default function RootLayout({
