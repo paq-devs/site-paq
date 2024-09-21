@@ -6,6 +6,7 @@ type AccordionCardProps = {
   content: string;
   alt: string;
   imageSrc: StaticImageData;
+  children?: React.ReactNode;
 };
 
 export default function CardBase(props: AccordionCardProps) {
@@ -23,6 +24,9 @@ export default function CardBase(props: AccordionCardProps) {
           alt={props.alt}
           className={style.cardImage}
         />
+      </div>
+      <div>
+        {props.children}
       </div>
     </>
   );
