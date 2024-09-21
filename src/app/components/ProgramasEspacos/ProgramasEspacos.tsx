@@ -1,6 +1,6 @@
 import Image from "next/image"
 import bookSvg from "./imgs/book.svg"
-import AccordionCard from "./accordionCard/AccordionCard"
+import CardBase from "./CardBase/CardBase";
 
 
 import cardImgOne from "./imgs/img_1.png"
@@ -16,15 +16,17 @@ export default function ProgramasEspacos() {
     <section id="programas-e-espacos" className="program-spaces">
       <div className="program-header">
         <Image src={bookSvg} alt="Livro com óculos" id="bookIcon" />
-        <h2 className="mt-32" id="programs-title"><span className="font-bold">PROGRAMAS</span> <br /> E ESPAÇOS</h2>
+        <h2 className="mt-32" id="programs-title">
+          <span className="font-bold">PROGRAMAS</span> <br /> E ESPAÇOS
+        </h2>
         <p id="program-header-text">
-          Nossa metodologia é a parte mais importante e é
-          com ela que conseguimos colocar no mundo o impacto que acreditamos.
+          Nossa metodologia é a parte mais importante e é com ela que
+          conseguimos colocar no mundo o impacto que acreditamos.
         </p>
       </div>
 
       <div className="program-cards">
-        <AccordionCard
+        <CardBase
           title="IMERSÃO"
           content="Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia,
           desenvolver habilidades e competências básicas - Porta de entrada para quem quer
@@ -33,8 +35,7 @@ export default function ProgramasEspacos() {
           alt="Jovens no PAQ"
         />
 
-
-        <AccordionCard
+        <CardBase
           title="ACELERAÇÃO"
           content="Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia,
           desenvolver habilidades e competências básicas - Porta de entrada para quem quer
@@ -43,8 +44,7 @@ export default function ProgramasEspacos() {
           alt="Jovens no PAQ"
         />
 
-
-        <AccordionCard
+        <CardBase
           title="EXPERIÊNCIAS DE APRENDIZADO"
           content="Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia,
           desenvolver habilidades e competências básicas - Porta de entrada para quem quer
@@ -53,8 +53,7 @@ export default function ProgramasEspacos() {
           alt="Jovens no PAQ"
         />
 
-
-        <AccordionCard
+        <CardBase
           title="CENTROS DE APRENDIZADO"
           content="Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia,
           desenvolver habilidades e competências básicas - Porta de entrada para quem quer
@@ -62,7 +61,6 @@ export default function ProgramasEspacos() {
           imageSrc={cardImgFour}
           alt="Sala com computadores"
         />
-
       </div>
     </section>
   );
