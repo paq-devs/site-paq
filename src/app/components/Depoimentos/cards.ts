@@ -19,14 +19,14 @@ const depoimentos = [
   {
     id: 1,
     pathFoto: thiagoCerutti,
-    text: "“Ser mentor do PAQ é ter a certeza de que estamos pavimentando o caminho para proporcionar oportunidades para os educandos. Quando fiz a entrevista para ser mentor do PAQ me foi questionado se eu tinha experiência em mentorias, falei que não tinha mas que só precisava de uma oportunidade, e a oportunidade me foi dada. Por isso acredito que fazer parte do PAQ é sobre criar oportunidades para todas as partes.”",
+    text: "“Ser mentor do PAQ é ter a certeza de que estamos <strong>pavimentando o caminho para proporcionar oportunidades para os educandos</strong>. <br><br>Quando fiz a entrevista para ser mentor do PAQ me foi questionado se eu tinha experiência em mentorias, <strong>falei que não tinha mas que só precisava de uma oportunidade</strong>, e a oportunidade me foi dada. <br><br>Por isso acredito que fazer parte do PAQ <strong>é sobre criar oportunidades para todas as partes</strong>.”",
     name: "Thiago Cerutti",
     role: "Mentor",
   },
   {
     id: 2,
     pathFoto: pietraRocha,
-    text: "Essa ONG é incrível para nós jovens que tem muito potencial mais pouca oportunidade de mostrar nossa verdadeira força, ela nos impulsiona, e cria formatos gamificados para nos deixar engajados nos estudos, além de nós colocar em lugares tecnológicos super reconhecidos! Obrigado PAQ por tudo! 💙",
+    text: "Essa ONG é incrível para nós jovens que tem <strong>muito potencial mais pouca oportunidade de mostrar nossa verdadeira força</strong>, ela <strong>nos impulsiona</strong>, e cria formatos gamificados para nos deixar <strong>engajados nos estudos</strong>, além de nós colocar em <strong>lugares tecnológicos</strong> super reconhecidos! Obrigado PAQ por tudo! 💙",
     name: "Pietra Rocha",
     role: "Educanda",
   },

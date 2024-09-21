@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 107px;
 }
 .carrossel {
     width: 100%;
@@ -64,6 +65,29 @@
     /* 100.98% */
     text-transform: uppercase;
 }
+
+.custom_arrows {
+    display: flex;
+    justify-content: center;
+    gap: 68px;
+    user-select: none;
+}
+
+.left_arrow {
+    cursor: pointer;
+}
+
+.right_arrow {
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+@media (max-width:768px) {
+    .custom_arrows{
+        display: none;
+    }
+}
+
 
 @media (min-width:320px) and (max-width:740px) {
     .text_historias {

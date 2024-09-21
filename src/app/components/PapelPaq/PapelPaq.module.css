@@ -68,7 +68,6 @@
 /*Carrosel*/
 .separacao_carrossel {
     display: flex;
-    width: 100vw;
     padding: 0rem 2.6875rem 2.5rem 2.6875rem;
     align-items: center;
     justify-content: center;
@@ -370,7 +369,6 @@
 
 @media (min-width:744px) and (max-width: 1023px) {
     .papelPaq {
-        width: 100vw;
         height: 122.125rem;
         align-items: center;
     }
@@ -659,7 +657,6 @@
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media (min-width:1024px) and (max-width:4000px) {
     .papelPaq {
-        width: 100vw;
         height: 155.125rem;
         align-items: center;
         gap: 50px;

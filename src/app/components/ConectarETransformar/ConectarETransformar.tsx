@@ -65,7 +65,7 @@ const ConectarETransformar = () => {
           NOSSA HISTÓRIA
         </button>
         <div className={`grid overflow-hidden transition-all duration-1000 ease-in-out 
-        ${isOpen ? 'flex opacity-100 transition-all duration-1000 ease-in-out h-[3000px] w-[100vw]' : 'flex opacity-0 h-0 w-[100vw]'
+        ${isOpen ? 'flex opacity-100 transition-all duration-1000 ease-in-out h-[3000px]' : 'flex opacity-0 h-0'
           }`}>
           <div className="overflow-hidden ">
             <div className={history.containerPrincipal}>
