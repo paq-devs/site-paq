@@ -16,20 +16,20 @@ import ProgramasEspacos from "@/app/components/ProgramasEspacos/ProgramasEspacos
 export default function Home() {
   return (
     <>
-      <PaqHeader />
-      <UmFuturoInovadorDiversoComecaAqui />
+      {/* <PaqHeader /> */}
+      {/* <UmFuturoInovadorDiversoComecaAqui />
       <ConectarETransformar />
       <PapelPAQ />
       <Impaqtrometro />
-      <JuntoComAGente />
+      <JuntoComAGente /> */}
       <ProgramasEspacos />
-      <NossoTime />
+      {/* <NossoTime />
       <Depoimentos />
       <ComoPossoFazerParte />
       <ComoFazerParte />
       <Contact />
       <ToastContainer position="bottom-center" />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }

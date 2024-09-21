@@ -1,0 +1,25 @@
+.container {
+  background-color: #FFF;
+}
+
+.container header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #1eb4e9;
+}
+
+.container header p {
+  margin: 10px;
+  text-align: left;
+}
+
+.container h2 {
+  color: var(--blue-zima, #1eb4e9);
+  font-family: "PP Formula Condensed";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 75px; /* 150% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
