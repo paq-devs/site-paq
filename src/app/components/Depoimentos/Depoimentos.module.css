@@ -82,6 +82,12 @@
     transform: rotate(180deg);
 }
 
+@media (max-width:768px) {
+    .custom_arrows{
+        display: none;
+    }
+}
+
 
 @media (min-width:320px) and (max-width:740px) {
     .text_historias {

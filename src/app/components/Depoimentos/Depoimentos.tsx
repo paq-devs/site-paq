@@ -49,14 +49,27 @@ export default function Depoimentos() {
           className={style.mySwiper}
           loop={true}
           modules={[Pagination]}
-          spaceBetween={0}
-          slidesPerView={1}
+          spaceBetween={10}
+          centeredSlides={true}
+          slidesPerView={1.6}
           breakpoints={{
-            1440: {
-              slidesPerView: 3
+            900: {
+              slidesPerView: 1.8,
             },
             1024: {
-              slidesPerView: 2
+              slidesPerView: 2,
+            },
+            1150: {
+              slidesPerView: 2.2,
+            },
+            1280: {
+              slidesPerView: 2.4,
+            },
+            1410: {
+              slidesPerView: 2.6,
+            },
+            1540: {
+              slidesPerView: 3,
             }
           }}
           navigation={false}
