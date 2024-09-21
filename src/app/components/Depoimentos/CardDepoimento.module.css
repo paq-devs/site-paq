@@ -1,20 +1,25 @@
 .card {
   display: flex;
   width: 432.894px;
-  height: 749.76px;
   padding-bottom: 31.07px;
   flex-direction: column;
   align-items: center;
   gap: 22.405px;
   border-radius: 26.682px;
   background: #FFF;
+  text-align: left;
+}
+
+.card_figure {
+  width: 100%;
 }
 
 .card_image {
-  width: 432.894px;
+  width: 100%;
   height: 366.479px;
   flex-shrink: 0;
   border-radius: 26.682px;
+  object-fit: cover;
 }
 
 .descricao {
