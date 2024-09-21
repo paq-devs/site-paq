@@ -22,7 +22,7 @@ export default function UmFuturoDiversoDesktop() {
     centerMode: true,
   };
   return (
-    <>
+    <div className={style.containerDesktop}>
       <Slider {...settings} className={style.container}>
         <div>
           <Image src={img01} alt="a" width={1024} height={466} />
@@ -40,6 +40,6 @@ export default function UmFuturoDiversoDesktop() {
           AQUI
         </span>
       </div>
-    </>
+    </div>
   );
 }
