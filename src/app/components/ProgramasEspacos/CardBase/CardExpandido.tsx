@@ -17,7 +17,9 @@ export default function CardExpandido({
           {children}
           <div className={styles.botoes}>
             <Link href="#">Quero me inscrever!</Link>
-            <Link href="#" onClick={() => setIsOpen(false)}>X</Link>
+            <Link href="#programas-e-espacos" onClick={() => setIsOpen(false)}>
+              X
+            </Link>
           </div>
         </>
       ) : null}
