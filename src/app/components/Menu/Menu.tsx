@@ -19,7 +19,7 @@ const DropdownPaq = ({ item }: ({ item: MenuItem })) => {
       {isOpen && (
         <div className={style.dropdownContent}>
           {item.submenu?.map((item) => (
-            <a href={item.anchor}>{item.label}</a>
+            <a key={item.label} href={item.anchor}>{item.label}</a>
           ))}
         </div>
       )}
@@ -41,7 +41,7 @@ const Menu = () => {
               <a className={style.mobile_menu_item}>{item.label}</a>
               {item.submenu && (
                 item.submenu.map((submenu) => (
-                  <a className={style.mobile_submenu_item} href={submenu.anchor}>{submenu.label}</a>
+                  <a key={submenu.label} className={style.mobile_submenu_item} href={submenu.anchor}>{submenu.label}</a>
                 ))
               )}
             </>
@@ -54,7 +54,7 @@ const Menu = () => {
         {
           MenuItems.map((item) => {
             if (item.submenu) return <DropdownPaq item={item} />
-            return  <a href={item.anchor}>{item.label}</a>
+            return  <a key={item.label} ref={item.anchor}>{item.label}</a>
           })
         }
       </div>
