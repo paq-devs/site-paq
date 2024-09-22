@@ -1,0 +1,22 @@
+.botoes {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.botoes a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-color: var(--azul-paq);
+  font-family: Poppins;
+  font-size: 15.838px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.158px;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}

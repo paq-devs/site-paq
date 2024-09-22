@@ -33,7 +33,7 @@ export default function ProgramasEspacos() {
           imageSrc={cardImgOne}
           alt="Jovens no PAQ"
         >
-          <ProgramasEspacosImersao />
+          <ProgramasEspacosImersao isOpen={true} />
         </CardBase>
 
         <CardBase

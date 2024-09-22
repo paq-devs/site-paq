@@ -5,9 +5,13 @@ import galeria01 from "./img/galeria-01.png";
 import galeria02 from "./img/galeria-02.png";
 import galeria03 from "./img/galeria-03.png";
 import galeria04 from "./img/galeria-04.png";
-import Link from "next/link";
 
-export default function ProgramasEspacosImersao() {
+interface ProgramasEspacosImersaoProps {
+  isOpen: boolean;
+}
+
+export default function ProgramasEspacosImersao({ isOpen }: ProgramasEspacosImersaoProps) {
+  if (!isOpen) return null;
   return (
     <div className={styles.container}>
       <h2>Imersão</h2>
@@ -105,11 +109,6 @@ export default function ProgramasEspacosImersao() {
           <Image src={galeria03} alt="Jovens no PAQ" />
           <Image src={galeria04} alt="Jovens no PAQ" />
         </div>
-      </div>
-
-      <div className={styles.botoes}>
-        <Link href="#">Quero me inscrever!</Link>
-        <Link href="#">X</Link>
       </div>
     </div>
   );

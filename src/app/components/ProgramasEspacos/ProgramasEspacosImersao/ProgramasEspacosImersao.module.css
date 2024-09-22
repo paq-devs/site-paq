@@ -1,6 +1,8 @@
 .container {
   background-color: #fff;
   border-radius: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .container header {
