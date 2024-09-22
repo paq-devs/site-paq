@@ -1,9 +1,9 @@
 .programSpaces {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   display: 40.8125rem;
-  display: flex;
   align-items: center;
-  flex-direction: column;
   border-radius: 1.25rem 1.25rem 0rem 0rem;
   background: #def5fc;
   margin-bottom: 50px;
@@ -47,5 +47,10 @@
 
 .programCards {
    width: 50%;
-  /* height: 100%; */
+}
+
+@media (max-width: 1028px) {
+  .programCards {
+    width: 100%;
+ }
 }

@@ -51,15 +51,14 @@
 
 @media (max-width: 1028px) {
   .cardContainer {
-    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 60%;
     height: 300px;
   }
 
   .cardImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 30px;
+    display: none;
   }
 
   .cardContent {
@@ -70,8 +69,13 @@
 
 @media (max-width: 1380px) {
   .cardContainer {
-    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr;
     height: 300px;
+  }
+
+  .cardImage {
+    display: none;
   }
 
   .cardContent {
