@@ -3,7 +3,19 @@
   src: url("/fonts/PPFormulaCondensed-Regular.otf");
 }
 
-.section-inicial {
+@media (min-width: 832px) {
+  .container {
+    display: none;
+  }
+}
+
+@media (max-width: 832px) {
+  .container {
+    display: block;
+  }
+}
+
+.sectionInicial {
   height: 350px;
   display: flex;
   gap: 5px;
@@ -13,14 +25,14 @@
   justify-content: center;
 }
 
-.section-inicial_quadro {
+.sectionInicialQuadro {
   display: flex;
   flex-direction: row;
   align-items: baseline;
   text-align: center;
   justify-content: center;
 }
-.quadro1_text1 {
+.quadro1Text {
   color: #000;
   font-family: "PP Formula Condensed";
   line-height: 3.36rem;
@@ -31,10 +43,10 @@
 }
 
 /*Quadro 2*/
-.quadro2_text2 {
+.quadro2Text {
   animation: 10s text1 infinite;
 }
-.quadro2_text2::after {
+.quadro2Text::after {
   content: "diverso";
   text-transform: uppercase;
   color: #0da2d2;
@@ -45,7 +57,7 @@
   line-height: 3.36rem;
   font-size: 5.37625rem;
 }
-.quadro2-img1 {
+.quadro2Img {
   width: 71.3px;
   height: 72.99px;
   background-image: url("./img/concarh.png");
@@ -95,11 +107,11 @@
 
 /*Quadro 3*/
 
-.quadro3_text3 {
+.quadro3Text {
   animation: 10s text2 infinite;
 }
 
-.quadro3_text3::after {
+.quadro3Text::after {
   content: "começa";
   text-transform: uppercase;
   font-family: "PP Formula Condensed";
@@ -108,7 +120,7 @@
   font-size: 5.37625rem;
   animation: 10s text2 infinite;
 }
-.quadro3-img2 {
+.quadro3Img {
   width: 74.11px;
   height: 72.99px;
   background-image: url("./img/visita-soho.jpg");
@@ -150,11 +162,11 @@
 
 /*Quadro 4*/
 
-.quadro4_text4 {
+.quadro4Text {
   animation: 10s text3 infinite;
 }
 
-.quadro4_text4::after {
+.quadro4Text::after {
   content: "Aqui";
   text-transform: uppercase;
   font-family: "PP Formula Condensed";
@@ -164,7 +176,7 @@
   animation: 10s text3 infinite;
   color: #0da2d2;
 }
-.quadro4-img3 {
+.quadro4Img3 {
   width: 159px;
   height: 73px;
   background-image: url("./img/educandos-paq-evento.png");
@@ -174,7 +186,7 @@
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
-.quadro4-img4 {
+.quadro4Img4 {
   width: 0px;
   height: 0px;
   animation: 10s img4 infinite;

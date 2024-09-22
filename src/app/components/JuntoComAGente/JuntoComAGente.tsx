@@ -27,13 +27,7 @@ export default function JuntoComAGente() {
         <CardParceira />
         <CardEducacional />
         <div className="hidden md:block relative w-full h-64 lg:hidden">
-          <Image
-            src={suanamfeliz}
-            alt=""
-            layout="fill"
-            objectFit="cover"
-            className="imagemTablet"
-          />
+          <Image src={suanamfeliz} alt="" className="imagemTablet" />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="TextoPaqAgradece">O PAQ AGRADECE TODO O APOIO!</h1>
           </div>
