@@ -1,0 +1,56 @@
+.programSpaces {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  display: 40.8125rem;
+  align-items: center;
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+  background: #def5fc;
+  margin-bottom: 50px;
+}
+
+.programHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.programHeader h2 {
+  color: #00171f;
+  text-align: center;
+  font-family: "PP Formula Condensed";
+  font-size: 2.33781rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.5rem;
+  margin-top: 10px;
+}
+
+.programHeader h3 {
+  color: #000;
+  font-family: "PP Formula Condensed";
+  font-size: 2.33781rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 68px;
+  text-transform: uppercase;
+  margin-top: -10px;
+}
+
+.programHeader p {
+  margin: 20px 0;
+  width: 380px;
+  font-family: "Poppins";
+  font-size: 16px;
+}
+
+.programCards {
+   width: 50%;
+}
+
+@media (max-width: 1028px) {
+  .programCards {
+    width: 100%;
+ }
+}
