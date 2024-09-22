@@ -53,7 +53,7 @@ const Menu = () => {
         
         {
           MenuItems.map((item) => {
-            if (item.submenu) return <DropdownPaq item={item} />
+            if (item.submenu) return <DropdownPaq key={item.label} item={item} />
             return  <a key={item.label} href={item.anchor}>{item.label}</a>
           })
         }
