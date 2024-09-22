@@ -7,37 +7,6 @@
   font-family: "Poppins Semibold", sans-serif;
 }
 
-.paqDropdown {
-  margin: 0 auto;
-}
-
-.paqDropdown a {
-  display: flex;
-  flex-direction: row;
-  color: #000;
-}
-
-.dropdownContent {
-  position: absolute;
-  background-color: #fff;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdownContent a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdownContainer {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-content: space-around;
-}
-
 .container .containerButton {
   display: flex;
   justify-content: right;
@@ -51,10 +20,6 @@
   width: 70px;
 }
 
-.hamburger {
-  display: none;
-}
-
 .container .containerButton .buttonDesktop {
   display: block;
 }
@@ -64,18 +29,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .dropdownContainer {
-    display: none;
-  }
-
-  .hamburger {
-    display: block;
-    font-size: 24px;
-    width: 30px;
-    height: 30px;
-    margin-left: 10px;
-  }
-
   .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
