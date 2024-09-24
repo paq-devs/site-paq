@@ -12,11 +12,13 @@ import { ToastContainer } from "react-toastify";
 import Footer from "@/app/components/footer/footer";
 import NossoTime from "@/app/components/NossoTime/NossoTime";
 import ProgramasEspacos from "@/app/components/ProgramasEspacos/ProgramasEspacos";
+import UmFuturoDiversoDesktop from "@/app/components/UmFuturoDiversoDesktop";
 
 export default function Home() {
   return (
     <>
       <PaqHeader />
+      <UmFuturoDiversoDesktop />
       <UmFuturoInovadorDiversoComecaAqui />
       <ConectarETransformar />
       <PapelPAQ />

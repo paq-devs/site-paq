@@ -34,6 +34,18 @@
   margin-top: 30px;
 }
 
+.btn {
+  display: flex;
+  padding: 12px 17px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  background: var(--blue-zima, #1EB4E9);
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+
 @media (min-width: 1268px) {
   .container {
     margin-top: 5%;
