@@ -10,6 +10,7 @@ import cardImgFour from "./imgs/img_4.png"
 
 import styles from "./ProgramasEspacos.module.css";
 import ProgramasEspacosImersao from "./ProgramasEspacosImersao";
+import CentrosDeAprendizado from "./CentrosDeAprendizado/CentroDeAprendizado";
 
 export default function ProgramasEspacos() {
   return (
@@ -46,7 +47,7 @@ export default function ProgramasEspacos() {
         />
 
         <CardBase
-          title="EXPERIÊNCIAS DE APRENDIZADO"
+          title="EXPERIÊNCIAS DE APRENDIZAGEM"
           content="Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia,
           desenvolver habilidades e competências básicas - Porta de entrada para quem quer
           iniciar no PAQ!"
@@ -55,13 +56,13 @@ export default function ProgramasEspacos() {
         />
 
         <CardBase
-          title="CENTROS DE APRENDIZADO"
-          content="Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia,
-          desenvolver habilidades e competências básicas - Porta de entrada para quem quer
-          iniciar no PAQ!"
+          title="CENTROS DE APRENDIZAGEM"
+          content="Nosso movimento é de trazer as quebradas pra dentro dos centros de inovação e tecnologia, empoderando e mostrando que esses espaços podem e devem ser ocupados!"
           imageSrc={cardImgFour}
           alt="Sala com computadores"
-        />
+        >
+        <CentrosDeAprendizado isOpen={true}/>
+        </CardBase>
       </div>
     </section>
   );

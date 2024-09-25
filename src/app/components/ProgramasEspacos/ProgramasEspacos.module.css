@@ -47,6 +47,9 @@
 
 .programCards {
    width: 50%;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
 }
 
 @media (max-width: 1028px) {

@@ -1,0 +1,338 @@
+.sectionCentroDeApendizado {
+    width: 680px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 35px;
+}
+.img1{
+    background: url("./img/EspacoPAQ.png") lightgray 50% / cover no-repeat;
+}
+.img2{
+    background: url("./img/AquarioPB.png") lightgray 50% / cover no-repeat;
+}
+.img3{
+    background: url("./img/CopaPB.png") lightgray 50% / cover no-repeat;
+}
+.img4{
+    background: url("./img/Espaco1PAQ401.png") lightgray 50% / cover no-repeat;
+}
+.img5{
+    background: url("./img/Espaco2PAQ401.png") lightgray 50% / cover no-repeat;
+}
+.img6{
+    background: url("./img/Copa401.png") lightgray 50% / cover no-repeat;
+}
+.textsTopo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+}
+
+.tituloPrincipal {
+    display: flex;
+    width: 293px;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    margin-bottom: 12px;
+}
+
+.tituloPrincipal > h2::before{
+    content: "CEA: centros de experiência de aprendizagem";
+}
+
+.tituloPrincipal>h2 {
+    color: var(--blue-zima, #1EB4E9);
+    font-family: "PP Formula Condensed";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.paragrafofoTopo {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+.paragrafofoTopo>p {
+    width: 254px;
+    text-align: justify;
+    color: #303030;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    /* 115.385% */
+    letter-spacing: -0.13px;
+}
+
+.paragrafos {
+    color: #303030;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    /* 115.385% */
+    letter-spacing: -0.13px;
+}
+
+.containerImages {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.paragrafoFinal {
+    width: 603px;
+    padding: 0px 50px;
+    color: #303030;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    /* 115.385% */
+    letter-spacing: -0.13px;
+}
+
+.imgs {
+    width: 202.409px;
+    height: 309px;
+    flex-shrink: 0;
+}
+
+@media (min-width:1024px) {
+    .sectionCentroDeApendizado {
+        width: 53.125rem;
+        flex-shrink: 0;
+        border-radius: 0.9375rem;
+    }
+
+    .textsTopo {
+        gap: 30px;
+        padding-bottom: 15px;
+    }
+
+    .tituloPrincipal {
+        width: 25.3125rem;
+    }
+    .tituloPrincipal>h2::before{
+        content: "centros de Experiência de aprendizagem (CEA)";
+    }
+    .tituloPrincipal>h2 {
+        color: var(--blue-zima, #1EB4E9);
+        font-family: "PP Formula Condensed";
+        font-size: 3.125rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 3rem;
+        /* 96% */
+        text-transform: uppercase;
+    }
+
+    .paragrafofoTopo>p:first-child {
+        width: 22.25rem;
+    }
+
+    .paragrafofoTopo>p {
+        width: 24.0625rem;
+        text-align: start;
+        color: #303030;
+        font-family: Poppins;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.23731rem;
+        /* 123.733% */
+        letter-spacing: -0.01rem;
+    }
+
+    .paragrafoFinal {
+        width: 45.1875rem;
+        color: #000;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.23731rem;
+        /* 123.733% */
+        letter-spacing: -0.01rem;
+    }
+
+    .paragrafos {
+        color: #000;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.23731rem;
+        /* 123.733% */
+        letter-spacing: -0.01rem;
+    }
+
+    .containerImages {
+        gap: 3rem;
+    }
+
+    .imgs {
+        width: 14.57931rem;
+        height: 18.57238rem;
+    }
+}
+
+@media (max-width:740px) {
+    .sectionCentroDeApendizado {
+        width: 18rem;
+        padding: 0 0.813rem;
+        background: var(--Fundo-Cinza, #F7F7F7);
+    }
+
+    .tituloPrincipal {
+        flex-direction: column;
+        margin: 0 -0.813rem 14px -0.813rem;
+        width: 18rem;
+        height: 5.9375rem;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-shrink: 0;
+        border-radius: 0.375rem;
+        background-image: url("./img/Group\ 1000006172.png");
+    }
+
+    .tituloPrincipal>h2 {
+        width: 9rem;
+        color: #fff;
+        text-align: center;
+        font-family: "PP Formula Condensed";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.9375rem;
+        /* 96.875% */
+        text-transform: uppercase;
+    }
+
+    .tituloPrincipal>h2::before {
+        content: "centros de aprendizagem";
+        color: #fff;
+        text-align: center;
+        font-family: "PP Formula Condensed";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.9375rem;
+        /* 96.875% */
+        text-transform: uppercase;
+    }
+
+    .paragrafofoTopo {
+        flex-direction: column;
+        gap: 14px;
+        width: 16.1875rem;
+        margin-bottom: 10px;
+    }
+
+    .paragrafofoTopo>p {
+        color: #000;
+        font-family: Poppins;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 0.8125rem;
+        /* 108.333% */
+    }
+
+    .mobile {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sectionCentroDeApendizado:first-child{
+        margin-bottom: 500px;
+    }
+
+    .unidades {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 12.253rem;
+        transform: rotate(-1.48deg);
+        padding: 1.75rem 0.67656rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.75169rem;
+        border-radius: 0.451rem;
+        background: #FFF;
+    }
+
+    .textMobile {
+        color: var(--blue-zima, #1EB4E9);
+        width: 10rem;
+        text-align: center;
+        font-family: "PP Formula Condensed";
+        font-size: 2.1875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.625rem;
+        /* 120% */
+        letter-spacing: 0.04375rem;
+        text-decoration-line: underline;
+        text-transform: uppercase;
+    }
+
+    .paragrafos {
+        width: 10rem;
+        color: #000;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 0.9375rem;
+        /* 125% */
+    }
+
+    .paragrafoFinal {
+        width: 10.073rem;
+        color: #000;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 0.9375rem;
+        /* 125% */
+        padding: 0px;
+    }
+
+    .containerImages {
+        margin-top: -1px;
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+    .imgs {
+        width: 15.768rem;
+        height: 13.51744rem;
+        transform: rotate(-1.582deg);
+        flex-shrink: 0;
+        border-radius: 1.71369rem;
+        object-fit: fill;
+    }
+}
