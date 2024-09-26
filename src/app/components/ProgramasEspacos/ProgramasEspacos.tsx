@@ -10,6 +10,7 @@ import cardImgFour from "./imgs/img_4.png"
 
 import styles from "./ProgramasEspacos.module.css";
 import ProgramasEspacosImersao from "./ProgramasEspacosImersao";
+import ProgramasEspacosAceleracao from "./ProgramasEspacosAceleracao";
 
 export default function ProgramasEspacos() {
   return (
@@ -38,12 +39,12 @@ export default function ProgramasEspacos() {
 
         <CardBase
           title="ACELERAÇÃO"
-          content="Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia,
-          desenvolver habilidades e competências básicas - Porta de entrada para quem quer
-          iniciar no PAQ!"
+          content="O objetivo é qualificar tecnicamente os jovens para entrada no mercado tech. Desenvolvemos uma metodologia gameficada e baseada em projetos na qual o jovem é o protagonista da jornada."
           imageSrc={cardImgTwo}
           alt="Jovens no PAQ"
-        />
+        >
+          <ProgramasEspacosAceleracao isOpen={true} />
+        </CardBase>
 
         <CardBase
           title="EXPERIÊNCIAS DE APRENDIZADO"
