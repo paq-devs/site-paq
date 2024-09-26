@@ -1,30 +1,29 @@
-import "./index.css";
+import styles from './index.module.css';
 
-export default function UmFuturoInovadorDiversoComecaAqui(){
+export default function UmFuturoInovadorDiversoComecaAqui() {
   return (
-    <>
-      <section className="section-inicial">
-
-        <div className="section-inicial_quadro">
-          <p className="quadro1_text1">Um futuro</p>
+    <div className={styles.container}>
+      <section className={styles.sectionInicial}>
+        <div className={styles.sectionInicialQuadro}>
+          <p className={styles.quadro1Text}>Um futuro</p>
         </div>
 
-        <div className="section-inicial_quadro">
-          <p className="quadro2_text2"></p>
-          <div className="quadro2-img1"></div>
+        <div className={styles.sectionInicialQuadro}>
+          <p className={styles.quadro2Text}></p>
+          <div className={styles.quadro2Img}></div>
         </div>
 
-        <div className="section-inicial_quadro">
-          <div className="quadro3-img2"></div>
-          <p className="quadro3_text3"></p>
+        <div className={styles.sectionInicialQuadro}>
+          <div className={styles.quadro3Img}></div>
+          <p className={styles.quadro3Text}></p>
         </div>
 
-        <div className="section-inicial_quadro">
-          <p className="quadro4_text4"></p>
-          <div className="quadro4-img3"></div>
-          <div className="quadro4-img4"></div>
+        <div className={styles.sectionInicialQuadro}>
+          <p className={styles.quadro4Text}></p>
+          <div className={styles.quadro4Img3}></div>
+          <div className={styles.quadro4Img4}></div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
