@@ -6,12 +6,7 @@ import galeria02 from "./img/galeria-02.png";
 import galeria03 from "./img/galeria-03.png";
 import galeria04 from "./img/galeria-04.png";
 
-interface ProgramasEspacosImersaoProps {
-  isOpen: boolean;
-}
-
-export default function ProgramasEspacosImersao({ isOpen }: ProgramasEspacosImersaoProps) {
-  if (!isOpen) return null;
+export default function ProgramasEspacosImersao() {
   return (
     <div className={styles.container}>
       <h2>Imersão</h2>
