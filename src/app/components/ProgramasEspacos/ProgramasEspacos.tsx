@@ -11,6 +11,7 @@ import cardImgFour from "./imgs/img_4.png"
 import styles from "./ProgramasEspacos.module.css";
 import ProgramasEspacosImersao from "./ProgramasEspacosImersao";
 import ProgramasEspacosAceleracao from "./ProgramasEspacosAceleracao";
+import ProgramasEspacosExperienciasAprendizado from "./ProgramasEspacosExperienciasAprendizado";
 
 export default function ProgramasEspacos() {
   return (
@@ -34,7 +35,7 @@ export default function ProgramasEspacos() {
           imageSrc={cardImgOne}
           alt="Jovens no PAQ"
         >
-          <ProgramasEspacosImersao isOpen={true} />
+          <ProgramasEspacosImersao />
         </CardBase>
 
         <CardBase
@@ -53,7 +54,9 @@ export default function ProgramasEspacos() {
           iniciar no PAQ!"
           imageSrc={cardImgThree}
           alt="Jovens no PAQ"
-        />
+        >
+          <ProgramasEspacosExperienciasAprendizado />
+        </CardBase>
 
         <CardBase
           title="CENTROS DE APRENDIZADO"
