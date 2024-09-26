@@ -6,12 +6,8 @@ import galeria02 from "./img/galeria-02.png";
 import galeria03 from "./img/galeria-03.png";
 import galeria04 from "./img/galeria-04.png";
 
-interface ProgramasEspacosAceleracaoProps {
-  isOpen: boolean;
-}
 
-export default function ProgramasEspacosAceleracao({ isOpen }: ProgramasEspacosAceleracaoProps) {
-  if (!isOpen) return null;
+export default function ProgramasEspacosAceleracao() {
   return (
     <div className={styles.container}>
       <h2>Aceleração</h2>
