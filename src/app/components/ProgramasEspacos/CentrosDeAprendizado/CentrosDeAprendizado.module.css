@@ -1,0 +1,87 @@
+.container {
+  background-color: #fff;
+  border-radius: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.container header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #fff;
+}
+
+.container header p,
+.container header ul {
+  margin: 30px;
+  text-align: left;
+}
+
+.container h2 {
+  color: var(--blue-zima, #1eb4e9);
+  font-family: "PP Formula Condensed";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 96% */
+  text-transform: uppercase;
+  width: 50%;
+  text-align: left;
+  margin: 30px 0 0 30px;
+}
+
+.container hr {
+  margin: 40px 20px;
+  border: 2px solid var(--azul-paq);
+}
+
+.container .softSkills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 25px;
+  margin: 0 30px;
+}
+
+.container .softSkills h3 {
+  color: var(--blue-zima, #1eb4e9);
+  font-family: "PP Formula Condensed";
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.container .softSkills p {
+  text-align: left;
+}
+
+.container .galeria div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  margin: 30px 30px;
+}
+
+.container .galeria span {
+  margin: 30px 30px;
+}
+
+.container .botoes {
+  height: 60px;
+}
+
+.container .botoes a {
+  color: #fff;
+  background-color: var(--azul-paq);
+  font-family: Poppins;
+  font-size: 15.838px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.158px;
+  margin: 30px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
