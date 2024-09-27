@@ -3,7 +3,6 @@
 /*Papel do paq na missão*/
 .papelPaq {
     width: 100%;
-    height: 40.8125rem;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -68,18 +67,20 @@
 /*Carrosel*/
 .separacao_carrossel {
     display: flex;
-    padding: 0rem 2.6875rem 2.5rem 2.6875rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
     align-items: center;
     justify-content: center;
     gap: -0.8125rem;
+    max-width: 100%;
+    overflow-x: scroll;
 }
 
 .carrossel {
     display: flex;
-    height: 308.04px;
     align-items: center;
     gap: -0.75rem;
-    overflow-x: scroll;
+    width: 100%;
 }
 
 .card1 {
@@ -365,18 +366,33 @@
     display: flex;
     flex-direction: row;
     align-items: end;
+    flex: 1;
 }
 
-@media (min-width:744px) and (max-width: 1023px) {
-    .papelPaq {
-        height: 122.125rem;
-        align-items: center;
+@media (max-width:767px) {
+    .separacao_carrossel {
+        padding-bottom: 40px;
     }
 
+    .container_img_e_card:first-child {
+        padding-left: 42px;
+    }
+    
+    .container_img_e_card:last-child {
+        padding-right: 42px;
+    }
+}
+
+@media (min-width:768px) {
+    .separacao_carrossel {
+        padding-bottom: 120px;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1023px) {
     .carrossel {
         display: flex;
         flex-direction: column;
-        overflow-x: visible;
         gap: 55px;
     }
 
@@ -657,8 +673,6 @@
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media (min-width:1024px) and (max-width:4000px) {
     .papelPaq {
-        height: 155.125rem;
-        align-items: center;
         gap: 50px;
     }
 
@@ -697,7 +711,6 @@
     .carrossel {
         display: flex;
         flex-direction: column;
-        overflow-x: visible;
         gap: 55px;
     }
 
