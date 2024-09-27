@@ -1,5 +1,5 @@
 "use client";
-import styles from "./CentrosDeAprendizado2.module.css";
+import styles from "./CentrosDeAprendizado.module.css";
 import Image from "next/image";
 import galeria01 from "./img/galeria-01.png";
 import galeria02 from "./img/galeria-02.png";
@@ -8,7 +8,7 @@ import galeria04 from "./img/galeria-04.png";
 import galeria05 from "./img/galeria-05.png";
 import galeria06 from "./img/galeria-06.png";
 
-export default function CentrosDeAprendizado2() {
+export default function CentrosDeAprendizado() {
   return (
     <div className={styles.container}>
       <h2>centros de Experiência de aprendizagem (CEA)</h2>

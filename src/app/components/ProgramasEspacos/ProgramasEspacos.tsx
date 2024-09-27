@@ -10,7 +10,7 @@ import cardImgFour from "./imgs/img_4.png"
 
 import styles from "./ProgramasEspacos.module.css";
 import ProgramasEspacosImersao from "./ProgramasEspacosImersao";
-import CentrosDeAprendizado2 from "./CentrosDeAprendizado2";
+import CentrosDeAprendizado2 from "./CentrosDeAprendizado";
 import ProgramasEspacosAceleracao from "./ProgramasEspacosAceleracao";
 import ProgramasEspacosExperienciasAprendizado from "./ProgramasEspacosExperienciasAprendizado";
 
