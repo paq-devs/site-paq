@@ -10,7 +10,7 @@ import cardImgFour from "./imgs/img_4.png"
 
 import styles from "./ProgramasEspacos.module.css";
 import ProgramasEspacosImersao from "./ProgramasEspacosImersao";
-import CentrosDeAprendizado from "./CentrosDeAprendizado/CentroDeAprendizado";
+import CentrosDeAprendizado2 from "./CentrosDeAprendizado2";
 import ProgramasEspacosAceleracao from "./ProgramasEspacosAceleracao";
 import ProgramasEspacosExperienciasAprendizado from "./ProgramasEspacosExperienciasAprendizado";
 
@@ -65,7 +65,7 @@ export default function ProgramasEspacos() {
           imageSrc={cardImgFour}
           alt="Sala com computadores"
         >
-        <CentrosDeAprendizado isOpen={true}/>
+          <CentrosDeAprendizado2 />
         </CardBase>
       </div>
     </section>
