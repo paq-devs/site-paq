@@ -14,6 +14,7 @@ import img03 from "./img/carrossel-03-min.png";
 export default function UmFuturoDiversoDesktop() {
   var settings = {
     dots: false,
+    arrows: false,
     infinite: true,
     autoplay: true,
     autoplaySpeed: 3000,
