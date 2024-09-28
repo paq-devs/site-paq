@@ -5,7 +5,7 @@ import NossoTimeCarrosel from "./NossoTimeCarrosel";
 
 export default function NossoTime() {
   return (
-    <section className=" hidden lg:flex flex-col items-center">
+    <section className="flex flex-col items-center">
       <div className="flex flex-col items-center gap-6">
         <Image src={ferramenta} width={74} height={74} alt="" />
         <p className={style.NossoTimeTitulo}>
