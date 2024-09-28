@@ -1,3 +1,7 @@
+.mobileContainer {
+  display: none;
+}
+
 .programSpaces {
   display: flex;
   flex-direction: column;
@@ -56,4 +60,10 @@
   .programCards {
     width: 100%;
  }
+}
+
+@media (max-width: 500px) {
+  .mobileContainer {
+    display: block;
+  }
 }

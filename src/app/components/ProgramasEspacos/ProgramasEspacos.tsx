@@ -1,20 +1,28 @@
-import Image from "next/image"
-import bookSvg from "./imgs/book.svg"
+import Image from "next/image";
 import CardBase from "./CardBase/CardBase";
-
-
-import cardImgOne from "./imgs/img_1.png"
-import cardImgTwo from "./imgs/img_2.png"
-import cardImgThree from "./imgs/img_3.jpeg"
-import cardImgFour from "./imgs/img_4.png"
-
 import styles from "./ProgramasEspacos.module.css";
 import ProgramasEspacosImersao from "./ProgramasEspacosImersao";
 import CentrosDeAprendizado2 from "./CentrosDeAprendizado";
 import ProgramasEspacosAceleracao from "./ProgramasEspacosAceleracao";
 import ProgramasEspacosExperienciasAprendizado from "./ProgramasEspacosExperienciasAprendizado";
+import CardBaseMobile from "./CardBaseMobile";
+
+import bookSvg from "./imgs/book.svg";
+import cardImg1 from "./imgs/img_1.png";
+import cardImg2 from "./imgs/img_2.png";
+import cardImg3 from "./imgs/img_3.jpeg";
+import cardImg4 from "./imgs/img_4.png";
+
+import aceleracaoMobile from "./imgs/mobile/aceleracao.png";
+import centrosAprendizagemMobile from "./imgs/mobile/centros-aprendizagem.png";
+import experienciasAprendizadoMobile from "./imgs/mobile/experiencias-aprendizagem.png";
+import imersaoMobile from "./imgs/mobile/imersao.png";
 
 export default function ProgramasEspacos() {
+  const conteudo = {
+    ["Imersão"]:
+      "Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia, desenvolver habilidades e competências básicas - Porta de entrada para quem quer iniciar no PAQ!",
+  };
   return (
     <section id="programas-e-espacos" className={styles.programSpaces}>
       <div className={styles.programHeader}>
@@ -27,13 +35,23 @@ export default function ProgramasEspacos() {
         </p>
       </div>
 
+      <div className={styles.mobileContainer}>
+        <CardBaseMobile
+          conteudoCurto={conteudo["Imersão"]}
+          imagem={aceleracaoMobile}
+          titulo="Imersão"
+        >
+          <span>content</span>
+        </CardBaseMobile>
+      </div>
+
       <div className={styles.programCards}>
         <CardBase
           title="IMERSÃO"
           content="Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia,
           desenvolver habilidades e competências básicas - Porta de entrada para quem quer
           iniciar no PAQ!"
-          imageSrc={cardImgOne}
+          imageSrc={cardImg1}
           alt="Jovens no PAQ"
         >
           <ProgramasEspacosImersao />
@@ -42,7 +60,7 @@ export default function ProgramasEspacos() {
         <CardBase
           title="ACELERAÇÃO"
           content="O objetivo é qualificar tecnicamente os jovens para entrada no mercado tech. Desenvolvemos uma metodologia gameficada e baseada em projetos na qual o jovem é o protagonista da jornada."
-          imageSrc={cardImgTwo}
+          imageSrc={cardImg2}
           alt="Jovens no PAQ"
         >
           <ProgramasEspacosAceleracao />
@@ -53,7 +71,7 @@ export default function ProgramasEspacos() {
           content="Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia,
           desenvolver habilidades e competências básicas - Porta de entrada para quem quer
           iniciar no PAQ!"
-          imageSrc={cardImgThree}
+          imageSrc={cardImg3}
           alt="Jovens no PAQ"
         >
           <ProgramasEspacosExperienciasAprendizado />
@@ -62,7 +80,7 @@ export default function ProgramasEspacos() {
         <CardBase
           title="CENTROS DE APRENDIZAGEM"
           content="Nosso movimento é de trazer as quebradas pra dentro dos centros de inovação e tecnologia, empoderando e mostrando que esses espaços podem e devem ser ocupados!"
-          imageSrc={cardImgFour}
+          imageSrc={cardImg4}
           alt="Sala com computadores"
         >
           <CentrosDeAprendizado2 />
