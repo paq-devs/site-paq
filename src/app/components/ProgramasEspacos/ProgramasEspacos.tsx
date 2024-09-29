@@ -18,11 +18,14 @@ import centrosAprendizagemMobile from "./imgs/mobile/centros-aprendizagem.png";
 import experienciasAprendizadoMobile from "./imgs/mobile/experiencias-aprendizagem.png";
 import imersaoMobile from "./imgs/mobile/imersao.png";
 import ProgramasEspacosImersaoMobile from "./ProgramasEspacosImersao/ImersaoMobile";
+import ProgramasEspacosAceleracaoMobile from "./ProgramasEspacosAceleracao/AceleracaoMobile";
 
 export default function ProgramasEspacos() {
   const conteudo = {
     ["Imersão"]:
       "Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia, desenvolver habilidades e competências básicas - Porta de entrada para quem quer iniciar no PAQ!",
+    ["Aceleração"]:
+      "O objetivo é qualificar tecnicamente os jovens para entrada no mercado tech. Desenvolvemos uma metodologia gameficada e baseada em projetos na qual o jovem é o protagonista da jornada.",
   };
   return (
     <section id="programas-e-espacos" className={styles.programSpaces}>
@@ -43,6 +46,14 @@ export default function ProgramasEspacos() {
           titulo="Imersão"
         >
           <ProgramasEspacosImersaoMobile />
+        </CardBaseMobile>
+
+        <CardBaseMobile
+          conteudoCurto={conteudo["Aceleração"]}
+          imagem={aceleracaoMobile}
+          titulo="Aceleração"
+        >
+          <ProgramasEspacosAceleracaoMobile />
         </CardBaseMobile>
       </div>
 
