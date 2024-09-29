@@ -26,8 +26,17 @@ export default function CardBaseMobile({
         <h3>{titulo}</h3>
       </div>
       <p>{conteudoCurto}</p>
-      {isOpen && children}
-      {isOpen && <Button href="#" title="Quero fazer parte" width="90%" height="40px"/>}
+      {isOpen && (
+        <>
+          {children}
+          <Button
+            href="#"
+            title="Quero fazer parte"
+            width="90%"
+            height="40px"
+          />
+        </>
+      )}
 
       {isOpen ? (
         <FaMinusCircle onClick={() => setIsOpen(false)} />

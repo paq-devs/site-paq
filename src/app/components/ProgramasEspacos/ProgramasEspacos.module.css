@@ -66,4 +66,8 @@
   .mobileContainer {
     display: block;
   }
+
+  .programCards {
+    display: none;
+  }
 }
