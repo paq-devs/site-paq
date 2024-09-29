@@ -19,6 +19,7 @@ import experienciasAprendizadoMobile from "./imgs/mobile/experiencias-aprendizag
 import imersaoMobile from "./imgs/mobile/imersao.png";
 import ProgramasEspacosImersaoMobile from "./ProgramasEspacosImersao/ImersaoMobile";
 import ProgramasEspacosAceleracaoMobile from "./ProgramasEspacosAceleracao/AceleracaoMobile";
+import ProgramasEspacosExperienciasAprendizadoMobile from "./ProgramasEspacosExperienciasAprendizado/ExperienciasAprendizadoMobile";
 
 export default function ProgramasEspacos() {
   const conteudo = {
@@ -26,6 +27,8 @@ export default function ProgramasEspacos() {
       "Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia, desenvolver habilidades e competências básicas - Porta de entrada para quem quer iniciar no PAQ!",
     ["Aceleração"]:
       "O objetivo é qualificar tecnicamente os jovens para entrada no mercado tech. Desenvolvemos uma metodologia gameficada e baseada em projetos na qual o jovem é o protagonista da jornada.",
+    ["Experiências de Aprendizagem"]:
+      "Diferentes tipos de experiências de aprendizagem que ampliam a visão dos jovens em relação ao mundo tech e à vida real.",
   };
   return (
     <section id="programas-e-espacos" className={styles.programSpaces}>
@@ -42,7 +45,7 @@ export default function ProgramasEspacos() {
       <div className={styles.mobileContainer}>
         <CardBaseMobile
           conteudoCurto={conteudo["Imersão"]}
-          imagem={aceleracaoMobile}
+          imagem={imersaoMobile}
           titulo="Imersão"
         >
           <ProgramasEspacosImersaoMobile />
@@ -54,6 +57,14 @@ export default function ProgramasEspacos() {
           titulo="Aceleração"
         >
           <ProgramasEspacosAceleracaoMobile />
+        </CardBaseMobile>
+
+        <CardBaseMobile
+          conteudoCurto={conteudo["Experiências de Aprendizagem"]}
+          imagem={experienciasAprendizadoMobile}
+          titulo="Experiências de Aprendizagem"
+        >
+          <ProgramasEspacosExperienciasAprendizadoMobile />
         </CardBaseMobile>
       </div>
 
