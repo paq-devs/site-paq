@@ -59,9 +59,10 @@ const conteudo = [
     ),
     descricao: (
       <span>
-        Aprenda as principais ferramentas de{" "}
-        <strong>trabalho colaborativo</strong> para se jogar nesse mundão de
-        trampos remotos e <strong>aprenda a aprender</strong> em comunidade.
+        A <strong>validação de conhecimentos</strong> da aceleração é baseada em
+        projetos e gamificada através de um{" "}
+        <strong>sistema de insígnias</strong>. As insígnias são símbolos de
+        reconhecimento e certificações internas do PAQ.
       </span>
     ),
     imagem: projetosInsignias,
