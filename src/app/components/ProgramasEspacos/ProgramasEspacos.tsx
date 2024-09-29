@@ -17,6 +17,7 @@ import aceleracaoMobile from "./imgs/mobile/aceleracao.png";
 import centrosAprendizagemMobile from "./imgs/mobile/centros-aprendizagem.png";
 import experienciasAprendizadoMobile from "./imgs/mobile/experiencias-aprendizagem.png";
 import imersaoMobile from "./imgs/mobile/imersao.png";
+import ProgramasEspacosImersaoMobile from "./ProgramasEspacosImersao/ImersaoMobile";
 
 export default function ProgramasEspacos() {
   const conteudo = {
@@ -41,7 +42,7 @@ export default function ProgramasEspacos() {
           imagem={aceleracaoMobile}
           titulo="Imersão"
         >
-          <span>content</span>
+          <ProgramasEspacosImersaoMobile />
         </CardBaseMobile>
       </div>
 

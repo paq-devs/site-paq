@@ -15,7 +15,7 @@ export default function CardBaseMobile({
   titulo: string;
   conteudoCurto: string;
 }) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true); // TODO: alterar para false por padrão
   return (
     <div className={styles.container}>
       <div
