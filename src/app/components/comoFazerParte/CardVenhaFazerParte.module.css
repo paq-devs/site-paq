@@ -1,0 +1,133 @@
+.titulocardfazerparte {
+    color: #1EB4E9;
+    font-family: "PP Formula Condensed";
+    height: auto;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.textinhofazerparte {
+    color: #303030;
+    font-size: 16px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 125% */
+    letter-spacing: -0.158px;
+    text-align: left;
+}
+
+.containerButtons {
+    display: flex;
+    padding: 0.375rem 0.4375rem;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 2.5rem;
+    background: var(--Fundo-Cinza, #F7F7F7);
+    margin-bottom: 38px;
+}
+
+.btn {
+    display: flex;
+    padding: 0.8125rem 1.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2rem;
+    /* 120% */
+}
+
+
+@media (min-width:768px) and (max-width:1024px) {
+    .titulocardfazerparte {
+        font-size: 41px;
+        line-height: 44.471px;
+    }
+
+    .containerButtons {
+        display: inline-flex;
+        padding: 0.22075rem 0.25756rem;
+        align-items: center;
+        gap: 0.36794rem;
+        border-radius: 1.47181rem;
+        background: var(--Fundo-Cinza, #F7F7F7);
+    }
+
+    .btn {
+        display: flex;
+        padding: 0.47831rem 0.95669rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.36794rem;
+        border-radius: 1.47181rem;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 0.58875rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 0.70644rem;
+        /* 120% */
+    }
+
+
+    .textinhofazerparte {
+        font-size: 9.391px;
+        line-height: 11.739px;
+    }
+}
+
+@media (max-width: 767px) {
+    .titulocardfazerparte {
+        font-size: 35px;
+        line-height: 44.471px;
+        text-align: center;
+    }
+
+    .textinhofazerparte {
+        font-size: 9.391px;
+        line-height: 11.739px;
+        text-align: center;
+    }
+
+    .btn {
+        display: flex;
+        height: 2.15038rem;
+        padding: 0.60644rem 0.75rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        transition: all 500ms ease-in-out;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 0.89569rem;
+        /* 119.423% */
+    }
+
+    .containerButtons {
+        border-radius: 1.866rem;
+        background: var(--Fundo-Cinza, #F7F7F7);
+        margin-bottom: 38px;
+        display: flex;
+        height: 2.71019rem;
+        padding: 0.27988rem 0.32656rem;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        gap: 0.4665rem;
+        flex-shrink: 0;
+    }
+}
