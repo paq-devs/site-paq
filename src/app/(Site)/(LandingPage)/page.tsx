@@ -17,21 +17,21 @@ import UmFuturoDiversoDesktop from "@/app/components/UmFuturoDiversoDesktop";
 export default function Home() {
   return (
     <>
-      {/* <PaqHeader />
+      <PaqHeader />
       <UmFuturoDiversoDesktop />
       <UmFuturoInovadorDiversoComecaAqui />
       <ConectarETransformar />
       <PapelPAQ />
       <Impaqtrometro />
-      <JuntoComAGente /> */}
+      <JuntoComAGente />
       <ProgramasEspacos />
-      {/* <NossoTime />
+      <NossoTime />
       <Depoimentos />
       <ComoPossoFazerParte />
       <ComoFazerParte />
       <Contact />
       <ToastContainer position="bottom-center" />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }
