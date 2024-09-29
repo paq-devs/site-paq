@@ -40,3 +40,7 @@
   margin: 0 auto;
   color: var(--azul-paq);
 }
+
+.container > a {
+  margin: 0 auto;
+}

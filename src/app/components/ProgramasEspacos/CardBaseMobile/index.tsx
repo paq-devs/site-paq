@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import styles from "./CardBaseMobile.module.css";
 import { StaticImageData } from "next/image";
 import { FaMinusCircle, FaPlusCircle } from "react-icons/fa";
+import Button from "../../button";
 
 export default function CardBaseMobile({
   children,
@@ -15,7 +16,7 @@ export default function CardBaseMobile({
   titulo: string;
   conteudoCurto: string;
 }) {
-  const [isOpen, setIsOpen] = useState(true); // TODO: alterar para false por padrão
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className={styles.container}>
       <div
@@ -26,6 +27,7 @@ export default function CardBaseMobile({
       </div>
       <p>{conteudoCurto}</p>
       {isOpen && children}
+      {isOpen && <Button href="#" title="Quero fazer parte" width="90%" height="40px"/>}
 
       {isOpen ? (
         <FaMinusCircle onClick={() => setIsOpen(false)} />
