@@ -1,5 +1,8 @@
+"use client";
+import React, { useState } from "react";
 import styles from "./CardBaseMobile.module.css";
-import Image, { StaticImageData } from "next/image";
+import { StaticImageData } from "next/image";
+import { FaMinusCircle, FaPlusCircle } from "react-icons/fa";
 
 export default function CardBaseMobile({
   children,
@@ -12,6 +15,7 @@ export default function CardBaseMobile({
   titulo: string;
   conteudoCurto: string;
 }) {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className={styles.container}>
       <div
@@ -21,7 +25,13 @@ export default function CardBaseMobile({
         <h3>{titulo}</h3>
       </div>
       <p>{conteudoCurto}</p>
-      {children}
+      {isOpen && children}
+
+      {isOpen ? (
+        <FaMinusCircle onClick={() => setIsOpen(false)} />
+      ) : (
+        <FaPlusCircle onClick={() => setIsOpen(true)} />
+      )}
     </div>
   );
 }
