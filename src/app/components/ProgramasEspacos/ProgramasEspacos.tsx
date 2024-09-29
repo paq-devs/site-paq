@@ -20,6 +20,7 @@ import imersaoMobile from "./imgs/mobile/imersao.png";
 import ProgramasEspacosImersaoMobile from "./ProgramasEspacosImersao/ImersaoMobile";
 import ProgramasEspacosAceleracaoMobile from "./ProgramasEspacosAceleracao/AceleracaoMobile";
 import ProgramasEspacosExperienciasAprendizadoMobile from "./ProgramasEspacosExperienciasAprendizado/ExperienciasAprendizadoMobile";
+import ProgramasEspacosCentrosAprendizadoMobile from "./CentrosDeAprendizado/CentrosAprendizadoMobile";
 
 export default function ProgramasEspacos() {
   const conteudo = {
@@ -29,6 +30,8 @@ export default function ProgramasEspacos() {
       "O objetivo é qualificar tecnicamente os jovens para entrada no mercado tech. Desenvolvemos uma metodologia gameficada e baseada em projetos na qual o jovem é o protagonista da jornada.",
     ["Experiências de Aprendizagem"]:
       "Diferentes tipos de experiências de aprendizagem que ampliam a visão dos jovens em relação ao mundo tech e à vida real.",
+    ["Centros de Aprendizagem"]:
+      "Nosso movimento é de trazer as quebradas pra dentro dos centros de inovação e tecnologia, empoderando e mostrando que esses espaços podem e devem ser ocupados! ",
   };
   return (
     <section id="programas-e-espacos" className={styles.programSpaces}>
@@ -65,6 +68,14 @@ export default function ProgramasEspacos() {
           titulo="Experiências de Aprendizagem"
         >
           <ProgramasEspacosExperienciasAprendizadoMobile />
+        </CardBaseMobile>
+
+        <CardBaseMobile
+          conteudoCurto={conteudo["Centros de Aprendizagem"]}
+          imagem={centrosAprendizagemMobile}
+          titulo="Centros de Aprendizagem"
+        >
+          <ProgramasEspacosCentrosAprendizadoMobile />
         </CardBaseMobile>
       </div>
 
