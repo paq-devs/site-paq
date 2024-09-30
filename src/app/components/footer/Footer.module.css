@@ -6,7 +6,10 @@
   padding: 20px 0;
   text-align: center;
   width: 100%;
+}
 
+.container > img {
+  margin-top: 50px;
 }
 
 .container p {
@@ -25,7 +28,6 @@
 }
 
 @media (max-width: 500px) {
-
   .container p {
     width: 70%;
   }

@@ -12,7 +12,6 @@ export default function  Footer(){
         width={86}
         height={86}
         alt=""
-        className="aspect-auto mt-[30px]"
       />
       <div className={styles.links}>
         <a
