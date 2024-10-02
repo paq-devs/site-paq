@@ -1,3 +1,7 @@
+.mobileContainer {
+  display: none;
+}
+
 .programSpaces {
   display: flex;
   flex-direction: column;
@@ -6,7 +10,6 @@
   align-items: center;
   border-radius: 1.25rem 1.25rem 0rem 0rem;
   background: #def5fc;
-  margin-bottom: 50px;
 }
 
 .programHeader {
@@ -56,4 +59,14 @@
   .programCards {
     width: 100%;
  }
+}
+
+@media (max-width: 500px) {
+  .mobileContainer {
+    display: block;
+  }
+
+  .programCards {
+    display: none;
+  }
 }
