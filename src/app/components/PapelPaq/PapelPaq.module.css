@@ -23,16 +23,17 @@
     width: 15.875rem;
 }
 
-.textPaqFortalece p {
+.textPaqFortalece h3 {
+
     color: #00171F;
     text-align: center;
-    font-family: "Poppins";
-    font-size: 0.75rem;
+    font-family: "PP Formula Condensed";
+    font-size: 2.33781rem;
     font-style: normal;
-    font-weight: 500;
-    line-height: 0.9375rem;
-    /* 125% */
-    letter-spacing: -0.0075rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    /* 106.936% */
+    text-transform: uppercase;
 }
 
 .conteudo_text {
@@ -40,6 +41,7 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    width: 700px;
 }
 
 .conteudo_text h2 {

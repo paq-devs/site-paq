@@ -22,13 +22,13 @@ export default function Home() {
       <UmFuturoInovadorDiversoComecaAqui />
       <ConectarETransformar />
       <PapelPAQ />
+      <ProgramasEspacos />
       <Impaqtrometro />
       <JuntoComAGente />
-      <ProgramasEspacos />
-      <NossoTime />
       <Depoimentos />
-      <ComoPossoFazerParte />
+      <NossoTime />
       <ComoFazerParte />
+      <ComoPossoFazerParte />
       <Contact />
       <ToastContainer position="bottom-center" />
       <Footer />
