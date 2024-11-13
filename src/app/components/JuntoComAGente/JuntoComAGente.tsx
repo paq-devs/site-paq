@@ -11,7 +11,7 @@ import Button from "../button";
 
 export default function JuntoComAGente() {
   return (
-    <div className="flex flex-col items-center my-52">
+    <div id="juntoComAGente" className="flex flex-col items-center my-52">
       <Image src={coroa} alt="" width={160} height={90} className="my-9" />
       <h2 className="corpo">
         <span className="font-bold">Junto com a gente</span> <br /> nessa
