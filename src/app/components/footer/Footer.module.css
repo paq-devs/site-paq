@@ -3,32 +3,82 @@
   flex-direction: column;
   align-items: center;
   background: #001820;
-  padding: 20px 0;
+  gap: 50px;
+  padding-top: 50px;
+  padding-bottom: 35px;
   text-align: center;
   width: 100%;
 }
+.separacao{
+  display: flex;;
+  justify-content: space-around;
+  width: 100%;
+  align-items: start;
+}
+.logoERedes{
+  margin-top: -15px;
+}
+.linksUteis{
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: end;
+}
+.linksUteis :first-child{
+  margin-bottom: 7px;
+  font-weight: bold;
+}
 
-.container > img {
-  margin-top: 50px;
+.separacao p{
+  text-align: end;
 }
 
 .container p {
   color: #ffffff;
   font-size: 14px;
   margin: 0;
-  width: 500px;
-  margin-bottom: 70px;
 }
 
 .container .links {
   display: flex;
   justify-content: center;
-  margin: 80px 0 40px 0;
-  gap: 10px;
+  margin: 40px 0 40px 0;
+  gap: 20px;
+}
+.infoContatoLocalizacao{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 1.2rem;
+}
+.containerNews{
+  width: 374px;
+  height: 197px;
+  background-color: #f7f7f7;
+  border-radius: 12.7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containerNews > h2{
+  font-size: 32px;
+  color: black;
+  line-height: 40.6px;
+  margin-bottom: 10px;
+}
+.containerNews > p {
+  font-size: 12px;
+  color: black;
+  line-height: 16.9px;
+  width: 224px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 500px) {
   .container p {
-    width: 70%;
   }
 }
