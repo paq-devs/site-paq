@@ -93,7 +93,22 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
+  .container {
+    width: 100%;
+  }
+
+  .container h3 {
+    font-size: 14px;
+    width: 250px;
+    margin: 10px 0;
+  }
+
+  .container p {
+    font-size: 14px;
+    width: 250px;
+  }
+
   .container .textoSubtitulo {
     width: 60%;
     margin-top: 40px;
@@ -101,7 +116,7 @@
   }
 
   .container .textoAbaixoVideo {
-    width: 70%;
     align-items: center;
+    margin-bottom: 10px;
   }
 }
