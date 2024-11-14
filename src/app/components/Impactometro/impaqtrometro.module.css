@@ -1,0 +1,65 @@
+.container section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #00171F;
+    padding: 53px 33px;
+    padding-bottom: 56px;
+}
+
+.container footer {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.container footer > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container footer h2 {
+    font-family: "PP Formula Condensed";
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 40px;
+    line-height: 68px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.ImpaqtrometroTitulo{
+    color: #FFF;
+    text-align: center;
+    font-family: "PP Formula Condensed";
+    font-size: 67.34px;
+    font-style: normal;
+    line-height: 68px; /* 100.98% */
+    text-transform: uppercase
+}
+
+.ImpaqtrometroTexto{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.16px;
+}
+
+@media (max-width:768px){
+    .ImpaqtrometroTitulo{
+        font-size: 37px;
+        line-height: 40px;
+    }
+    .ImpaqtrometroTexto{
+        font-size: 12px;
+    }
+  }
