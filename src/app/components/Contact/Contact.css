@@ -1,5 +1,6 @@
 #contact-container {
     background-image: url('./img/contact-bg.png');
+    background-size: cover;
     color: white;
     display: flex;
     position: relative;
