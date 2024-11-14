@@ -1,11 +1,11 @@
 #contact-container {
-    background-image: url('/images/contact-bg.jpg');
-    height: 1003px;
+    background-image: url('./img/contact-bg.png');
     color: white;
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
+    padding: 80px 0;
 }
 
 .contact-form {
@@ -52,10 +52,6 @@
 }
 
 @media screen and (max-width: 480px) {
-    #contact-container {
-        background-image: none;
-    }
-
     .contact-subtitle {
         width: 100%;
     }
