@@ -63,14 +63,14 @@ const CardContent1: React.FC = () => (
   <div>
     {/* Card Desktop e tablet */}
     <div className='hidden md:flex items-center gap-5 lg:bg-fundocinza  rounded-2xl w-auto md:bg-white'>
-      <div className='gap-4 lg:gap-9 flex flex-col mx-16'>
-        <h2 className={style.titulocardfazerparte}>estudar<br /> no PAQ</h2>
+      <div className='gap-4 lg:gap-9 flex flex-col mx-16 text-start'>
+        <h2 className={style.titulocardfazerparte}>Quero SER<br /> EDUCANDO!</h2>
         <p className={`${style.textinhofazerparte}w-full`}>Se você é um <span className='font-bold'>jovem de quebrada da<br />Grande Floripa</span> e tem entre <span className='font-bold'>16 e 21<br /> anos</span>, vem participar do PAQ e<br />transformar o seu futuro! </p>
-        <div className='hidden lg:block'>
-          <Button title='Quero ser educando' href='/' width='225px' height='55px'></Button>
+        <div className='hidden lg:block rounded-[15.84px]'>
+          <Button title='Faça parte da Comunidade' href='/' width='263.87px' height='55.68px'></Button>
         </div>
-        <div className='hidden md:block lg:hidden'>
-          <Button title='Quero ser educando' href='/' width='160px' height='45px' />
+        <div className='hidden md:block lg:hidden rounded-[15.84px]'>
+          <Button title='Faça parte da Comunidade' href='/' width='160px' height='45px' />
         </div>
       </div>
       <Image src={anajulia} alt='' width={450} height={526} className='hidden lg:block aspect-auto object-cover rounded-2xl my-0' />
@@ -81,7 +81,7 @@ const CardContent1: React.FC = () => (
       <Image src={anajuliamobile} alt='' width={270} height={190} className='object-contain rounded-t-2xl my-0' />
       <h2 className={style.titulocardfazerparte}>Educando</h2>
       <p className={`${style.textinhofazerparte}w-full`}>Se você é um <span className='font-bold'>jovem de quebrada da<br />Grande Floripa</span> e tem entre <span className='font-bold'>16 e 21<br /> anos</span>, vem participar do PAQ e<br />transformar o seu futuro! </p>
-      <Button title='Quero ser educando' href='/' width='160px' height='45px' />
+      <Button title='QUERO APOIAR O PAQ!' href='/' width='160px' height='45px' />
     </div>
   </div>
 );
