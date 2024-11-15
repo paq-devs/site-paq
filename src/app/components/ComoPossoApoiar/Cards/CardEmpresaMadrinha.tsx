@@ -1,34 +1,28 @@
-import Image from "next/image"
+import Image from "next/image";
 import styles from "./CardEmpresaMadrinha.module.css";
 
-import soho from '../img/SOHO.png'
-import madrinha from '../img/Madrinha.png'
-import ButtonPreto from "../ButtonPreto"
-
+import soho from "../img/SOHO.png";
+import madrinha from "../img/Madrinha.png";
+import ButtonPreto from "../ButtonPreto";
 
 export default function CardEmpresaMadrinha() {
-    return (
-        <div className={"teste1"}>
-            <div className="hidden md:block">
-                <DesktopMadrinha/>
-            </div>
-            <div className="md:hidden">
-                <MobileMadrinha />
-            </div>
-        </div>
-    )
+  return (
+    <>
+      <div className="hidden md:block">
+        <DesktopMadrinha />
+      </div>
+      <div className="md:hidden">
+        <MobileMadrinha />
+      </div>
+    </>
+  );
 }
 
 const DesktopMadrinha: React.FC = () => {
   return (
     <div className={styles.desktopContainer}>
       <div className={styles.textContainer}>
-        <Image
-          src={madrinha}
-          alt=""
-          width={117}
-          height={109}
-        />
+        <Image src={madrinha} alt="" width={117} height={109} />
         <h2>
           <span>Empresas</span>
           <span>Madrinhas</span>
@@ -74,7 +68,7 @@ const DesktopMadrinha: React.FC = () => {
 
 const MobileMadrinha: React.FC = () => {
   return (
-    <div className="flex flex-col items-center bg-white p-9 rounded-2xl">
+    <div className={styles.mobileMadrinha}>
       <Image src={madrinha} alt="" width={117} height={109} />
       <h2 className={styles.EmpresaMadrinhaTitulo}>
         Empresas
