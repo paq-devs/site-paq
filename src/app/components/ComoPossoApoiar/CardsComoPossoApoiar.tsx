@@ -1,7 +1,8 @@
 "use client";
-import { useState, ReactNode } from 'react';
-import CardEmpresaMadrinha from './Cards/CardEmpresaMadrinha';
-import CardPessoaFisica from './Cards/CardPessoaFisica';
+import { useState, ReactNode } from "react";
+import CardEmpresaMadrinha from "./Cards/CardEmpresaMadrinha";
+import CardPessoaFisica from "./Cards/CardPessoaFisica";
+import CardApoioPix from "./Cards/CardApoioPix/CardApoioPix";
 import styles from "./CardsComoPossoApoiar.module.css";
 
 type CardProps = {
@@ -37,10 +38,17 @@ const CardComoPossoApoiar: React.FC<CardComoPossoApoiarProps> = ({
         >
           Financiamento Coletivo
         </button>
+        <button
+          onClick={() => handleClick(3)}
+          className={selectedButton === 3 ? styles.selected : styles.unselected}
+        >
+          PIX
+        </button>
       </div>
       <div className="transition-all duration-500 ease-in-out">
         {selectedButton === 1 && <Card content={<CardEmpresaMadrinha />} />}
         {selectedButton === 2 && <Card content={<CardPessoaFisica />} />}
+        {selectedButton === 3 && <Card content={<CardApoioPix />} />}
       </div>
     </div>
   );

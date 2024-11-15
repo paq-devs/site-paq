@@ -12,19 +12,22 @@ export default function ComoPossoApoiar() {
     setSelectedButton(buttonId);
   };
 
+  const estilosBackground: { [key: number]: string } = {
+    1: style.bgAzul,
+    2: style.bgLaranja,
+    3: style.bgVerde,
+  };
+
   return (
     <section
       id="como-apoiar"
-      className={`${style.container} ${
-        selectedButton === 1 ? style.bgAzul : style.bgLaranja
-      }`}
+      className={`${style.container} ${estilosBackground[selectedButton]}`}
     >
       <Image
         src={check}
         width={100}
         height={300}
         alt="Ícone de verificação"
-        className={selectedButton === 2 ? "text-white" : ""}
       />
       <h2>Como posso apoiar?</h2>
       <CardComoPossoApoiar onSelectButton={handleButtonSelect} />
