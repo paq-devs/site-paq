@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.25rem;
+  width: 850px;
+}
+
+.container > .seletor {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 40px;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  background-color: #fff;
+}
+
+.container > .seletor > button {
+  font-family: Poppins;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.selected {
+  background-color: #000;
+  color: #fff;
+  border-radius: 40px;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.unselected {
+  color: #000;
+  border-radius: 40px;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.cardContainer {
+  border-radius: 1rem;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .container > .seletor {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    gap: 0.5rem;
+  }
+
+  .container > .seletor > button {
+    width: 100%;
+  }
+
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+}
