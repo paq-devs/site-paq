@@ -41,3 +41,22 @@
   border-radius: 1rem;
   width: 100%;
 }
+
+@media (max-width: 500px) {
+  .container > .seletor {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    gap: 0.5rem;
+  }
+
+  .container > .seletor > button {
+    width: 100%;
+  }
+
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+}

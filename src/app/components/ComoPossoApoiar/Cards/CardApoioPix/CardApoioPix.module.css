@@ -6,6 +6,10 @@
   border-radius: 1rem;
 }
 
+.container .imgMobile {
+  display: none;
+}
+
 .container > .containerText {
   display: flex;
   flex-direction: column;
@@ -26,6 +30,7 @@
   padding: 15px;
   border-radius: 1rem;
 }
+
 .container > .containerImage {
   height: 100%;
   object-fit: contain;
@@ -33,4 +38,41 @@
 
 .container > .containerImage > img {
   border-radius: 1rem;
+}
+
+@media (max-width: 500px) {
+  .container > .containerImage {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+
+    width: 100%;
+  }
+
+  .container > .containerText > span {
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    border-radius: 1rem;
+    font-size: small;
+  }
+
+  .container > .containerText {
+    padding: 0.5rem;
+  }
+
+  .container > .containerText p {
+    text-align: center;
+  }
+
+  .container .imgDesktop {
+    display: none;
+  }
+  .container .imgMobile {
+    display: block;
+    width: 100%;
+    border-radius: 1rem;
+  }
 }
