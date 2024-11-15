@@ -1,5 +1,5 @@
 import Image from "next/image"
-import './CardEmpresaMadrinha.css'
+import styles from './CardEmpresaMadrinha.module.css'
 
 import parcas from '../img/BondedosParcas.png'
 import tituloparcas from '../img/tituloparcas.png'
