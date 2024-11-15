@@ -9,7 +9,7 @@ import ComoFazerParte from "@/app/components/comoFazerParte/ComoFazerParte";
 import ComoPossoFazerParte from "@/app/components/ComoPossoApoiar/ComoPossoApoiar";
 import Contact from "@/app/components/Contact";
 import { ToastContainer } from "react-toastify";
-import Footer from "@/app/components/footer/footer";
+import Footer from "@/app/components/Footer";
 import NossoTime from "@/app/components/NossoTime/NossoTime";
 import ProgramasEspacos from "@/app/components/ProgramasEspacos/ProgramasEspacos";
 import UmFuturoDiversoDesktop from "@/app/components/UmFuturoDiversoDesktop";
