@@ -21,25 +21,19 @@ export default function CardEmpresaMadrinha() {
 
 const DesktopMadrinha: React.FC = () => {
   return (
-    <div className="hidden md:flex items-center gap-5 lg:bg-fundocinza  rounded-2xl w-auto md:bg-white">
-      <div className="lg:gap-9 gap-4 flex flex-col mx-16">
-        <div className="flex flex-col items-center">
-          <Image
-            src={madrinha}
-            alt=""
-            width={117}
-            height={109}
-            className="hidden lg:block"
-          />
-          <h2 className={styles.EmpresaMadrinhaTitulo}>
-            Empresas
-            <br />
-            <span className="font-bold underline decoration-azulopcoes">
-              Madrinhas
-            </span>
-          </h2>
-        </div>
-        <p className="textinhofazerparte w-full">
+    <div className={styles.desktopContainer}>
+      <div className={styles.textContainer}>
+        <Image
+          src={madrinha}
+          alt=""
+          width={117}
+          height={109}
+        />
+        <h2>
+          <span>Empresas</span>
+          <span>Madrinhas</span>
+        </h2>
+        <p>
           Seja uma empresa apoiadora, faça parte da nossa comunidade e acompanhe
           o sucesso dos nossos jovens de perto.
         </p>

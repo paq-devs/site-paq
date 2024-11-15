@@ -36,3 +36,8 @@
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
 }
+
+.cardContainer {
+  border-radius: 1rem;
+  width: 100%;
+}

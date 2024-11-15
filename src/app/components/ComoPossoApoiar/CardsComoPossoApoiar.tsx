@@ -33,37 +33,21 @@ const CardComoPossoApoiar: React.FC<CardComoPossoApoiarProps> = ({
         </button>
         <button
           onClick={() => handleClick(2)}
-          className={`font-poppins px-4 md:px-6 py-2 font-bold transition-all duration-500 ease-in-out ${
-            selectedButton === 2
-              ? "bg-preto text-white rounded-[40px] my-1"
-              : " text-black rounded-[40px] my-1"
-          }`}
+          className={selectedButton === 2 ? styles.selected : styles.unselected}
         >
-          Pessoas Físicas
+          Financiamento Coletivo
         </button>
       </div>
-      <div className=" transition-all duration-500 ease-in-out">
-        {selectedButton === 1 && <Card content={<CardContent1 />} />}
-        {selectedButton === 2 && <Card content={<CardContent2 />} />}
+      <div className="transition-all duration-500 ease-in-out">
+        {selectedButton === 1 && <Card content={<CardEmpresaMadrinha />} />}
+        {selectedButton === 2 && <Card content={<CardPessoaFisica />} />}
       </div>
     </div>
   );
 };
 
 const Card: React.FC<CardProps> = ({ content }) => (
-  <div className="rounded-2xl w-full ">{content}</div>
-);
-
-const CardContent1: React.FC = () => (
-  <div>
-    <CardEmpresaMadrinha />
-  </div>
-);
-
-const CardContent2: React.FC = () => (
-  <div>
-    <CardPessoaFisica />
-  </div>
+  <div className={styles.cardContainer}>{content}</div>
 );
 
 export default CardComoPossoApoiar;
