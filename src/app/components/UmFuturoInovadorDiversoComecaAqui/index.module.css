@@ -60,7 +60,7 @@
 .quadro2Img {
   width: 71.3px;
   height: 72.99px;
-  background-image: url("./img/concarh.png");
+  background: url("./img//CONCARH-40.png") lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 6px;
@@ -89,18 +89,18 @@
   34% {
     transform: translateX(0px);
     width: 71.3px;
-    background-image: url("./img/concarh.png");
+    background: url("./img/CONCARH-40.png") lightgray 50% / cover no-repeat;
   }
   35%,
   69% {
     transform: translateX(-250px);
-    background-image: url("./img/cadu-yo-notebook.png");
+    background: url("./img/Notebooks-241.png") lightgray 50% / cover no-repeat;
     width: 32px;
   }
   70%,
   100% {
     transform: translateX(0px);
-    background-image: url("./img/cadu-yo-notebook.png");
+    background: url("./img/CaduEYo.png") lightgray 50% / cover no-repeat;
     width: 23.3px;
   }
 }
@@ -123,7 +123,7 @@
 .quadro3Img {
   width: 74.11px;
   height: 72.99px;
-  background-image: url("./img/visita-soho.jpg");
+  background: url("./img/VISITASOHO-2.png") lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   object-fit: fill;
   border-radius: 6px;
@@ -148,15 +148,18 @@
   0%,
   34% {
     transform: translateX(0px);
+    background: url("./img/VISITASOHO-2.png") lightgray 50% / cover no-repeat;
   }
   35%,
   69% {
     transform: translateX(205px);
+    background: url("./img/gophercon21.png") lightgray 50% / cover no-repeat;
   }
   70%,
   100% {
     transform: translateX(0px);
     content: "Diferente";
+    background: url("./img/EMPOWERNIC-55-31.png") lightgray 50% / cover no-repeat;
   }
 }
 
@@ -179,7 +182,7 @@
 .quadro4Img3 {
   width: 159px;
   height: 73px;
-  background-image: url("./img/educandos-paq-evento.png");
+  background: url("./img/fundo-banner1.png") lightgray 50% / cover no-repeat;
   border-radius: 6px;
   animation: 10s img3 infinite;
   background-size: cover;
@@ -190,7 +193,7 @@
   width: 0px;
   height: 0px;
   animation: 10s img4 infinite;
-  background-image: url("./img/concarh.png");
+  background: url("./img/IMERSAO2-DIA-41.png") lightgray 50% / cover no-repeat;
   border-radius: 6px;
 }
 
@@ -212,19 +215,19 @@
   0%,
   34% {
     transform: translateX(0px);
-    background-image: url("./img/educandos-paq-evento.png");
+    background: url("./img/fundo-banner1.png") lightgray 50% / cover no-repeat;
     width: 159px;
   }
   35%,
   69% {
     transform: translateX(-120px);
-    background-image: url("./img/educandos-paq-evento.png");
+    background: url("./img/photo16734165752.png") lightgray 50% / cover no-repeat;
     width: 159px;
   }
   70%,
   100% {
     transform: translateX(-120px);
-    background-image: url("./img/educando-paq.png");
+    background: url("./img/fundo-banner2.png") lightgray 50% / cover no-repeat;
     width: 80px;
   }
 }

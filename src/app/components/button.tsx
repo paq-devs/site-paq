@@ -3,10 +3,11 @@
 import Link from "next/link";
 
 type Props = {
-    title: string;
-    href: string;
-    width?: string;
-    height?: string;
+  title: string;
+  href: string;
+  width?: string;
+  height?: string;
+  newTab?: boolean;
 };
 
 type SubmitProps = {
@@ -16,17 +17,24 @@ type SubmitProps = {
     isEnabled?: boolean;
 };
 
-export default function Button({ title, href, width, height }: Props) {
-    return (
-        <Link
-            href={href}
-            className={`flex items-center font-poppins justify-center rounded-[10px] bg-azul-paq text-base text-white font-semibold`}
-            type="button"
-            style={{ width: width, height: height }}
-        >
-            {title}
-        </Link>
-    );
+export default function Button({
+  title,
+  href,
+  width,
+  height,
+  newTab = false,
+}: Props) {
+  return (
+    <Link
+      href={href}
+      className={`flex items-center font-poppins justify-center rounded-[10px] bg-azul-paq text-base text-white font-semibold`}
+      type="button"
+      style={{ width: width, height: height }}
+      target={newTab ? "_blank" : "_self"}
+    >
+      {title}
+    </Link>
+  );
 }
 
 export function SubmitButton({ title, width, height, isEnabled }: SubmitProps) {

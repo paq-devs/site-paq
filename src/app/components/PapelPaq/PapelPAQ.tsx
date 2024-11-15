@@ -16,10 +16,10 @@ export default async function PapelPAQ() {
       <div className={style.separacao_text}>
         <article className={style.conteudo_text}>
           <Image src={lampada} className={style.iconelampada} width={87.43} height={80.86} alt="imagem de lampada simbolizando ideia" />
-          <h2>PAPEL DO PAQ <br /><span>NA MISSÃO</span></h2>
+          <h2>Comunidade de aprendizagem</h2>
         </article>
         <div className={style.textPaqFortalece}>
-          <p>O PAQ fortalece a jornada de quem tá com a gente através desses pilares:</p>
+          <h3>O QUE FAZEMOS?</h3>
         </div>
       </div>
 
@@ -47,25 +47,26 @@ export default async function PapelPAQ() {
             <div className={style.card2}>
               <div className={style.conteudocard2}>
                 <div className={style.iconetitulo2}>
-                  <Image src={iconShining} width={0} height={0} className={style.iconeCard2} alt={"icone de brilho"} />
-                  <h2>Expande a Visão</h2>
+                  <Image src={iconSave} width={0} height={0} className={style.iconeCard2} alt={"icone de brilho"} />
+                  <h2>qualifica em tech</h2>
                 </div>
                 <div className={style.text2}>
-                  <p>“Só sonhamos com aquilo que conhecemos”. Conectamos os jovens com novos espaços, pessoas e experiências, ampliando sua visão sobre a cultura tech e também sobre o mundo.</p>
+                  <p>Fornecemos acesso a infraestrutura de qualidade, cursos, mentorias e também o acompanhamento necessário para o desenvolvolvimento dos jovens até a conquista do sucesso nas principais carreiras  de tecnologia.</p>
                 </div>
               </div>
             </div>
           </div>
 
           <div className={style.container_img_e_card}>
+           
             <div className={style.card3}>
               <div className={style.conteudocard3}>
                 <div className={style.iconetitulo3}>
-                  <Image src={iconSave} alt="iconde de salvar" className={style.iconeCard3} />
-                  <h2>qualifica em tech</h2>
+                  <Image src={iconShining} alt="iconde de salvar" className={style.iconeCard3} />
+                  <h2>Expande a Visão</h2>
                 </div>
                 <div className={style.text3}>
-                  <p>Fornecemos acesso a infraestrutura de qualidade, cursos, mentorias e também o acompanhamento necessário para o desenvolvolvimento dos jovens até a conquista do sucesso nas principais carreiras  de tecnologia.</p>
+                  <p>“Só sonhamos com aquilo que conhecemos”. Conectamos os jovens com novos espaços, pessoas e experiências, ampliando sua visão sobre a cultura tech e também sobre o mundo.</p>
                 </div>
               </div>
             </div>
@@ -78,7 +79,7 @@ export default async function PapelPAQ() {
               <div className={style.conteudocard4}>
                 <div className={style.iconetitulo4}>
                   <Image src={iconPin} alt="icone de pin" className={style.iconeCard4} />
-                  <h2>insere no mercado</h2>
+                  <h2>insere no trampo</h2>
                 </div>
                 <div className={style.text4}>
                   <p>Promovemos mobilidade social através da empregabilidade, conectando os jovens qualificados às vagas em empresas da área de tecnologia.</p>
