@@ -4,6 +4,7 @@ import { useState, ReactNode } from 'react';
 import Image from "next/image";
 import { Diretoria, Equipe, Conselhos } from "./time";
 import style from './NossoTime.module.css'
+import styles from './NossoTimeCarrossel.module.css';
 
 const Button: React.FC<{children: ReactNode, onClick: Function, selected: boolean}> = ({ children, onClick, selected }) => {
   return (
@@ -21,8 +22,8 @@ const NossoTimeCarrosel: React.FC = () => {
   const team = [Diretoria, Equipe, Conselhos];
 
   return (
-    <div className="max-w-full flex flex-col items-center mt-9">
-      <div className="flex space-x-4 mb-8 lg:bg-fundinhocinza rounded-[40px] px-3 md:bg-white bg-fundocinza">
+    <div className={styles.container}>
+      <nav>
         <Button
           selected={selectedButton == 0}
           onClick={() => setSelectedButton(0)}
@@ -41,7 +42,7 @@ const NossoTimeCarrosel: React.FC = () => {
         >
           Conselhos
         </Button>
-      </div>
+      </nav>
       <div className="flex max-w-full pb-8 gap-y-8 p-4 items-center overflow-x-auto 2xl:overflow-none 2xl:flex-wrap 2xl:justify-center">
         {team[selectedButton].map((member, index) => (
           <div
