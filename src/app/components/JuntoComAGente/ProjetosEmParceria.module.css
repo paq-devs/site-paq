@@ -1,0 +1,26 @@
+.container {
+  margin-top: 30px;
+}
+
+.container > .parcerias {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5; /* Assuming 'fundocinza' is a light gray color */
+  border-radius: 20px;
+  padding: 1.5rem 0;
+  margin: 1.5rem 1.25rem 1.5rem 1.25rem;
+}
+
+.container > .parcerias > img {
+  margin: 10px;
+}
+
+.container > h2 {
+  font-family: "PP Formula Condensed";
+  font-size: 37px;
+  font-style: normal;
+  line-height: 40px;
+  text-transform: uppercase;
+}
