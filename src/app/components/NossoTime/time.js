@@ -42,43 +42,43 @@ export const Equipe = [
 export const Conselhos = [
   {
     src: moacirMarafon,
-    nome: "Moacir Marafon.png",
+    nome: "Moacir Marafon",
     cargo: "Conselho Deliberativo",
   },
   {
     src: cristianeIata,
-    nome: "Cristiane Iata.png",
+    nome: "Cristiane Iata",
     cargo: "Conselho Deliberativo",
   },
   {
     src: felipeMandavalli,
-    nome: "Felipe Mandavalli.png",
+    nome: "Felipe Mandavalli",
     cargo: "Conselho Deliberativo",
   },
   {
     src: diegoChierighini,
-    nome: "Diego Chierighini.png",
+    nome: "Diego Chierighini",
     cargo: "Conselho Deliberativo",
   },
   {
     src: aliceCarneiro,
-    nome: "Alice Carneiro.png",
+    nome: "Alice Carneiro",
     cargo: "Conselho Deliberativo",
   },
   {
     src: eliezerLeal,
-    nome: "Eliezer Leal.png",
+    nome: "Eliezer Leal",
     cargo: "Conselho Deliberativo",
   },
   {
     src: talitaMatos,
-    nome: "Talita Matos.png",
+    nome: "Talita Matos",
     cargo: "Conselho Deliberativo",
   },
   {
     src: thiaraGaldinho,
-    nome: "Thiara Galdinho.png",
+    nome: "Thiara Galdinho",
     cargo: "Conselho Deliberativo",
   },
-  { src: andreRocha, nome: "Andre Rocha.png", cargo: "Conselho Fiscal" },
+  { src: andreRocha, nome: "Andre Rocha", cargo: "Conselho Fiscal" },
 ];
