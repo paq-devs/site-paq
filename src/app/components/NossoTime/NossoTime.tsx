@@ -6,12 +6,10 @@ import NossoTimeCarrosel from "./NossoTimeCarrosel";
 export default function NossoTime() {
   return (
     <section className={styles.container}>
-      <div className="flex flex-col items-center gap-6">
-        <Image src={ferramenta} width={74} height={74} alt="" />
-        <p className={styles.NossoTimeTitulo}>
-          <span className="font-bold">nosso time:</span> linha de frente
-        </p>
-      </div>
+      <Image src={ferramenta} width={74} height={74} alt="" />
+      <p className={styles.NossoTimeTitulo}>
+        <strong>nosso time:</strong> linha de frente
+      </p>
       <NossoTimeCarrosel />
     </section>
   );
