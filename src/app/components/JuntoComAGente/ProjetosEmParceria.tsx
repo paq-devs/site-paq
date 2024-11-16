@@ -1,7 +1,7 @@
 import mercadoLivre from "./img/projetosParceria/mercado-livre.png";
 import floripaMaisTec from "./img/projetosParceria/floripa-mais-tec.png";
 
-import styles from "./cardEducacional.module.css";
+import styles from "./ProjetosEmParceria.module.css";
 
 import Image from "next/image";
 
@@ -10,7 +10,7 @@ const images = [
   { src: floripaMaisTec, width: 212, height: 35 },
 ];
 
-export default function CardEducacional() {
+export default function ProjetosEmParceria() {
   return (
     <div className={styles.container}>
       <h2>projetos em parceria</h2>

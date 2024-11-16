@@ -8,7 +8,7 @@ import inaitec from "./img/parceiras/inaitec.png";
 import alura from "./img/parceiras/alura.png";
 import rocketseat from "./img/parceiras/rocketseat.png";
 
-import styles from "./cardParceiras.module.css";
+import styles from "./Parceiras.module.css";
 
 import Image from "next/image";
 
@@ -24,7 +24,7 @@ const imagesTop = [
   { src: alura, width: 103, height: 94 },
 ];
 
-export default function CardParceira() {
+export default function Parcerias() {
   return (
     <div className={styles.container}>
       <h2>PARCEIRAS</h2>

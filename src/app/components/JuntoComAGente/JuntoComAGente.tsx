@@ -4,8 +4,8 @@ import coroa from "./img/coroa.png";
 import styles from "./JuntoComAGente.module.css";
 
 import CardApoiadoras from "./cardApoiadoras";
-import CardParceira from "./cardParceiras";
-import CardEducacional from "./cardEducacional";
+import Parcerias from "./Parceiras";
+import ProjetosEmParceria from "./ProjetosEmParceria";
 
 export default function JuntoComAGente() {
   return (
@@ -16,8 +16,8 @@ export default function JuntoComAGente() {
       </h2>
       <div>
         <CardApoiadoras />
-        <CardParceira />
-        <CardEducacional />
+        <Parcerias />
+        <ProjetosEmParceria />
       </div>
     </div>
   );
