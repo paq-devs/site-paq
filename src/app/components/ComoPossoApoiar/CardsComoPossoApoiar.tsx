@@ -1,8 +1,8 @@
 "use client";
 import { useState, ReactNode } from "react";
-import CardEmpresaMadrinha from "./Cards/CardEmpresaMadrinha";
 import CardPessoaFisica from "./Cards/CardPessoaFisica";
 import CardApoioPix from "./Cards/CardApoioPix/CardApoioPix";
+import CardEmpresas from "./Cards/CardEmpresas";
 import styles from "./CardsComoPossoApoiar.module.css";
 
 type CardProps = {
@@ -46,7 +46,7 @@ const CardComoPossoApoiar: React.FC<CardComoPossoApoiarProps> = ({
         </button>
       </div>
       <div className="transition-all duration-500 ease-in-out">
-        {selectedButton === 1 && <Card content={<CardEmpresaMadrinha />} />}
+        {selectedButton === 1 && <Card content={<CardEmpresas />} />}
         {selectedButton === 2 && <Card content={<CardPessoaFisica />} />}
         {selectedButton === 3 && <Card content={<CardApoioPix />} />}
       </div>

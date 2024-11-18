@@ -1,0 +1,107 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 850px;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.container > .containerText > img {
+  max-width: 120px;
+}
+
+.containerText > h2 {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-family: var(--font-formula-condensed);
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.containerText > a {
+  color: #fff;
+  background-color: #000;
+  padding: 15px;
+  border-radius: 1rem;
+  font-family: var(--font-poppins);
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.containerText > h2 > span {
+  font-size: 50px;
+  text-decoration: underline;
+  text-decoration-color: var(--azul-paq);
+}
+.container .imgMobile {
+  display: none;
+}
+
+.container > .containerText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  padding: 1.25rem;
+}
+
+.container > .containerText p {
+  text-align: start;
+  max-width: 300px;
+}
+
+.container > .containerText > span {
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+  border-radius: 1rem;
+}
+
+.container > .containerImage {
+  height: 100%;
+  object-fit: contain;
+}
+
+.container > .containerImage > img {
+  border-radius: 1rem;
+}
+
+@media (max-width: 500px) {
+  .container > .containerImage {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+
+    width: 100%;
+  }
+
+  .container > .containerText > span {
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    border-radius: 1rem;
+    font-size: small;
+  }
+
+  .container > .containerText {
+    padding: 0.5rem;
+  }
+
+  .container > .containerText p {
+    text-align: center;
+  }
+
+  .container .imgDesktop {
+    display: none;
+  }
+  .container .imgMobile {
+    display: block;
+    width: 100%;
+    border-radius: 1rem;
+  }
+}
