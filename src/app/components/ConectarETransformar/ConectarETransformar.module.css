@@ -5,7 +5,7 @@
 }
 
 .container h2 {
-  font-family: "PP Formula Condensed", sans-serif;
+  font-family: var(--font-formula-condensed), sans-serif;
   font-size: 54px;
   margin: 30px 0;
   width: 400px;

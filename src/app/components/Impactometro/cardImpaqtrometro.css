@@ -13,7 +13,7 @@
 .cardImpaqtrometroTitulo{
   color: white;
   text-align: right;
-  font-family: "PP Formula Condensed";
+  font-family: var(--font-formula-condensed);
   font-size: 4.8rem;
   font-style: normal;
   font-weight: 400;

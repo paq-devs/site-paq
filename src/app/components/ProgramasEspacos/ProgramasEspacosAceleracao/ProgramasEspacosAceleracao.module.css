@@ -20,7 +20,7 @@
 .container h2 {
   padding-top: 60px;
   color: var(--blue-zima, #1eb4e9);
-  font-family: "PP Formula Condensed";
+  font-family: var(--font-formula-condensed);
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
@@ -45,7 +45,7 @@
 
 .container .softSkills h3 {
   color: var(--blue-zima, #1eb4e9);
-  font-family: "PP Formula Condensed";
+  font-family: var(--font-formula-condensed);
   font-size: 23px;
   font-style: normal;
   font-weight: 600;

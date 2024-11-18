@@ -11,7 +11,7 @@
     height: 136px;
     color: #00171F;
     text-align: center;
-    font-family: "PP Formula Condensed";
+    font-family: var(--font-formula-condensed);
     font-size: 67.34px;
     font-style: normal;
     font-weight: 400;
@@ -53,7 +53,7 @@
     width: 340px;
     color: #001219;
     text-align: center;
-    font-family: "PP Formula Condensed";
+    font-family: var(--font-formula-condensed);
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
@@ -121,7 +121,7 @@
         width: 199.943px;
         color: #001219;
         text-align: center;
-        font-family: "PP Formula Condensed";
+        font-family: var(--font-formula-condensed);
         font-size: 17.642px;
         font-style: normal;
         font-weight: 700;
@@ -184,7 +184,7 @@
     .text_content_title {
         color: #001219;
         text-align: center;
-        font-family: "PP Formula Condensed";
+        font-family: var(--font-formula-condensed);
         font-size: 24px;
         font-style: normal;
         font-weight: 700;

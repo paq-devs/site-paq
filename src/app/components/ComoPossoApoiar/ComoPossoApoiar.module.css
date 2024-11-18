@@ -9,7 +9,7 @@
 
 .container > h2 {
   color: #fff;
-  font-family: "PP Formula Condensed";
+  font-family: var(--font-formula-condensed);
   font-size: 67.34px;
   max-width: 300px;
 }
@@ -29,7 +29,7 @@
 .ComoPossoApoiarTitulo {
   color: white;
   text-align: center;
-  font-family: "PP Formula Condensed";
+  font-family: var(--font-formula-condensed);
   font-size: 67.34px;
   font-style: normal;
   font-weight: 400;

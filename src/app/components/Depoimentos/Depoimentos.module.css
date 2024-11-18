@@ -57,7 +57,7 @@
 .imgETitulo h3 {
     color: #FFF;
     text-align: center;
-    font-family: "PP Formula Condensed";
+    font-family: var(--font-formula-condensed);
     font-size: 4.20875rem;
     font-style: normal;
     font-weight: 700;
@@ -135,7 +135,7 @@
     .imgETitulo h3 {
         color: #FFF;
         text-align: center;
-        font-family: "PP Formula Condensed";
+        font-family: var(--font-formula-condensed);
         font-size: 37.405px;
         font-style: normal;
         font-weight: 700;
@@ -206,7 +206,7 @@
     .imgETitulo h3 {
         color: #FFF;
         text-align: center;
-        font-family: "PP Formula Condensed";
+        font-family: var(--font-formula-condensed);
         font-size: 67.34px;
         font-style: normal;
         font-weight: 700;

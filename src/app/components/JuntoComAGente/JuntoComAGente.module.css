@@ -8,7 +8,7 @@
 
 .container > h2 {
   color: #000;
-  font-family: "PP Formula Condensed";
+  font-family: var(--font-formula-condensed);
   font-size: 67.34px;
   font-style: normal;
   font-weight: 400;
@@ -40,7 +40,7 @@
 .TextoPaqAgradece {
   color: #fff;
   text-align: center;
-  font-family: "PP Formula Condensed";
+  font-family: var(--font-formula-condensed);
   font-size: 50px;
   font-style: normal;
   font-weight: 700;

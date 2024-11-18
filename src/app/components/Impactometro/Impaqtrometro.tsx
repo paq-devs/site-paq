@@ -1,7 +1,6 @@
 "use client";
 import imagemRelogio from "./img/relogio.png";
 import Image from "next/image";
-import GlobalStyle from "./fontPaq";
 import CardImpaqtrometro from "./cardImpaqtrometro";
 import Button from "../button";
 import voluntariado from "./img/voluntariado1.png";
@@ -20,7 +19,6 @@ export default function Impaqtrometro() {
   return (
     <div className={styles.container}>
       <section id="impaqtometro">
-        <GlobalStyle />
         <div className="flex flex-col items-center gap-7 mt-12 mb-16 lg:mt-36">
           <Image src={imagemRelogio} alt="" width={75} height={75} />
           <h2 className={styles.ImpaqtrometroTitulo}>

@@ -22,7 +22,7 @@
 
 .cardTitle {
   font-size: 45px;
-  font-family: "PP Formula Condensed";
+  font-family: var(--font-formula-condensed);
   font-weight: 400;
   color: #1eb4e9;
 }

@@ -13,7 +13,7 @@
 }
 
 .container > h2 {
-  font-family: "PP Formula Condensed";
+  font-family: var(--font-formula-condensed);
   font-size: 37px;
   font-style: normal;
   line-height: 40px;

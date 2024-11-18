@@ -19,7 +19,7 @@
   border-radius: 10px;
 
   color: #fff;
-  font-family: "PP Formula Condensed";
+  font-family: var(--font-formula-condensed);
   font-size: 40px;
   font-style: normal;
   font-weight: 400;

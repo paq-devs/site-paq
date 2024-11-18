@@ -35,6 +35,6 @@ export default function CardImpaqtrometro({ image, numero, titulo, descricao }: 
                 <p className='cardImpaqtrometroTexto w-36 ml-20'>{descricao}</p>
             </div>
         </div>
-       
+
     )
 }

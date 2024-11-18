@@ -27,7 +27,7 @@
 
     color: #00171F;
     text-align: center;
-    font-family: "PP Formula Condensed";
+    font-family: var(--font-formula-condensed);
     font-size: 2.33781rem;
     font-style: normal;
     font-weight: 700;
@@ -47,7 +47,7 @@
 .conteudo_text h2 {
     color: #00171F;
     text-align: center;
-    font-family: "PP Formula Condensed";
+    font-family: var(--font-formula-condensed);
     font-size: 2.33781rem;
     font-style: normal;
     font-weight: 700;
@@ -58,7 +58,7 @@
 
 .conteudo_text span {
     color: #00171F;
-    font-family: "PP Formula Condensed";
+    font-family: var(--font-formula-condensed);
     font-size: 2.33781rem;
     font-style: normal;
     font-weight: 400;
@@ -139,7 +139,7 @@
 .iconetitulo1 h2 {
     color: #FFF;
     text-align: center;
-    font-family: "PP Formula Condensed";
+    font-family: var(--font-formula-condensed);
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
@@ -186,7 +186,7 @@
     height: 32px;
     color: #FFF;
     text-align: center;
-    font-family: "PP Formula Condensed";
+    font-family: var(--font-formula-condensed);
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
@@ -263,7 +263,7 @@
         height: 32px;
         color: #FFF;
         text-align: center;
-        font-family: "PP Formula Condensed";
+        font-family: var(--font-formula-condensed);
         font-size: 1.5rem;
         font-style: normal;
         font-weight: 700;
@@ -330,7 +330,7 @@
     & h2 {
         color: #FFF;
         text-align: center;
-        font-family: "PP Formula Condensed";
+        font-family: var(--font-formula-condensed);
         font-size: 1.5rem;
         font-style: normal;
         font-weight: 700;
@@ -379,7 +379,7 @@
     .container_img_e_card:first-child {
         padding-left: 42px;
     }
-    
+
     .container_img_e_card:last-child {
         padding-right: 42px;
     }
@@ -451,7 +451,7 @@
         & h2 {
             color: #FFF;
             text-align: center;
-            font-family: "PP Formula Condensed";
+            font-family: var(--font-formula-condensed);
             font-size: 1.16rem;
             font-style: normal;
             font-weight: 700;
@@ -516,7 +516,7 @@
     .iconetitulo2 h2 {
         color: #FFF;
         text-align: center;
-        font-family: "PP Formula Condensed";
+        font-family: var(--font-formula-condensed);
         font-size: 1.16713rem;
         font-style: normal;
         font-weight: 700;
@@ -579,7 +579,7 @@
         & h2 {
             color: #FFF;
             text-align: center;
-            font-family: "PP Formula Condensed";
+            font-family: var(--font-formula-condensed);
             font-size: 1.16713rem;
             font-style: normal;
             font-weight: 700;
@@ -648,7 +648,7 @@
     .iconetitulo4 h2 {
         color: #FFF;
         text-align: center;
-        font-family: "PP Formula Condensed";
+        font-family: var(--font-formula-condensed);
         font-size: 1.16713rem;
         font-style: normal;
         font-weight: 700;
@@ -764,7 +764,7 @@
         & h2 {
             color: #FFF;
             text-align: center;
-            font-family: "PP Formula Condensed";
+            font-family: var(--font-formula-condensed);
             font-size: 1.96738rem;
             font-style: normal;
             font-weight: 700;
@@ -818,7 +818,7 @@
         & h2 {
             color: #FFF;
             text-align: center;
-            font-family: "PP Formula Condensed";
+            font-family: var(--font-formula-condensed);
             font-size: 1.96738rem;
             font-style: normal;
             font-weight: 700;
@@ -878,7 +878,7 @@
     .iconetitulo3 h2 {
         color: #FFF;
         text-align: center;
-        font-family: "PP Formula Condensed";
+        font-family: var(--font-formula-condensed);
         font-size: 1.96738rem;
         font-style: normal;
         font-weight: 700;
