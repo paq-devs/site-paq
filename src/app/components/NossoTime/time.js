@@ -11,12 +11,12 @@ import leonardo from "./img/equipe/leonardo-martins.png";
 import moacirMarafon from "./img/conselho/moacir-marafon.png";
 import aliceCarneiro from "./img/conselho/alice-carneiro.png";
 import andreRocha from "./img/conselho/andre-rocha.png";
-import cristianeIata from "./img/conselho/cristiane-iata.png";
 import diegoChierighini from "./img/conselho/diego-chierighini.png";
 import eliezerLeal from "./img/conselho/eliezer-leal.png";
-import felipeMandavalli from "./img/conselho/felipe-mandavalli.png";
 import talitaMatos from "./img/conselho/talita-matos.png";
 import thiaraGaldinho from "./img/conselho/thiara-galdinho.png";
+import henriqueBlanck from "./img/conselho/henrique-blanck.png"
+import pedroBachiega from "./img/conselho/pedro-bachiega.png";
 
 export const Diretoria = [
   { src: jeff, nome: "Jefferson Lima", cargo: "Presidente" },
@@ -46,13 +46,13 @@ export const Conselhos = [
     cargo: "Conselho Deliberativo",
   },
   {
-    src: cristianeIata,
-    nome: "Cristiane Iata",
-    cargo: "Conselho Deliberativo",
+    src: henriqueBlanck,
+    nome: "Henrique Blanck",
+    cargo: "Conselho Fiscal",
   },
   {
-    src: felipeMandavalli,
-    nome: "Felipe Mandavalli",
+    src: pedroBachiega,
+    nome: "Pedro Bachiega",
     cargo: "Conselho Deliberativo",
   },
   {
