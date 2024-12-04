@@ -15,8 +15,8 @@ import diegoChierighini from "./img/conselho/diego-chierighini.png";
 import eliezerLeal from "./img/conselho/eliezer-leal.png";
 import talitaMatos from "./img/conselho/talita-matos.png";
 import thiaraGaldinho from "./img/conselho/thiara-galdinho.png";
-import henriqueBlanck from "./img/conselho/henrique-blanck.png"
-import pedroBachiega from "./img/conselho/pedro-bachiega.png";
+import henriqueBlanck from "./img/conselho/henrique-blanck.jpg"
+import pedroBachiega from "./img/conselho/pedro-bachiega.jpg";
 
 export const Diretoria = [
   { src: jeff, nome: "Jefferson Lima", cargo: "Presidente" },
