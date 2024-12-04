@@ -17,8 +17,7 @@
 
 @media screen and (max-width: 768px) {
   .container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
   }
 
   .container .containerButton .buttonDesktop {
