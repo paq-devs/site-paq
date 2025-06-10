@@ -2,11 +2,12 @@
   display: flex;
   justify-content: center;
   height: 80px;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 10px;
   width: 100%;
   margin-bottom: 10px;
   border-radius: 0 0 15px 15px;
+  margin-top: -30px;
 }
 
 .botoes a {
@@ -23,4 +24,10 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  transition: .5s;
+
+  &:hover {
+  background-color: rgb(27, 130, 199);
+
+  }
 }

@@ -2,25 +2,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1em;
+    padding: 3em 0;
 }
 
-.container > img {
-    margin: 50px 0;
-}
 
 .NossoTimeTitulo{
     color: #00171F;
     font-family: "PP Formula Condensed";
-    font-size: 67.34px;
+    font-size: 1.7em;
     font-weight: 400;
-    line-height: 68px;
+    line-height: 30px;
     text-transform: uppercase;
-    width: 350px;
+    width: 200px;
 }
 
 .NossoTimeParagrafo{
-    color: #00171F;
+    color: #09ade4;
     text-align: center;
     font-family: Poppins;
     font-size: 16px;

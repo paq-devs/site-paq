@@ -4,13 +4,16 @@
   width: auto;
 }
 
+
 @media (min-width: 768px) {
   .containerDesktop {
     display: flex;
     align-items: center;
-    gap: 1.25rem;
+    gap: 20px;
     background-color: white;
   }
+
+  
 }
 
 @media (min-width: 1024px) {
@@ -23,10 +26,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
-  padding: 1.25rem;
+  gap: 30px;
+  justify-content: space-between;
+  padding: 1em;
+
+  & > img {
+    width: 90%;
+    margin-bottom: -20px;
+  }
 }
 
-.containerDesktop > .containerText p {
-  text-align: start;
-}

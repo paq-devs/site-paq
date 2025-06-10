@@ -20,26 +20,6 @@ export default function ProgramasEspacosAceleracao() {
           Desenvolvemos uma metodologia gamificada e baseada em projetos que coloca o educando como protagonista do seu aprendizado, dando acesso à cursos, mentorias e acompanhamento para que desenvolvam suas competências em produtos digitais, com  foco nas áreas de design (UX/UI) e programação (Frontend/backend)! 
           </p>
         </div>
-        <ul>
-          <li>
-            <strong>Informações Importantes: </strong>
-          </li>
-          <li>
-            <strong>Público:</strong> Jovens de 16 a 21 anos{" "}
-          </li>
-          <li>
-            <strong>Duração:</strong> 18 meses
-          </li>
-          <li>
-            <strong>Formato:</strong> Híbrido
-          </li>
-          <li>
-            <strong>Inscrições:</strong> trimestralmente (internas)
-          </li>
-          <li>
-            <strong>Pré-requisitos:</strong> Ter feito o programa de imersão
-          </li>
-        </ul>
       </header>
 
       <hr />

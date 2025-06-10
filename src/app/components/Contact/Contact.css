@@ -1,19 +1,20 @@
 #contact-container {
-    background-image: url('./img/contact-bg.png');
+    background-image: url('./img/SOHO-4\ 2.png');
     background-size: cover;
+    background-position: center;
     color: white;
     display: flex;
     position: relative;
-    justify-content: center;
     align-items: center;
-    padding: 80px 0;
+    justify-content: center;
+    padding: 70px;
 }
 
 .contact-form {
-    max-width: 40vw;
-    padding: 40px;
+    max-width: 30vw;
+    padding: 20px;
     border-radius: 15px;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.46) 0%, rgba(0, 0, 0, 0.17) 100%);
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.733) 0%, rgba(0, 0, 0, 0.17) 100%);
     border: 1px solid #0DA2D2;
 }
 
@@ -32,9 +33,19 @@
 }
 
 .contact-subtitle {
-    color: #D2D2D2;
+    color: #e6e6e6;
     font-size: 1rem;
     font-family: 'Poppins Regular', sans-serif;
+}
+
+
+
+.submit-button {
+    background-color: rgb(19, 161, 204);
+
+    &:hover {
+        background-color: #1363ad;
+    }
 }
 
 @keyframes spin {
@@ -45,6 +56,7 @@
 @media screen and (max-width: 768px) {
     #contact-container {
         height: 723px;
+        padding: 1rem;
     }
 
     .contact-form {

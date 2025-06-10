@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+
+    padding: 4rem 0;
+    color: white;
+
+
+    & .cardImersao,
+    .cardAceleracao {
+        display: flex;
+        background-color: rgb(15, 19, 39);
+        width: 75%;
+        border-radius: 20px;
+
+        overflow: hidden;
+    }
+
+    & .cardImersao {
+        border-right: 10px solid rgb(15, 164, 223);
+    }
+
+    & .cardAceleracao {
+        flex-direction: row-reverse;
+    }
+
+    & .img {
+       width: auto; 
+       height: 300px;
+    }
+
+    & .conteudo {
+        width: 100%;
+    }
+}

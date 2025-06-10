@@ -22,7 +22,7 @@ const DesktopMadrinha: React.FC = () => {
   return (
     <div className={styles.desktopContainer}>
       <div className={styles.textContainer}>
-        <Image src={madrinha} alt="" width={117} height={109} />
+        <Image src={madrinha} alt="" width={80} height={70} />
         <h2>
           <span>Empresas</span>
           <span>Madrinhas</span>
@@ -51,8 +51,8 @@ const DesktopMadrinha: React.FC = () => {
       <Image
         src={soho}
         alt=""
-        width={450}
-        height={526}
+        width={350}
+        height={426}
         className="hidden lg:block aspect-auto object-cover rounded-2xl m-0"
       />
       <Image

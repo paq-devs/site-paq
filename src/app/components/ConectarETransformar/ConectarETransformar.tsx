@@ -19,7 +19,6 @@ const ConectarETransformar = () => {
 
   return (
     <div id="quem-somos" className={styles.container}>
-      <Image src={imagemSetaAbaixo} alt="" />
       <h2>CONECTAR E TRANSFORMAR!</h2>
       <h3>
         Somos o <br />
@@ -31,6 +30,7 @@ const ConectarETransformar = () => {
         conhecimento e oportunidades do{" "}
         <strong>ecossistema de tecnologia!</strong>
       </p>
+      <Image src={imagemSetaAbaixo} alt="" />
 
       <VideoConexao />
       <div className={styles.textoAbaixoVideo}>

@@ -1,91 +1,85 @@
-.container {
-  background-color: #fff;
-  border-radius: 15px;
-  padding-bottom: 10px;
-  border-radius: 15px 15px 0 0;
+.mobileContainer {
+  display: none;
 }
 
-.container header {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-color: #fff;
+.programSpaces {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background: #ffffff;
+  margin: 3em 0;
 }
 
-.container header p,
-.container header ul {
-  margin: 30px;
-  text-align: left;
+.programHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
 }
 
-.container h2 {
-  color: var(--blue-zima, #1eb4e9);
+.programHeaderIcon {
+  display: flex;
+  align-items: center;
+}
+
+.programHeader h2 {
+  color: #00171f;
+  text-align: center;
   font-family: "PP Formula Condensed";
-  font-size: 50px;
+  font-size: 2em;
   font-style: normal;
   font-weight: 700;
-  line-height: 48px; /* 96% */
-  text-transform: uppercase;
-  width: 50%;
-  text-align: left;
-  margin: 30px 0 0 30px;
+  line-height: 2.5rem;
+  margin-top: 10px;
 }
 
-.container hr {
-  margin: 40px 20px;
-  border: 2px solid var(--azul-paq);
-}
-
-.container .softSkills {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 25px;
-  margin: 0 30px;
-}
-
-.container .softSkills h3 {
-  color: var(--blue-zima, #1eb4e9);
+.programHeader h3 {
+  color: #000;
   font-family: "PP Formula Condensed";
-  font-size: 23px;
+  font-size: 1.8em;
   font-style: normal;
-  font-weight: 600;
-  line-height: 26px;
-  letter-spacing: 0.5px;
+  font-weight: 400;
+  line-height: 68px;
   text-transform: uppercase;
-  text-align: left;
+  margin-top: -20px;
 }
 
-.container .softSkills p {
-  text-align: left;
+
+.programHeader p {
+  width: 420px;
+  font-family: "Poppins";
+  font-size: 14px;
 }
 
-.container .galeria {
-  margin-bottom: 30px;
+.programCards {
+   width: 80%;
+   padding: 2em;
+   align-items: center;
+   display: flex;
+   flex-wrap: wrap;  /* Permite a quebra de linha */
+   gap: 16px; 
+   justify-content: space-between;
 }
 
-.container .galeria div {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 25px;
-  margin: 30px 30px;
+
+.programCards > div { 
+  width: calc(50% - 8px); 
+  
 }
 
-.container .galeria span {
-  margin: 30px 30px;
+@media (max-width: 1028px) {
+  .programCards {
+    width: 100%;
+ }
 }
 
-.container .botoes {
-  height: 60px;
-}
+@media (max-width: 500px) {
+  .mobileContainer {
+    display: block;
+  }
 
-.container .botoes a {
-  color: #fff;
-  background-color: var(--azul-paq);
-  font-family: Poppins;
-  font-size: 15.838px;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.158px;
-  margin: 30px;
-  padding: 10px 20px;
-  border-radius: 10px;
+  .programCards {
+    display: none;
+  }
 }

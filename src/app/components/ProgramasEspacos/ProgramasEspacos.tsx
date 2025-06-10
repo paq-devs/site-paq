@@ -2,9 +2,9 @@ import Image from "next/image";
 import CardBase from "./CardBase/CardBase";
 import styles from "./ProgramasEspacos.module.css";
 import ProgramasEspacosImersao from "./ProgramasEspacosImersao";
-import CentrosDeAprendizado2 from "./CentrosDeAprendizado";
+//import CentrosDeAprendizado2 from "./CentrosDeAprendizado";
 import ProgramasEspacosAceleracao from "./ProgramasEspacosAceleracao";
-import ProgramasEspacosExperienciasAprendizado from "./ProgramasEspacosExperienciasAprendizado";
+//import ProgramasEspacosExperienciasAprendizado from "./ProgramasEspacosExperienciasAprendizado";
 import CardBaseMobile from "./CardBaseMobile";
 
 import bookSvg from "./imgs/book.svg";
@@ -14,13 +14,13 @@ import cardImg3 from "./imgs/img_3.jpeg";
 import cardImg4 from "./imgs/img_4.png";
 
 import aceleracaoMobile from "./imgs/mobile/aceleracao.png";
-import centrosAprendizagemMobile from "./imgs/mobile/centros-aprendizagem.png";
+//import centrosAprendizagemMobile from "./imgs/mobile/centros-aprendizagem.png";
 import experienciasAprendizadoMobile from "./imgs/mobile/experiencias-aprendizagem.png";
 import imersaoMobile from "./imgs/mobile/imersao.png";
 import ProgramasEspacosImersaoMobile from "./ProgramasEspacosImersao/ImersaoMobile";
 import ProgramasEspacosAceleracaoMobile from "./ProgramasEspacosAceleracao/AceleracaoMobile";
-import ProgramasEspacosExperienciasAprendizadoMobile from "./ProgramasEspacosExperienciasAprendizado/ExperienciasAprendizadoMobile";
-import ProgramasEspacosCentrosAprendizadoMobile from "./CentrosDeAprendizado/CentrosAprendizadoMobile";
+//import ProgramasEspacosExperienciasAprendizadoMobile from "./ProgramasEspacosExperienciasAprendizado/ExperienciasAprendizadoMobile";
+//import ProgramasEspacosCentrosAprendizadoMobile from "./CentrosDeAprendizado/CentrosAprendizadoMobile";
 
 export default function ProgramasEspacos() {
   const conteudo = {
@@ -36,9 +36,13 @@ export default function ProgramasEspacos() {
   return (
     <section id="programas-e-espacos" className={styles.programSpaces}>
       <div className={styles.programHeader}>
-        <Image src={bookSvg} alt="Livro com óculos" id="bookIcon" />
-        <h2>PROGRAMAS</h2>
-        <h3>E ESPAÇOS</h3>
+        <div className={styles.programHeaderIcon}>
+          <Image src={bookSvg} alt="Livro com óculos" id="bookIcon" />
+          <div>
+            <h2>PROGRAMAS</h2>
+            <h3>E Experiências</h3>
+          </div>
+        </div>
         <p>
           Nossa metodologia é a parte mais importante e é com ela que
           conseguimos colocar no mundo o impacto que acreditamos.
@@ -61,64 +65,42 @@ export default function ProgramasEspacos() {
         >
           <ProgramasEspacosAceleracaoMobile />
         </CardBaseMobile>
-
-        <CardBaseMobile
-          conteudoCurto={conteudo["Experiências de Aprendizagem"]}
-          imagem={experienciasAprendizadoMobile}
-          titulo="Experiências de Aprendizagem"
-        >
-          <ProgramasEspacosExperienciasAprendizadoMobile />
-        </CardBaseMobile>
-
-        <CardBaseMobile
-          conteudoCurto={conteudo["Centros de Aprendizagem"]}
-          imagem={centrosAprendizagemMobile}
-          titulo="Centros de Aprendizagem"
-        >
-          <ProgramasEspacosCentrosAprendizadoMobile />
-        </CardBaseMobile>
+        
       </div>
 
-      <div className={styles.programCards}>
+      <div className={styles.programCards} data-anima="centro">
         <CardBase
           title="IMERSÃO"
           content="Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia,
           desenvolver habilidades e competências básicas - Porta de entrada para quem quer
           iniciar no PAQ!"
+          publico="Jovens de 16 a 21 anos"
+          duracao="8 semanas"
+          formato="Presencial nas unidades Pedra Branca (Palhoça) e SC-401 (Florianópolis)"
+          inscricoes="Trimestralmente (Site e instagram)"
+          preRequisitos="Conhecimentos básicos de informática"
           imageSrc={cardImg1}
           alt="Jovens no PAQ"
         >
+     
           <ProgramasEspacosImersao />
         </CardBase>
 
         <CardBase
           title="ACELERAÇÃO"
           content="O objetivo é qualificar tecnicamente os jovens para entrada no mercado tech. Desenvolvemos uma metodologia gameficada e baseada em projetos na qual o jovem é o protagonista da jornada."
+          publico="Jovens de 16 a 21 anos"
+          duracao="18 meses"
+          formato="Híbrido"
+          inscricoes="Trimestralmente (internas)"
+          preRequisitos="Ter feito o programa de imersão"
           imageSrc={cardImg2}
           alt="Jovens no PAQ"
         >
           <ProgramasEspacosAceleracao />
         </CardBase>
 
-        <CardBase
-          title="EXPERIÊNCIAS DE APRENDIZAGEM"
-          content="Primeiros passos para explorar as carreiras cultura do ecossistema de tecnologia,
-          desenvolver habilidades e competências básicas - Porta de entrada para quem quer
-          iniciar no PAQ!"
-          imageSrc={cardImg3}
-          alt="Jovens no PAQ"
-        >
-          <ProgramasEspacosExperienciasAprendizado />
-        </CardBase>
-
-        <CardBase
-          title="CENTROS DE APRENDIZAGEM"
-          content="Nosso movimento é de trazer as quebradas pra dentro dos centros de inovação e tecnologia, empoderando e mostrando que esses espaços podem e devem ser ocupados!"
-          imageSrc={cardImg4}
-          alt="Sala com computadores"
-        >
-          <CentrosDeAprendizado2 />
-        </CardBase>
+        
       </div>
     </section>
   );

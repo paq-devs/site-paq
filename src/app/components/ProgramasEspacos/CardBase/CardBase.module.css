@@ -1,27 +1,38 @@
 .cardContainer {
-  height: 350px;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  background-color: #ffffff;
-  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #011827;
+  border-left: 6px solid rgb(7, 156, 255);
   border-radius: 30px;
   align-items: center;
+  color: white;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out; /* Suaviza a entrada e saída */
+
 }
 
 .cardContent {
-  padding-left: 20px;
-  display: flex;
-  width: 80%;
-  flex-direction: column;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 20px;
+  justify-content: space-between;
   align-items: start;
   text-align: left;
-  height: 80%;
-  margin-right: 10px;
+  height: 100%;
+  gap: 30px;
+}
+
+.cardContentDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  gap: 1rem;
 }
 
 .cardTitle {
-  font-size: 45px;
+  font-size: 30px;
   font-family: "PP Formula Condensed";
   font-weight: 400;
   color: #1eb4e9;
@@ -30,6 +41,7 @@
 .cardBody {
   font-family: Poppins;
   margin-bottom: 10px;
+  font-size: .9em;
 }
 
 .cardButton {
@@ -39,23 +51,58 @@
   color: #ffffff;
   font-family: Poppins;
   border-radius: 13px;
+  transition: .5s;
+
+  &:hover {
+    background-color: #66cdf3;
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(15, 154, 218, 0.274);
+
+  }
 }
+
+
+.cardInfos p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.cardInfos ul {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.cardInfos strong {
+  color: var(--azul-paq);
+}
+
 
 .cardImage {
   height: 100%;
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 300px;
   object-fit: cover;
   border-radius: 30px;
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .cardContainer {
-    display: grid;
-    grid-template-columns: 1fr;
-    height: 300px;
-  }
 
+    &:hover {
+
+      .cardButton {
+        transform: translateY(-5px);
+        box-shadow: 0px 5px 10px rgba(15, 154, 218, 0.274);
+        animation: float 2s ease-in-out infinite;
+      }
+
+    }
+  }
+}
+
+@media (max-width: 1200px) {
   .cardImage {
     display: none;
   }
@@ -76,5 +123,20 @@
 @media (max-width: 500px) {
   .cardContainer {
     margin: 30px;
+  }
+}
+
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(0);
   }
 }

@@ -18,7 +18,7 @@ const CardApoioPix = () => {
         <span>administrativo.paq@prototipandoaquebrada.org</span>
       </div>
       <div className={styles.containerImage}>
-        <Image src={pixQrcode} alt="QR Code PIX" width={450} height={526} />
+        <Image src={pixQrcode} alt="QR Code PIX" width={350} height={426} />
       </div>
     </div>
   );

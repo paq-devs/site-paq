@@ -2,13 +2,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2.25rem;
-  width: 850px;
+  width: 700px;
 }
 
 .container > .seletor {
   display: flex;
-  gap: 1rem;
   margin-bottom: 2rem;
   border-radius: 40px;
   padding-left: 0.3rem;
@@ -23,7 +21,7 @@
 }
 
 .selected {
-  background-color: #000;
+  background-color: #414870;
   color: #fff;
   border-radius: 40px;
   margin-top: 0.25rem;
@@ -40,7 +38,9 @@
 .cardContainer {
   border-radius: 1rem;
   width: 100%;
+  background-color: red;
 }
+
 
 @media (max-width: 500px) {
   .container > .seletor {

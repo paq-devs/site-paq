@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Poppins } from 'next/font/google';
+import ScrollAnimation from "./scrollAnimation";
 
 
 const poppins = Poppins({
@@ -22,8 +23,12 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+
+  
   return (
     <html className={inter.variable} lang="pt">
+       <ScrollAnimation />
       <body className="bg-white text-zinc-50 antialiased">{children}</body>
     </html>
   );

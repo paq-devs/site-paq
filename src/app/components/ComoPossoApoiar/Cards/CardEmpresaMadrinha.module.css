@@ -1,5 +1,5 @@
 .EmpresaMadrinhaTitulo{
-    color: #000;
+    color: #020524;
     text-align: center;
     font-family: "PP Formula Condensed";
     font-size: 37.482px;
@@ -17,12 +17,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
-    padding: 1.25rem;
+    gap: 20px;
+    padding: 1em;
 }
 
 .desktopContainer > .textContainer p {
-    text-align: start;
+    text-align: center;
+    margin: 0 1em;
 }
 
 .mobileMadrinha {

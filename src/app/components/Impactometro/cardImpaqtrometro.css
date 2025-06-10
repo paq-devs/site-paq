@@ -1,20 +1,36 @@
-.iconeImpaqtrometro {
+.ImpaqtrometroTextos {
   display: flex;
-  width: 12rem;
-  height: 12rem;
-  flex-shrink: 0;
-  background-color: #0eb3e8;
-  border-radius: 100%;
   align-items: center;
   justify-content: center;
-  margin-left: -14px;
+  flex-direction: column;
+  padding: 1em;
+  gap: 10px;
+}
+
+.ImpaqtrometroTextosHeader {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.iconeImpaqtrometro {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: #0eb3e8;
+  border-radius: 100%;
+  font-size: 1em;
+  align-items: center;
+  justify-content: center;
 }
 
 .cardImpaqtrometroTitulo{
   color: white;
-  text-align: right;
   font-family: "PP Formula Condensed";
-  font-size: 4.8rem;
+  font-size: 2.5em;
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
@@ -23,11 +39,16 @@
 .cardImpaqtrometroTexto{
   color: #FFF;
   display: flex;
-  text-align: right;
+  flex-direction: column;
   font-family: Poppins;
-  font-size: 1.6rem;
+  font-size: .8em;
   font-style: normal;
   font-weight: 500;
+  word-break: break-word;
+}
+
+.ImpaqtometroImagem {
+  width: auto;
 }
 
 @media (max-width:1024px){
@@ -42,4 +63,21 @@
   .cardImpaqtrometroTexto{
     font-size: 15px;
   }
+}
+
+@media (max-width:500px){
+  .iconeImpaqtrometro{
+    width: 70px;
+    height:  70px ;
+  }
+
+  .cardImpaqtrometroTitulo{
+    font-size: 2em;
+  }
+
+  .ImpaqtometroImagem {
+    display: none;
+  }
+
+  
 }

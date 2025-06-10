@@ -1,0 +1,125 @@
+.container {
+    background-color: #bbf1ff;
+    border-radius: 15px;
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerGaleria {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    width: 100%;
+    gap: 30px;
+    align-items: flex-start; /* Ajusta os itens ao topo */
+    justify-content: center;
+    padding: 20px;
+    background-color: #83c0e4; /* Mantendo o fundo da seção */
+}
+
+.containerGaleriaItem {
+    flex: 1 1 45%; /* Faz os itens ocuparem no máximo 45% da largura */
+    max-width: 600px; /* Evita que fiquem muito grandes em telas maiores */
+    background-color: #fff; /* Fundo branco para destaque */
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.containerGaleriaItemImgs {
+    display: grid;
+    gap: 20px;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Responsivo */
+}
+
+.containerGaleriaItemImgs img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.container header p,
+.container header ul {
+    margin: 30px;
+    text-align: left;
+}
+
+.container header h2 {
+    color: var(--blue-zima, #1eb4e9);
+    font-family: "PP Formula Condensed";
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 96% */
+    text-transform: uppercase;
+    margin: 30px 0 0 30px;
+}
+
+.container hr {
+    margin: 40px 20px;
+    border: 2px solid var(--azul-paq);
+}
+
+.container .softSkills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 0 30px;
+}
+
+.container .softSkills h3 {
+    color: var(--blue-zima, #1eb4e9);
+    font-family: "PP Formula Condensed";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.container .softSkills p {
+    text-align: left;
+}
+
+.container .galeria {
+    margin-bottom: 30px;
+}
+
+.container .galeria div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 30px 30px;
+}
+
+.container .galeria span {
+    margin: 30px 30px;
+}
+
+.container .botoes {
+    height: 60px;
+}
+
+.container .botoes a {
+    color: #fff;
+    background-color: var(--azul-paq);
+    font-family: Poppins;
+    font-size: 15.838px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.158px;
+    margin: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}

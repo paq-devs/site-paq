@@ -12,26 +12,29 @@ import styles from "./Parceiras.module.css";
 
 import Image from "next/image";
 
-const imagesTop = [
-  { src: impacthub, width: 102, height: 102 },
-  { src: inaitec, width: 124, height: 119 },
-  { src: bewiki, width: 156, height: 36 }, // Dimensões personalizadas para bewiki
-  { src: txm, width: 123, height: 60 },
-  { src: acate, width: 191, height: 95 },
-  { src: rdstation, width: 188, height: 34 },
-  { src: atre, width: 103, height: 94 },
-  { src: rocketseat, width: 403, height: 94 },
-  { src: alura, width: 103, height: 94 },
-];
 
 export default function Parcerias() {
+  const imagesTop = [
+    { src: impacthub, width: 102, height: 102 },
+    { src: inaitec, width: 124, height: 119 },
+    { src: bewiki, width: 156, height: 36 }, // Dimensões personalizadas para bewiki
+    { src: txm, width: 123, height: 60 },
+    { src: acate, width: 191, height: 95 },
+    { src: rdstation, width: 188, height: 34 },
+    { src: atre, width: 103, height: 94 },
+    { src: rocketseat, width: 403, height: 94 },
+    { src: alura, width: 103, height: 94 },
+  ];
+
+  const repeatedImages = [...imagesTop, ...imagesTop, ...imagesTop]; // duplica para rolar infinitamente
+
   return (
     <div className={styles.container}>
-      <h2>PARCEIRAS</h2>
+      <h2>Parceiras</h2>
       <div className={styles.grid}>
-        {imagesTop.map((image, index) => (
+        {repeatedImages.map((image, index) => (
           <Image
-            key={index}
+            key={`img-${index}`}
             src={image.src}
             alt={`Imagem ${index + 1}`}
             width={image.width}

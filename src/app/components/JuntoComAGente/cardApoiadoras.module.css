@@ -1,35 +1,50 @@
 .container {
   display: flex;
   flex-direction: column;
-  background-color: #f0f0f0; /* Assuming bg-fundocinza is a gray color */
+  background-color: #f0f0f0;
   border-radius: 20px;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
+
   align-items: center;
+  overflow: hidden;
+  position: relative;
+  padding: 1rem;
+  margin: 30px;
 }
 
-.container > h2 {
+.container>h2 {
   font-family: "PP Formula Condensed";
-  font-size: 37px;
+  font-size: 30px;
   font-style: normal;
   line-height: 40px;
   text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
-.container > img:first {
-  width: 100%;
-}
+
 
 .grid {
+  overflow: hidden;
+
   display: flex;
-  flex-wrap: wrap;
-  padding: 0 20px;
-  gap: 30px;
-  justify-content: space-around;
-  grid-template-columns: repeat(4, 1fr);
-  align-items: center;
+  gap: 3rem;
+  animation: scroll 10s linear infinite;
+  width: max-content;
+}
+
+
+/* Imagens responsivas */
+.grid img {
+  max-height: 60px;
+  object-fit: contain;
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-28%);
+  }
 }

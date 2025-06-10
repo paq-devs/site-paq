@@ -2,23 +2,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 13rem;
-  margin-bottom: 13rem;
+  margin: 2em 0;
+  overflow: hidden;
 }
 
-.container > h2 {
+.container>h2 {
   color: #000;
   font-family: "PP Formula Condensed";
-  font-size: 67.34px;
+  font-size: 2.5em;
   font-style: normal;
   font-weight: 400;
-  line-height: 68px;
   text-transform: uppercase;
 }
 
-.container > img {
-  margin-top: 2.25rem;
-  margin-bottom: 2.25rem;
+.container>img {
+  width: 100px;
+  margin-bottom: 20px;
 }
 
 .imagemTablet {
@@ -30,6 +29,7 @@
     font-size: 37px;
     line-height: 40px;
   }
+
   .paragrafo {
     line-height: 15px;
     font-size: 12px;
@@ -44,7 +44,8 @@
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
-  line-height: 53.125px; /* 111.111% */
+  line-height: 53.125px;
+  /* 111.111% */
   text-transform: uppercase;
 }
 
@@ -58,3 +59,4 @@
     object-fit: cover;
   }
 }
+
