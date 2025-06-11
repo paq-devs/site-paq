@@ -17,7 +17,6 @@ export default function PaqHeader() {
         <Image src={logoPaq} alt="Logo PAQ"/>
         {/* <a href="#quem-somos">QUEM SOMOS</a> */}
         <nav className={style.itensNav}>
-          <a href="#quem-somos">Quem somos</a>
           <a href="#papel-do-paq">O que fazemos</a>
           <a href="#juntoComAGente"> Quem faz parte</a>
         </nav>

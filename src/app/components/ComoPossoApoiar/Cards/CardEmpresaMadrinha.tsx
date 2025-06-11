@@ -34,17 +34,19 @@ const DesktopMadrinha: React.FC = () => {
         <div className="hidden lg:block">
           <ButtonPreto
             title="Quero ser Madrinha!"
-            href="/"
+            href="https://wa.link/lif3s2"
             width="225px"
             height="55px"
+            newTab
           />
         </div>
         <div className="hidden md:block lg:hidden">
           <ButtonPreto
             title="Quero ser Madrinha!"
-            href="/"
+            href="https://wa.link/lif3s2"
             width="160px"
             height="45px"
+            newTab
           />
         </div>
       </div>
@@ -86,9 +88,10 @@ const MobileMadrinha: React.FC = () => {
       </p>
       <ButtonPreto
         title="Quero ser Madrinha!"
-        href="/"
+        href="https://wa.link/lif3s2"
         width="160px"
         height="45px"
+        newTab
       />
     </div>
   );

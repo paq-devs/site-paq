@@ -69,15 +69,7 @@
 }
 
 .cardMobile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    border: 1px solid blue;
-    border-radius: 1rem;
-    width: 100%;
-    padding-bottom: 1rem;
+    display: none;
 }
 
 .cardMobile .titulocardfazerparte {
@@ -138,11 +130,24 @@
         line-height: 11.739px;
     }
 
-
-    .cardMobile .titulocardfazerparte {
-       padding: .5rem;
+    .cardMobile {
+        display: flex;
+        /* aparece só no mobile */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        border: 1px solid blue;
+        border-radius: 1rem;
+        width: 100%;
+        padding-bottom: 1rem;
     }
 
 
-   
+    .cardMobile .titulocardfazerparte {
+        padding: .5rem;
+    }
+
+
+
 }
