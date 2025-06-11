@@ -22,7 +22,7 @@ const DesktopMadrinha: React.FC = () => {
   return (
     <div className={styles.desktopContainer}>
       <div className={styles.textContainer}>
-        <Image src={madrinha} alt="" width={117} height={109} />
+        <Image src={madrinha} alt="" width={80} height={70} />
         <h2>
           <span>Empresas</span>
           <span>Madrinhas</span>
@@ -34,25 +34,27 @@ const DesktopMadrinha: React.FC = () => {
         <div className="hidden lg:block">
           <ButtonPreto
             title="Quero ser Madrinha!"
-            href="/"
+            href="https://wa.link/lif3s2"
             width="225px"
             height="55px"
+            newTab
           />
         </div>
         <div className="hidden md:block lg:hidden">
           <ButtonPreto
             title="Quero ser Madrinha!"
-            href="/"
+            href="https://wa.link/lif3s2"
             width="160px"
             height="45px"
+            newTab
           />
         </div>
       </div>
       <Image
         src={soho}
         alt=""
-        width={450}
-        height={526}
+        width={350}
+        height={426}
         className="hidden lg:block aspect-auto object-cover rounded-2xl m-0"
       />
       <Image
@@ -86,9 +88,10 @@ const MobileMadrinha: React.FC = () => {
       </p>
       <ButtonPreto
         title="Quero ser Madrinha!"
-        href="/"
+        href="https://wa.link/lif3s2"
         width="160px"
         height="45px"
+        newTab
       />
     </div>
   );

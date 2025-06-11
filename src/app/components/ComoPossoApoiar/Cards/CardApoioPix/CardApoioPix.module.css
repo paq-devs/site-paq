@@ -1,9 +1,11 @@
 .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 850px;
+  display: flex;
+  width: 700px;
+  align-items: center;
+  justify-content: center;
   background-color: #fff;
   border-radius: 1rem;
+  justify-content: space-between;
 }
 
 .container .imgMobile {
@@ -15,17 +17,17 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  gap: 2rem;
-  padding: 1.25rem;
+  gap: 20px;
+  padding: 1em;
 }
 
 .container > .containerText p {
-  text-align: start;
+  text-align: center;
   width: 300px;
 }
 
 .container > .containerText > span {
-  background-color: #000;
+  background-color: #0d200d;
   color: #fff;
   padding: 15px;
   border-radius: 1rem;

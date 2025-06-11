@@ -68,8 +68,7 @@ export default function Footer() {
             <p>
               <strong>Contato:</strong>
             </p>
-            <a href="mailto:prototipandoaquebrada@gmail.com">
-              prototipandoaquebrada@gmail.com
+            <a href="mailto:prototipandoaquebrada@gmail.com">prototipandoaquebrada@gmail.com
             </a>
           </div>
           <div className={styles.infoContatoLocalizacao}>

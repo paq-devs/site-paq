@@ -23,28 +23,6 @@ export default function ProgramasEspacosImersao() {
             ideia com profissionais incríveis de diversas áreas.
           </p>
         </div>
-        <ul>
-          <li>
-            <strong>Informações Importantes: </strong>
-          </li>
-          <li>
-            <strong>Público:</strong> Jovens de 16 a 21 anos{" "}
-          </li>
-          <li>
-            <strong>Duração:</strong> 8 semanas
-          </li>
-          <li>
-            <strong>Formato:</strong> Presencial nas unidades Pedra Branca
-            (Palhoça) e SC-401 (Florianópolis)
-          </li>
-          <li>
-            <strong>Inscrições:</strong> trimestralmente (Site e instagram)
-          </li>
-          <li>
-            <strong>Pré-requisitos:</strong> Conhecimentos básicos de
-            informática
-          </li>
-        </ul>
       </header>
 
       <hr />

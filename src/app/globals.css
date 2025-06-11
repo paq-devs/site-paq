@@ -7,6 +7,14 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: "NetworkFreeVersion";
+  src: url("../../public/fonts/NetworkFreeVersion.ttf") format("truetype"); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
   font-family: "PP Formula Condensed";
   src: url("/fonts/PPFormulaCondensed-Regular.otf");
 }
@@ -64,7 +72,24 @@
 body {
   background: var(--fundo-pagina);
   text-align: center;
+  overflow-x: hidden;
 }
+
+/* Scrollbar personalizada */
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(237, 237, 242);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(33, 164, 225);
+  border-radius: 5px;
+}
+
 
 .submit-button {
   font-family: 'Poppins Bold', sans-serif;
@@ -177,5 +202,33 @@ video {
 
 body {
   line-height: 1;
+}
+
+/* Animaçoes de entrada e saida de conteudo */
+
+[data-anima] {
+  opacity: 0;
+  transition: .8s;
+}
+
+[data-anima="esquerda"] {
+  transform: translate3d(-15px, 0, 0);
+}
+
+[data-anima="direita"] {
+  transform: translate3d(15px, 0, 0);
+}
+
+[data-anima="centro"] {
+  transform: translate3d(0, 50px, 0);
+}
+
+[data-anima="cima"] {
+  transform: translate3d(0, -50px, 0);
+}
+
+[data-anima].animacao {
+  opacity: 1;
+  transform: translate3d(0,0,0);
 }
 

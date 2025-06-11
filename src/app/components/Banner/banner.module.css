@@ -1,0 +1,144 @@
+.banner {
+  position: relative;
+  width: 100%;
+  margin-top: -90px;
+  height: 104vh;
+  padding-left: 4rem;
+
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+
+  color: white;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.541);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.87) 20%, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0) 100%);
+}
+
+.videoBackground {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  max-width: 50%;
+}
+
+/* Conectar e transformar */
+.content h2 {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  animation: blinkCursor 1s steps(25) infinite normal,
+    typing 2.5s steps(25) 1s normal both;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.content h3 {
+  font-size: 3rem;
+  font-weight: bolder;
+
+  &>strong {
+    color: var(--azul-paq);
+  }
+}
+
+.content p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+  color: rgba(255, 255, 255, 0.808);
+}
+
+.content a {
+  margin-top: 1rem;
+  border: 2px solid var(--azul-paq);
+  display: flex;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.253);
+  align-items: center;
+  padding: .5rem 1rem;
+  font-weight: 400;
+  width: fit-content;
+  justify-content: center;
+  gap: 10px;
+  transition: .5s;
+
+
+  &:hover {
+    background-color: rgba(0, 140, 255, 0.151);
+  }
+}
+
+.content a svg {
+  width: 20px;
+  fill: var(--azul-paq);
+  transform: rotate(40deg);
+
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 25ch;
+  }
+}
+
+@keyframes blinkCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@media (max-width: 900px) {
+  .banner {
+    margin-top: -140px;
+    height: 70vh;
+    padding: 6rem 2rem;
+    text-align: center;
+    padding-top: 140px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.87) 20%, rgba(0, 0, 0, 0.356) 60%, rgba(0, 0, 0, 0.233) 100%);
+
+  }
+
+  .content {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+  }
+
+  .content h2 {
+    font-size: 1rem;
+  }
+
+  .content h3 {
+    font-size: 2rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+}

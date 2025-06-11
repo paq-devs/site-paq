@@ -51,7 +51,7 @@ const DesktopPessoa: React.FC = () => {
       <Image
         src={parcas}
         alt=""
-        width={450}
+        width={350}
         height={526}
         className="hidden lg:block aspect-auto object-cover rounded-2xl m-0"
       />

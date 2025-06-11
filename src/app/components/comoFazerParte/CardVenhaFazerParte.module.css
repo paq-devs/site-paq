@@ -1,14 +1,33 @@
+.FazerparteContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(228, 237, 255);
+    border-radius: 5px 50px;
+    overflow: hidden;
+}
+
+.textinhofazerparteContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
 .titulocardfazerparte {
-    color: #1EB4E9;
+    color: #1c88e0;
     font-family: "PP Formula Condensed";
     height: auto;
-    font-size: 70px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 700;
-    line-height: 75px;
+    line-height: 45px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
     text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.185);
 }
 
 .textinhofazerparte {
@@ -18,10 +37,10 @@
     font-style: normal;
     font-weight: 400;
     line-height: 16px;
-    /* 125% */
     letter-spacing: -0.158px;
     text-align: left;
 }
+
 
 .containerButtons {
     display: flex;
@@ -46,10 +65,25 @@
     font-weight: 600;
     line-height: 1.2rem;
     /* 120% */
+
+}
+
+.cardMobile {
+    display: none;
+}
+
+.cardMobile .titulocardfazerparte {
+    padding: .5rem 1rem;
 }
 
 
-@media (min-width:768px) and (max-width:1024px) {
+.cardMobile .textinhofazerparte {
+    padding: .5rem 1rem;
+}
+
+
+
+@media (max-width:768px) {
     .titulocardfazerparte {
         font-size: 41px;
         line-height: 44.471px;
@@ -80,54 +114,40 @@
         /* 120% */
     }
 
+    .FazerparteContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(228, 237, 255);
+        border-radius: 5px 50px;
+        overflow: hidden;
+        display: none;
+    }
+
 
     .textinhofazerparte {
         font-size: 9.391px;
         line-height: 11.739px;
     }
-}
 
-@media (max-width: 767px) {
-    .titulocardfazerparte {
-        font-size: 35px;
-        line-height: 44.471px;
-        text-align: center;
-    }
-
-    .textinhofazerparte {
-        font-size: 9.391px;
-        line-height: 11.739px;
-        text-align: center;
-    }
-
-    .btn {
+    .cardMobile {
         display: flex;
-        height: 2.15038rem;
-        padding: 0.60644rem 0.75rem;
-        text-align: center;
-        justify-content: center;
+        /* aparece só no mobile */
+        flex-direction: column;
         align-items: center;
-        transition: all 500ms ease-in-out;
-        text-align: center;
-        font-family: Poppins;
-        font-size: 0.75rem;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 0.89569rem;
-        /* 119.423% */
+        justify-content: center;
+        gap: 1rem;
+        border: 1px solid blue;
+        border-radius: 1rem;
+        width: 100%;
+        padding-bottom: 1rem;
     }
 
-    .containerButtons {
-        border-radius: 1.866rem;
-        background: var(--Fundo-Cinza, #F7F7F7);
-        margin-bottom: 38px;
-        display: flex;
-        height: 2.71019rem;
-        padding: 0.27988rem 0.32656rem;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        gap: 0.4665rem;
-        flex-shrink: 0;
+
+    .cardMobile .titulocardfazerparte {
+        padding: .5rem;
     }
+
+
+
 }

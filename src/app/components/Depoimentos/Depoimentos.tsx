@@ -36,7 +36,7 @@ export default function Depoimentos() {
           <div className={style.text_paragrafoEimg}>
             <div className={style.imgETitulo}>
               <Image src={Medalha} width={85.58} height={84} alt="" />
-              <h3>Histórias de quem já viveu!</h3>
+              <h3>Histórias de quem <br className={style.imgETituloh3}/> já viveu!</h3>
             </div>
             <p>A transformação começa aqui. Veja o que as pessoas têm a dizer sobre suas experiências dentro do PAQ.</p>
           </div>
@@ -54,22 +54,22 @@ export default function Depoimentos() {
           slidesPerView={1.6}
           breakpoints={{
             900: {
-              slidesPerView: 1.8,
+              slidesPerView: 3,
             },
             1024: {
-              slidesPerView: 2,
+              slidesPerView: 3,
             },
             1150: {
-              slidesPerView: 2.2,
+              slidesPerView: 3.6,
             },
             1280: {
-              slidesPerView: 2.4,
+              slidesPerView: 3.8,
             },
             1410: {
-              slidesPerView: 2.6,
+              slidesPerView: 4,
             },
             1540: {
-              slidesPerView: 3,
+              slidesPerView: 4,
             }
           }}
           navigation={false}
@@ -94,10 +94,10 @@ export default function Depoimentos() {
         </Swiper>
         <div className={style.custom_arrows}>
           <div onClick={handlePrev}>
-            <Image className={style.left_arrow}  src={Arrow} width={85.58} height={84} alt="Voltar carrossel" />
+            <Image className={style.left_arrow}  src={Arrow} width={40} height={40} alt="Voltar carrossel" />
           </div>
           
-          <Image className={style.right_arrow} onClick={handleNext} src={Arrow} width={85.58} height={84} alt="Avançar carrossel" />
+          <Image className={style.right_arrow} onClick={handleNext} src={Arrow} width={40} height={40} alt="Avançar carrossel" />
         </div>
       </div>
     </section>

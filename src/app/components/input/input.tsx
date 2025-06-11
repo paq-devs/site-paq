@@ -50,7 +50,7 @@ export default function Input({
       value={value}
       required={required}
       onChange={onChange}
-      className="placeholder block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+      className="input-contato placeholder block w-full rounded-md border-0 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300  focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
       placeholder={placeholder}
     />
   );
@@ -63,7 +63,7 @@ export function TextArea({ name, required, placeholder, onChange }: Props) {
       required={required}
       onChange={onChange}
       rows={5}
-      className="placeholder block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+      className="textarea-contato placeholder block w-full rounded-md border-0 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300  focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
       placeholder={placeholder}
     />
   );

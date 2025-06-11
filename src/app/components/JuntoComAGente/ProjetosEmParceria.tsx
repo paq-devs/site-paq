@@ -6,8 +6,8 @@ import styles from "./ProjetosEmParceria.module.css";
 import Image from "next/image";
 
 const images = [
-  { src: mercadoLivre, width: 212, height: 51 },
-  { src: floripaMaisTec, width: 212, height: 35 },
+  { src: mercadoLivre, width: 160, height: 51 },
+  { src: floripaMaisTec, width: 160, height: 35 },
 ];
 
 export default function ProjetosEmParceria() {

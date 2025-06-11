@@ -13,9 +13,9 @@ import aliceCarneiro from "./img/conselho/alice-carneiro.png";
 import andreRocha from "./img/conselho/andre-rocha.png";
 import diegoChierighini from "./img/conselho/diego-chierighini.png";
 import eliezerLeal from "./img/conselho/eliezer-leal.png";
-import talitaMatos from "./img/conselho/talita-matos.png";
+import talitaMatos from "./img/conselho/talita.png";
 import thiaraGaldinho from "./img/conselho/thiara-galdinho.png";
-import henriqueBlanck from "./img/conselho/henrique-blanck.jpg"
+import henriqueBlanck from "./img/conselho/henrique-blanck.png"
 import pedroBachiega from "./img/conselho/pedro-bachiega.jpg";
 
 export const Diretoria = [

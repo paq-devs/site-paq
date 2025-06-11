@@ -19,7 +19,7 @@ const depoimentos = [
   {
     id: 1,
     pathFoto: thiagoCerutti,
-    text: "“Ser mentor do PAQ é ter a certeza de que estamos <strong>pavimentando o caminho para proporcionar oportunidades para os educandos</strong>. <br><br>Quando fiz a entrevista para ser mentor do PAQ me foi questionado se eu tinha experiência em mentorias, <strong>falei que não tinha mas que só precisava de uma oportunidade</strong>, e a oportunidade me foi dada. <br><br>Por isso acredito que fazer parte do PAQ <strong>é sobre criar oportunidades para todas as partes</strong>.”",
+    text: "“Ser mentor do PAQ é ter a certeza de que estamos <strong>abrindo caminhos para proporcionar oportunidades aos educandos</strong>. Quando fiz minha entrevista, me perguntaram se eu tinha experiência em mentorias. <strong>Disse que não, mas só precisava de uma chance</strong>, e a tive. Por isso, acredito que fazer parte do PAQ <strong>é criar oportunidades para todos</strong>.”",
     name: "Thiago Cerutti",
     role: "Mentor",
   },
@@ -33,7 +33,7 @@ const depoimentos = [
   {
     id: 3,
     pathFoto: hadjamirisRochaSilva,
-    text: "Aos 15 anos, comecei a me interessar por tecnologia através do “Prototipando a Quebrada”, que me apresentou novidades inesperadas. Com o PAQ, explorei o mercado de tecnologia e suas profissões, descobrindo mais sobre mim mesma e desenvolvendo habilidades técnicas e interpessoais. Inicialmente, queria seguir na área de design de interface para sites e aplicativos, mas ficava frustrada por não ver minhas criações em prática. Em 2024, decidi explorar a programação e me apaixonei por ela, percebendo que era o caminho que eu gostaria de seguir.",
+    text: "Aos 15 anos, conheci a tecnologia pelo PAQ, que me trouxe descobertas inesperadas. Explorei o mercado, desenvolvi habilidades e me conheci melhor. No início, queria design de interfaces, mas me frustrava por não ver tudo ganhar vida. Em 2024, mergulhei na programação e <strong>me apaixonei pelo caminho que quero seguir</strong>.",
     name: "Hadjamiris Rocha Silva",
     role: "Educanda",
   },
@@ -47,21 +47,21 @@ const depoimentos = [
   {
     id: 5,
     pathFoto: juliaBandeiraBusch,
-    text: "Muitos dizem que o PAQ é uma família, e até uns meses atrás eu não tinha tanta fé nisso. Mas vivendo cada dia da imersão intensamente, descobri que o PAQ não é apenas uma família, mas também é movimento. Em casa, eu tenho apoio da minha mãe. Porém, como ela não entende de tecnologia, só me incentiva a tentar. No PAQ, eu tenho o incentivo para tentar, errar, acertar, buscar conhecer mais, trocar ideia, ir atrás sozinha, etc. E se caso der errado, a gente compartilha o erro e aprende junto. O PAQ é o movimento de compartilhar e criar juntos.",
+    text: "Muitos dizem que o PAQ é uma família, e até meses atrás eu não tinha tanta certeza. Mas, vivendo cada dia da imersão, percebi que o PAQ <strong>é família e movimento</strong>. Em casa, minha mãe me apoia, mas não entende de tecnologia. No PAQ, além do incentivo, <strong>aprendemos juntos, erramos e crescemos</strong>.",
     name: "Júlia Bandeira Busch",
     role: "Educanda",
   },
   {
     id: 6,
     pathFoto: leonardoMartins,
-    text: "Comecei acreditando que estaria apoiando a instituição como voluntário, porém com tempo entendi que estar próximo ao PAQ é parte da minha jornada de formação como líder, tenho a oportunidade de estar próximo de uma geração que está se inserindo no mercado, com uma visão de mundo inovadora e diversa, para além de contribuir com a instituição e com os jovens, sou constantemente impulsionado no meu próprio desenvolvimento.",
+    text: "Comecei achando que apenas apoiaria a instituição como voluntário, mas com o tempo percebi que estar no PAQ faz parte da minha formação como líder. Tenho a chance de acompanhar uma geração inovadora e diversa no mercado. Além de contribuir, <strong>sou impulsionado no meu próprio crescimento</strong>.",
     name: "Leonardo Martins",
     role: "Mentor",
   },
   {
     id: 7,
     pathFoto: igorRohrigSouza,
-    text: "PAQ é força, resiliência, aprendizado, colo, puxão de orelha, companhia... PAQ é sinônimo de FAMÍLIA!",
+    text: "PAQ é força, resiliência, aprendizado, colo, puxão de orelha e companhia. É onde erramos, acertamos e seguimos juntos. No PAQ, encontramos apoio para crescer, evoluir e transformar nosso futuro. <strong>PAQ é sinônimo de família, de oportunidades e de um movimento que nos impulsiona a ir além!</strong>",
     name: "Igor Rohrig Souza",
     role: "Educando",
   },

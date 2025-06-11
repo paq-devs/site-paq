@@ -3,10 +3,54 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     border-radius: 20px;
     background-color: #00171F;
-    padding: 53px 33px;
-    padding-bottom: 56px;
+    padding-bottom: 30px;
+    padding: 3em 0;
+}
+
+.impaqtometroHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3em;
+    margin: auto;
+}
+
+.impaqtometroHeader>img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.impaqtometroHeader>h2 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+.impaqtometroHeader>p {
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.impaqtometroCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 4em;
+}
+
+.impaqtometroCard {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background: #03163388;
+    justify-content: space-between;
+    border: 2px solid rgba(255, 255, 255, 0.301);
+    text-align: center;
+    border-radius: 8px;
 }
 
 .container footer {
@@ -15,7 +59,7 @@
     border-radius: 15px;
 }
 
-.container footer > div {
+.container footer>div {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -33,37 +77,102 @@
     color: #000;
 }
 
-.container footer > div {
+.container footer>div {
     flex-wrap: wrap;
 }
 
-.ImpaqtrometroTitulo{
+.container footer>div>Button {
+    background-color: red;
+}
+
+.ImpaqtrometroTitulo {
     color: #FFF;
     text-align: center;
     font-family: "PP Formula Condensed";
-    font-size: 67.34px;
+    font-size: 2em;
     font-style: normal;
-    line-height: 68px; /* 100.98% */
+    line-height: 40px;
+    letter-spacing: 2px;
     text-transform: uppercase
 }
 
-.ImpaqtrometroTexto{
+.ImpaqtrometroTexto {
     color: #FFF;
     text-align: center;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; /* 125% */
+    line-height: 20px;
+    /* 125% */
     letter-spacing: -0.16px;
 }
 
-@media (max-width:768px){
-    .ImpaqtrometroTitulo{
+
+.portal>h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: "PP Formula Condensed";
+    font-size: 2em;
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase
+}
+
+
+.portal > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #FFF;
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 1rem;
+
+    & > button {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .ImpaqtrometroTitulo {
         font-size: 37px;
         line-height: 40px;
     }
-    .ImpaqtrometroTexto{
+
+    .ImpaqtrometroTexto {
         font-size: 12px;
     }
-  }
+
+}
+
+@media (max-width:400px) {
+
+    .impaqtometroCard {
+        flex-direction: row;
+        width: 300px;
+
+    }
+
+    .ImpaqtrometroTitulo {
+        color: #FFF;
+        text-align: center;
+        font-family: "PP Formula Condensed";
+        font-size: 1.5rem;
+        font-style: normal;
+        line-height: 40px;
+        letter-spacing: 2px;
+        text-transform: uppercase
+    }
+
+    .portal > div {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    
+}
