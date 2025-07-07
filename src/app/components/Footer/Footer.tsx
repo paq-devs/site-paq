@@ -1,9 +1,9 @@
-import logo from './img/logopaq.png'
+import logo from "./img/logopaq.png";
 import { FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 import styles from "./Footer.module.css";
 
-import Image from 'next/image'
-import Button from '../button';
+import Image from "next/image";
+import Button from "../button";
 
 export default function Footer() {
   return (
@@ -68,7 +68,8 @@ export default function Footer() {
             <p>
               <strong>Contato:</strong>
             </p>
-            <a href="mailto:prototipandoaquebrada@gmail.com">prototipandoaquebrada@gmail.com
+            <a href="mailto:prototipandoaquebrada@gmail.com">
+              prototipandoaquebrada@gmail.com
             </a>
           </div>
           <div className={styles.infoContatoLocalizacao}>
@@ -109,6 +110,8 @@ export default function Footer() {
         © 2024 | Direitos reservados | Política de privacidade e termos de uso.
         <br />
         Feito com ❤️ pelos educandos do PAQ.
+        <br />
+        CNPJ: 43.213.521/0001-30
       </p>
     </footer>
   );
