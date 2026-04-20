@@ -3,10 +3,9 @@ import jeff from "./img/diretoria/jeff.png";
 import ted from "./img/diretoria/ted.png";
 
 import cadu from "./img/equipe/cadu.png";
-import fernando from "./img/equipe/fernando.png";
-import pietra from "./img/equipe/pietra-nosso-time.png";
 import duda from "./img/equipe/duda-aguiar.png";
 import leonardo from "./img/equipe/leonardo-martins.png";
+import evandro from "./img/equipe/evandro.png";
 
 import moacirMarafon from "./img/conselho/moacir-marafon.png";
 import aliceCarneiro from "./img/conselho/alice-carneiro.png";
@@ -15,7 +14,7 @@ import diegoChierighini from "./img/conselho/diego-chierighini.png";
 import eliezerLeal from "./img/conselho/eliezer-leal.png";
 import talitaMatos from "./img/conselho/talita.png";
 import thiaraGaldinho from "./img/conselho/thiara-galdinho.png";
-import henriqueBlanck from "./img/conselho/henrique-blanck.png"
+import henriqueBlanck from "./img/conselho/henrique-blanck.png";
 import pedroBachiega from "./img/conselho/pedro-bachiega.jpg";
 
 export const Diretoria = [
@@ -33,10 +32,9 @@ export const Equipe = [
     cargo: "Diretor Administrativo e Financeiro",
   },
   { src: cadu, nome: "Cadu Ferrari", cargo: "Diretor de Aprendizagem" },
-  { src: fernando, nome: "Fernando", cargo: "Coordenador de Marketing" },
-  { src: pietra, nome: "Pietra Rocha", cargo: "Mediadora de Comunidade" },
-  { src: duda, nome: "Duda Aguiar", cargo: "Mediadora de Comunidade" },
+  { src: duda, nome: "Duda Aguiar", cargo: "Analista de Comunicação" },
   { src: leonardo, nome: "Leonardo Martins", cargo: "Coordenador de Pessoas" },
+  { src: evandro, nome: "Evandro Castro", cargo: "Captador de Recursos" },
 ];
 
 export const Conselhos = [
@@ -61,18 +59,8 @@ export const Conselhos = [
     cargo: "Conselho Deliberativo",
   },
   {
-    src: aliceCarneiro,
-    nome: "Alice Carneiro",
-    cargo: "Conselho Deliberativo",
-  },
-  {
     src: eliezerLeal,
     nome: "Eliezer Leal",
-    cargo: "Conselho Deliberativo",
-  },
-  {
-    src: talitaMatos,
-    nome: "Talita Matos",
     cargo: "Conselho Deliberativo",
   },
   {

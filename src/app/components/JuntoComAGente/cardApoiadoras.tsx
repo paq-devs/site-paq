@@ -1,25 +1,23 @@
 import Image from "next/image";
-
-import betahub from "./img/apoiadoras/betahub.png";
-import mercadoLivre from "./img/apoiadoras/mercadolivre.png";
-import cd2 from "./img/apoiadoras/cd2.png";
+import cd2 from "./img/apoiadoras/cd2.svg";
 import silvaSchutz from "./img/apoiadoras/silviaschutz.svg";
-import h from "./img/apoiadoras/h.png";
 import aqtech from "./img/apoiadoras/aqtech.png";
 import weduka from "./img/apoiadoras/weduka.png";
-import hurbana from "./img/apoiadoras/hurbana.svg";
+import ousaria from "./img/apoiadoras/ousaria.svg";
+import audaces from "./img/apoiadoras/audaces.svg";
 
 import styles from "./cardApoiadoras.module.css";
 export default function CardApoiadora() {
   const images = [
-    { src: hurbana, width: 160, height: 60 },
-    { src: cd2, width: 100, height: 60 },
-    { src: aqtech, width: 144, height: 60 },
-    { src: weduka, width: 150, height: 60 },
+    { src: cd2, width: 150, height: 60 },
+    { src: aqtech, width: 134, height: 60 },
+    { src: weduka, width: 130, height: 60 },
     { src: silvaSchutz, width: 120, height: 60 },
+    { src: ousaria, width: 120, height: 60 },
+    { src: audaces, width: 140, height: 60 },
   ];
 
-  const repeatedImages = [...images, ...images, ...images]; // duplica para rolar infinitamente
+  const repeatedImages = [...images, ...images, ...images, ...images]; // duplica para rolar infinitamente
 
   return (
     <div className={styles.container}>
