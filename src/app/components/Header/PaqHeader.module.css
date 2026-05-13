@@ -89,28 +89,137 @@
 
 }
 
+
+/* Container que segura o link e o menu */
+.dropdownWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* O menu em si */
+.menuSuspenso {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  min-width: 180px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  /* Bordas mais arredondadas como na imagem */
+  display: flex;
+  flex-direction: column;
+  padding: 12px 0;
+  z-index: 1000;
+  margin-top: 15px;
+  /* Espaço para o triângulo respirar */
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Estilo dos links dentro do menu */
+.menuSuspenso a {
+  padding: 12px 20px !important;
+  font-size: 14px !important;
+  color: #1a1a1a !important;
+  /* Cor escura para contraste no fundo branco */
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  transition: background 0.2s ease;
+  text-align: center;
+  display: block;
+}
+
+/* Remove a linha azul (::before) nos links de dentro do menu */
+.menuSuspenso a::before {
+  display: none !important;
+}
+
+.menuSuspenso a:hover {
+  background-color: #f8f9fa;
+  color: var(--azul-paq) !important;
+}
+
+/* Triângulo no topo do menu */
+.menuSuspenso::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  /* Ajuste para encaixar perfeitamente */
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #ffffff;
+}
+
+
+.dropdownWrapper>a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  /* Espaço entre o texto e a seta */
+}
+
+/* Criando a seta com CSS Puro */
+.dropdownWrapper>a::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  transform: rotate(45deg);
+  /* Faz o formato de "V" */
+  transition: transform 0.3s ease;
+  margin-top: -4px;
+  /* Ajuste fino de alinhamento vertical */
+}
+
+/* Quando o dropdown estiver aberto, a seta vira para cima */
+.linkAtivo::after {
+  transform: rotate(-135deg) !important;
+  margin-top: 2px !important;
+}
+
+/* Animação suave para abrir */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
 @media (max-width: 900px) {
   .container {
     flex-wrap: wrap;
     justify-content: center;
-    padding: 1em;
+    padding: 1em 0;
     gap: 20px;
     margin-bottom: 4em;
   }
 
-  .itens a {
+}
+
+@media (max-width: 700px) {
+
+  .itensNav>a {
     display: none;
+  }
+
+  .dropdownWrapper {
+    display: flex;
+margin-left: -30px;
   }
 
   .itensNav {
-    margin-left: 0;
-  }
 
-  .container .containerButton .buttonDesktop {
-    display: none;
-  }
+    gap: 0;
 
-  .container .containerButton .buttonMobile {
-    display: block;
   }
 }
